@@ -1,0 +1,2 @@
+Dimension 4 root-neighbor choices 625 five-face cores 0 six-face cores 4
+Every <=6-face non-peelable connected plaquette set containing root is an elementary cube boundary.

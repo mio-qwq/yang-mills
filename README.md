@@ -56,3 +56,7 @@ AI systems contributed substantially to proof development, programming and check
 ## Quartic seam-endpoint cancellation
 
 [Exact forest/gauge argument and audit](results/seam-forest-cancellation/README.md): normalized interior expectations have no first-, second- or third-order seam response. The fourth-order term still contains the missing source-to-boundary covariance, so no new distance estimate is claimed.
+
+## Finite-torus half-algebra qualification
+
+[Diagonal torus obstruction](results/diagonal-torus-obstruction/README.md) records a negative small-coupling reflected form for the coordinate-swap half x0>x1 in representatives 0,...,n-1. This precise seam-dependent finite-geometry result is not a counterexample to every torus half-algebra or to the bridge’s fixed compact sources, and has no continuum reflection-positivity or mass-gap conclusion.

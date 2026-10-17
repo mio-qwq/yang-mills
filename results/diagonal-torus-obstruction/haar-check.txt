@@ -1,0 +1,1 @@
+SU2 normalized cube-face Haar product: 1/1024 samples 32768
