@@ -1,0 +1,9 @@
+PASS n=4: plaquette counts={0: 888, 1: 432, 4: 216}; seam-edge count=208; four-cycles=216, all elementary; no cycles with <=3 distinct edges.
+PASS n=5: plaquette counts={0: 1734, 1: 1152, 4: 864}; seam-edge count=672; four-cycles=864, all elementary; no cycles with <=3 distinct edges.
+PASS n=6: plaquette counts={0: 2976, 1: 2400, 4: 2400}; seam-edge count=1568; four-cycles=2400, all elementary; no cycles with <=3 distinct edges.
+PASS n=8: plaquette counts={0: 6936, 1: 7056, 4: 10584}; seam-edge count=5232; four-cycles=10584, all elementary; no cycles with <=3 distinct edges.
+PASS exact SU(2) capped four-seam polynomial: [(1, 0, 0, 0), (1, 0, 0, 0), (1, 0, 0, 0), (1, 0, 0, 0)] integral = 1/256
+PASS exact SU(2) capped four-seam polynomial: [(-1, 0, 0, 0), (1, 0, 0, 0), (1, 0, 0, 0), (1, 0, 0, 0)] integral = -1/256
+PASS exact SU(2) capped four-seam polynomial: [(0, 1, 0, 0), (1, 0, 0, 0), (1, 0, 0, 0), (1, 0, 0, 0)] integral = 0
+PASS exact SU(2) capped four-seam polynomial: [(0, 1, 0, 0), (0, 1, 0, 0), (0, 1, 0, 0), (0, 1, 0, 0)] integral = 1/256
+PASS negative control: a four-cycle can retain internal holonomy; forest condition cannot be dropped.

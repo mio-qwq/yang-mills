@@ -52,3 +52,7 @@ AI systems contributed substantially to proof development, programming and check
 ## Averaged worst-replacement obstruction
 
 [Audited finite-volume proof](results/averaged-worst-replacement/README.md): even averaging the reference environment over the periodic Gibbs measure leaves worst-neighbor-replacement total-variation influence tending to1 at weak coupling. This closes that specific single-link comparison route; actual-update averages and physical mixing are not ruled out.
+
+## Quartic seam-endpoint cancellation
+
+[Exact forest/gauge argument and audit](results/seam-forest-cancellation/README.md): normalized interior expectations have no first-, second- or third-order seam response. The fourth-order term still contains the missing source-to-boundary covariance, so no new distance estimate is claimed.
