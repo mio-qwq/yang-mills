@@ -68,3 +68,7 @@ AI systems contributed substantially to proof development, programming and check
 [Remote-boundary obstruction](results/remote-boundary-obstruction/README.md) proves failure of the original representative-half diagonal form at every prescribed integer 0/1 seam depth L >= 0, for n >= max(8,6L+5) and suitable k. Its leading term is -2^(-(16L+9)) beta^(8L+4), with an explicit rational small-positive-beta negativity interval. Frozen proofs, separate AI-assisted reviews, and portable exact controls accompany both results. The corrected L=1 proof supersedes an earlier negative-beta positivity overstatement.
 
 These are finite-volume microscopic results; neither fixed-physical-source continuum failure nor a mass gap nor a refutation of the original continuum conjecture is claimed. No human peer review, Lean formalization, or established novelty is claimed.
+
+## All-positive-coupling sign and limit boundaries
+
+[All-beta finite-torus sign](results/diagonal-allbeta/README.md) extends the prescribed-depth representative-half obstruction to every finite beta>0, without a uniform negative margin. [Limit and boundary qualifications](results/diagonal-limit-boundaries/README.md) show unrescaled weak-coupling disappearance and a fixed-compact-support obstruction, and record the known free-boundary diagonal reflection-positivity mechanism. The periodic/free limit comparison remains open; no continuum or mass-gap resolution follows.
