@@ -8,7 +8,7 @@ Mathematical research on four-dimensional Yang–Mills theory, with explicit pro
 
 [Dimension-six antisymmetric SU(2) operators](results/dimension-six/README.md): exact finite certificates establish quotient multiplicities **2 off shell** and **1 on shell** for hypercubic antisymmetric tensor densities modulo gauge-invariant total derivatives. The divergence ranks are **9** and **5**. This supplies an explicit rank proof for a classification already proposed in the cited reference, without assuming a general horizontal-complex exactness theorem.
 
-The proof and executable checks are complete as written; independent full mathematical review is pending. No Lean formalization or human peer review is claimed. See the precise hypotheses and the distinction between symbolic character calculations, certified rank minors and the nonlinear SU(2) interpretation in the result directory.
+The proof and executable checks passed a separate AI-assisted mathematical and computational review; see the review record in the result directory. No Lean formalization or human peer review is claimed. See the precise hypotheses and the distinction between symbolic character calculations, certified rank minors and the nonlinear SU(2) interpretation in the result directory.
 
 ## Reproduce
 
