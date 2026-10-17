@@ -1,0 +1,1 @@
+Python 3.12.14. Geometry command actually run2026-10-17 with exit0 at sides4,6,8: every mixed plaquette has exactly1interior and3exterior links. Analytic sources were independently reviewed at their recorded hashes. Scope requires both F and reflected F entirely interior for Q-evenness. No finite test certifies spatial mixing or continuum limits, and none is claimed.
