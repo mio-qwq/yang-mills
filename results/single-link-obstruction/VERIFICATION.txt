@@ -1,0 +1,7 @@
+PASS n=4: six disjoint staples, 18 neighbors, all 18 one-link flips realize H=+I to H=-I exactly.
+PASS n=5: six disjoint staples, 18 neighbors, all 18 one-link flips realize H=+I to H=-I exactly.
+PASS n=6: six disjoint staples, 18 neighbors, all 18 one-link flips realize H=+I to H=-I exactly.
+PASS n=8: six disjoint staples, 18 neighbors, all 18 one-link flips realize H=+I to H=-I exactly.
+PASS n=4: all 18 neighbors, both signs, 15 noncommuting target-link probes, globally assigned links
+PASS n=5: all 18 neighbors, both signs, 15 noncommuting target-link probes, globally assigned links
+PASS cap p=0.195501109478>1/6; beta=4 TV lower=0.187988300580; row lower=3.383789410446
