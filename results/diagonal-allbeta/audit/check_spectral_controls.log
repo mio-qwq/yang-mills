@@ -1,0 +1,6 @@
+PASS: centered exact-rational spectral and translation controls for n=8,...,44.
+PASS: all spectral sums symmetric and strictly decreasing toward midpoint.
+PASS: translated autocorrelation identical and mixed correlation bounded by autocorrelation.
+PASS: strict negative geometric upper bound for 2269 admissible (L,n,k) combinations.
+These finite-matrix controls test formulas, not the infinite-dimensional theorem.
+

@@ -1,0 +1,65 @@
+[
+  {
+    "source": "ym-all-beta-dependency/THEOREM.md",
+    "destination": "results/diagonal-allbeta/THEOREM.md",
+    "original_sha256": "201bce70620fd3984956190a207e49bec5f5539666f2dfb149df162904ef4688",
+    "packaged_sha256": "201bce70620fd3984956190a207e49bec5f5539666f2dfb149df162904ef4688",
+    "adapted": false
+  },
+  {
+    "source": "ym-all-beta-review-20261017/REVIEW.md",
+    "destination": "results/diagonal-allbeta/audit/REVIEW.md",
+    "original_sha256": "e5f9488dc3beccc0f146666592f6ab82ca6533ee72ce7f8027de8807486f56c4",
+    "packaged_sha256": "f62383054a842d93f366ec637c914585ca74b0491f2c5f5b187a69ddc86e38c5",
+    "adapted": true
+  },
+  {
+    "source": "ym-all-beta-review-20261017/check_spectral_controls.py",
+    "destination": "results/diagonal-allbeta/audit/check_spectral_controls.py",
+    "original_sha256": "bd1eb0fa7721b71258273a0d5776140aa5facaee152afdfeda4a1630aac7b778",
+    "packaged_sha256": "bd1eb0fa7721b71258273a0d5776140aa5facaee152afdfeda4a1630aac7b778",
+    "adapted": false
+  },
+  {
+    "source": "ym-limit-next/LIMIT_THEOREMS.md",
+    "destination": "results/diagonal-limit-boundaries/LIMIT_THEOREMS.md",
+    "original_sha256": "dc1c05c2a100fea9ba9544cc8ef65c00398de350c5da3a892e689ac408a12970",
+    "packaged_sha256": "dc1c05c2a100fea9ba9544cc8ef65c00398de350c5da3a892e689ac408a12970",
+    "adapted": false
+  },
+  {
+    "source": "ym-limit-next/OPEN_BOX_DIAGONAL_RP.md",
+    "destination": "results/diagonal-limit-boundaries/OPEN_BOX_DIAGONAL_RP.md",
+    "original_sha256": "694bd5050b708155f2fd4489a117dc8c3d6010de0f32265c1a68e7424817c2d0",
+    "packaged_sha256": "694bd5050b708155f2fd4489a117dc8c3d6010de0f32265c1a68e7424817c2d0",
+    "adapted": false
+  },
+  {
+    "source": "ym-limit-next/SUPPORT_CHART_OBSTRUCTION.md",
+    "destination": "results/diagonal-limit-boundaries/SUPPORT_CHART_OBSTRUCTION.md",
+    "original_sha256": "7cd662ea435e7d41bae659d5156a830713e3af1536c7955be85560ad8ac90d8f",
+    "packaged_sha256": "7cd662ea435e7d41bae659d5156a830713e3af1536c7955be85560ad8ac90d8f",
+    "adapted": false
+  },
+  {
+    "source": "ym-limit-review/INDEPENDENT_AUDIT.md",
+    "destination": "results/diagonal-limit-boundaries/audit/INDEPENDENT_AUDIT.md",
+    "original_sha256": "cf099c4082872d048ecd5e4e99afb91107f7751039de401e06e150b0c1193265",
+    "packaged_sha256": "cf099c4082872d048ecd5e4e99afb91107f7751039de401e06e150b0c1193265",
+    "adapted": false
+  },
+  {
+    "source": "ym-limit-review/OPEN_BOX_DIAGONAL_RP_AUDIT.md",
+    "destination": "results/diagonal-limit-boundaries/audit/OPEN_BOX_DIAGONAL_RP_AUDIT.md",
+    "original_sha256": "ee34caf6ae2e39c1223a1e2b2bdfa1bea37fbdf7b267250dac8a74929560cf02",
+    "packaged_sha256": "ee34caf6ae2e39c1223a1e2b2bdfa1bea37fbdf7b267250dac8a74929560cf02",
+    "adapted": false
+  },
+  {
+    "source": "ym-limit-review/SUPPORT_CHART_AUDIT.md",
+    "destination": "results/diagonal-limit-boundaries/audit/SUPPORT_CHART_AUDIT.md",
+    "original_sha256": "cb03114ee2254e61188477c9bf172aa9197881a76205fa55c07aef34d4f9048c",
+    "packaged_sha256": "cb03114ee2254e61188477c9bf172aa9197881a76205fa55c07aef34d4f9048c",
+    "adapted": false
+  }
+]
