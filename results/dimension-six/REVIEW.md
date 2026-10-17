@@ -27,3 +27,5 @@ Ran characters2.py, independent_characters.py, check_certificate.py, and validat
 ## Presentation limitations
 
 The dimension claims were already proposed in the reference manuscript. Describe this packet as an explicit finite certificate/proof of that local classification, not a new discovery of the dimensions. It provides quotient dimensions and current/curl certificates, not an independently displayed preferred basis of quotient representatives. No historical-priority conclusion follows from this review. No statement about existence, continuum rotation symmetry, clustering, or the mass gap follows.
+
+Publication serialization note: the GitHub web editor adds a terminal newline to JSON. The publication copy normalizes both certificates to that convention and changes only the generator serialization to emit it. Parsed certificate data and all mathematical calculations are unchanged. The lead assistant reran regeneration and checks after this normalization.
