@@ -1,0 +1,14 @@
+{
+  "README.md": "5aaaa0123f7b7be83216e203c78af42e1425d94b799bab4009aa1edef9e8f695",
+  "research/ROTATION_ROUTE.md": "ae1d68659a53d51e8d4885aadf3de039ac7732fbc27aaef9d5f09c131a2fbc32",
+  "results/dimension-six/PROOF.md": "67564576831882cc8f06cb6e22cc9ffc0fa68eebae39fa611a5fd5c2a9b407dd",
+  "results/dimension-six/README.md": "eed184574956649419f85a3199fad98bbf6e720a783b330756bb9322ed2d66dc",
+  "results/dimension-six/VERIFICATION.txt": "88cc2bc5dda4f5c0804f89e7579fd0c4fbea7ee22d9cbd4a2c3c8fcc8c7cb567",
+  "results/dimension-six/certificate_off.json": "010e4096a652bd6c0fcdd8420c470cc97bcd0709aebdc2f2b1d328492fc8937e",
+  "results/dimension-six/certificate_on.json": "ba38ae2c8c834405ed0c6abdba044b202ceb068f7ff3640c5c5eeb12c7ff484a",
+  "results/dimension-six/characters2.py": "be56129ac266fc00f596072003a20554bd48327ddfe7d910cb6416c94bac30c1",
+  "results/dimension-six/check_certificate.py": "3663ff42cc521d23e64db2940f31a0092eefe856fb16652ecef0b397a0de0a87",
+  "results/dimension-six/divergence.py": "cc64ed725c09091c0889146b0d348e501399fb49bf1959e636c41182e2848ba7",
+  "results/dimension-six/independent_characters.py": "6796891e415d7addc6f6b695a78fad40810022376f3a9e12ffe4b515317f1fd0",
+  "results/dimension-six/validate_equivariance.py": "5ed135c3dfeac8f789c19f1bdc20d7d1aa17f4925a4f467e67f607d57d7e78f5"
+}
