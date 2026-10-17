@@ -1,0 +1,4 @@
+PASS: invariant reduction and four residue sign coefficients
+PASS: degree-eight square has nonconstant mass-shell residue, leading coefficient 4
+PASS: h_d harmonic in dimensions 3, 4, 5 (sanity checks; theorem has general proof)
+PASS: four forbidden-coefficient negative controls

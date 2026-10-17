@@ -1,0 +1,56 @@
+{
+  "upstream_git_commit": "785a68fdeef78a1da854c4807fe1f17b597d05e7",
+  "review_status": "AI-assisted review; no human peer review or formal proof-assistant verification",
+  "sources": [
+    {
+      "path": "/tmp/ym-root-20261017/su-n-extension.md",
+      "role": "Parent research task: candidate SU(N) derivation",
+      "sha256": "5b0738652345274345c443060d3f509643e9b0d4d8c3bdf107506f5b24add00a"
+    },
+    {
+      "path": "/tmp/ym-su-n-review/REVIEW.md",
+      "role": "Independent AI review",
+      "sha256": "f4b4855be539a6420bb49306794de62fd1735abc04a422b7b91904e07e781dab"
+    },
+    {
+      "path": "/tmp/ym-su-n-review/check_symmetric_cubic.py",
+      "role": "Independent AI checker, copied unchanged",
+      "sha256": "7e447151ba0b393a010f7a6fd125870fd7bd920207d7a82cf3f5fdeb68c4f651"
+    },
+    {
+      "path": "/tmp/ym-root-20261017/upstream/theorem_0_complete_account_raw_III.tex",
+      "role": "Supplied upstream SU(2) statement and context",
+      "sha256": "7e36523b85fb4f85aefdd45ab175420459f24e34fe56a4e83e53a6829c7a352d"
+    },
+    {
+      "path": "/tmp/ym-hypercubic-20261017/PROOF.md",
+      "role": "Original SU(2) finite certificate dependency, copied unchanged",
+      "sha256": "67564576831882cc8f06cb6e22cc9ffc0fa68eebae39fa611a5fd5c2a9b407dd"
+    },
+    {
+      "path": "/tmp/ym-hypercubic-20261017/characters2.py",
+      "role": "Original SU(2) finite certificate dependency, copied unchanged",
+      "sha256": "be56129ac266fc00f596072003a20554bd48327ddfe7d910cb6416c94bac30c1"
+    },
+    {
+      "path": "/tmp/ym-hypercubic-20261017/divergence.py",
+      "role": "Original SU(2) finite certificate dependency, copied unchanged",
+      "sha256": "cc64ed725c09091c0889146b0d348e501399fb49bf1959e636c41182e2848ba7"
+    },
+    {
+      "path": "/tmp/ym-hypercubic-20261017/check_certificate.py",
+      "role": "Original SU(2) finite certificate dependency, copied unchanged",
+      "sha256": "3663ff42cc521d23e64db2940f31a0092eefe856fb16652ecef0b397a0de0a87"
+    },
+    {
+      "path": "/tmp/ym-hypercubic-20261017/certificate_off.json",
+      "role": "Original SU(2) finite certificate dependency, copied unchanged",
+      "sha256": "010e4096a652bd6c0fcdd8420c470cc97bcd0709aebdc2f2b1d328492fc8937e"
+    },
+    {
+      "path": "/tmp/ym-hypercubic-20261017/certificate_on.json",
+      "role": "Original SU(2) finite certificate dependency, copied unchanged",
+      "sha256": "ba38ae2c8c834405ed0c6abdba044b202ceb068f7ff3640c5c5eeb12c7ff484a"
+    }
+  ]
+}
