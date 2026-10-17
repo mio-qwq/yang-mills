@@ -18,6 +18,8 @@ Both extensions have written proofs, separate AI-assisted mathematical reviews a
 
 [Strong-coupling seam response](results/strong-coupling-seam/README.md): an explicit uniform interpolation bound for 18β<1, with a separately reviewed heat-bath proof. This closes the seam estimate only in that controlled regime, not along the weak-coupling continuum trajectory.
 
+[Single-link method obstruction](results/single-link-obstruction/README.md): explicit realizable boundary configurations force the actual influence row sum toward 18 at weak coupling. Weighted single-link contraction cannot repair this; it is not a mass-gap counterexample. [The staple-energy route note](research/STAPLE_ENERGY_ROUTE.md) separates a deterministic energy cost from the still-missing probability estimate.
+
 ## Reproduce
 
 From `results/dimension-six`, with Python3:
