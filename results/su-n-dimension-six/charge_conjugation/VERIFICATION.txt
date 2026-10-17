@@ -1,0 +1,2 @@
+PASS: involution, Lie bracket, pairing even, f even, d odd, nonzero witnesses, Wilson real trace invariant.
+witness f,d= 24 26
