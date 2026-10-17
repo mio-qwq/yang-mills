@@ -40,3 +40,7 @@ The [rotation-invariance checkpoint](research/ROTATION_ROUTE.md) separates estab
 A central reference is [Sussman–Alpöge's Yang–Mills LLM experiment](https://github.com/ethanwsussman/Yang--Mills-LLM-experiment/tree/785a68fdeef78a1da854c4807fe1f17b597d05e7). Attribution for its proposed local classification and related operator-basis literature is included with the result. Its raw manuscripts are not redistributed.
 
 AI systems contributed substantially to proof development, programming and checking. No priority claim follows from the available literature search. Releases freeze bounded research milestones rather than imply a solution of the Millennium problem.
+
+## Staple probability estimates
+
+[Finite-volume proofs and independent checks](results/staple-probability/README.md) distinguish a vanishing periodic-measure bad-staple probability from a nonvanishing weakly coupled seam layer. The latter is a counterexample to uniform all-link/all-parameter rarity, not to Yang–Mills existence or a mass gap. The needed bulk-to-seam response estimate remains open.
