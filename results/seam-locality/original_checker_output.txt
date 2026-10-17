@@ -1,0 +1,4 @@
+n= 8 nonseam cubes containing strict +/- faces: 0 seam +/- pairs: 2048
+original reflected cube matrix: [0, 1, 1, 0]
+n= 9 nonseam cubes containing strict +/- faces: 0 seam +/- pairs: 3078
+original reflected cube matrix: [0, 1, 1, 0]

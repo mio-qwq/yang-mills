@@ -1,0 +1,34 @@
+{
+  "results/seam-locality/LOCALITY_CERTIFICATE.md": {
+    "sha256": "d5072e5393f294222e7b984ad2b7965ed6fd24a6aeb71711bf72a081b7b83e81",
+    "source": "/workspace/scratch/477a3dcb7024/seam-locality-20261017/LOCALITY_CERTIFICATE.md"
+  },
+  "results/seam-locality/REVIEW.md": {
+    "sha256": "09179f973ff31fb60af1a6c02147148d784f5899abb4da3a8b7c10198ae0c0e1",
+    "source": "/tmp/ym-seam-locality-review-20261017/REVIEW.md"
+  },
+  "results/seam-locality/REVIEW_SHA256.txt": {
+    "sha256": "7fa8a1fba490253e008574633269898ba391c0a350a2bc910011a319941b73a1",
+    "source": "/tmp/ym-seam-locality-review-20261017/REVIEW_SHA256.txt"
+  },
+  "results/seam-locality/SOURCE_SHA256.txt": {
+    "sha256": "2a832e4d776e43387688fe0dbc94c3ab093525ae6c4344bf97a0345c93d2b569",
+    "source": "/tmp/ym-seam-locality-review-20261017/SOURCE_SHA256.txt"
+  },
+  "results/seam-locality/check_geometry.py": {
+    "sha256": "8415c6649841c048dcd6764d134f57dcc8b17ed14c23bd989aa3f5cbc0d074aa",
+    "source": "/tmp/ym-seam-locality-review-20261017/check_geometry.py"
+  },
+  "results/seam-locality/check_quartic.py": {
+    "sha256": "7eb3610a6e5788de5fc3cb59a2e5888da2103210af391645d4749a4179864127",
+    "source": "/workspace/scratch/477a3dcb7024/seam-locality-20261017/check_quartic.py"
+  },
+  "results/seam-locality/geometry_results.jsonl": {
+    "sha256": "3bb5fcd0d1f08acef87ca06cd5d9e69a7051760aea0165dc7703d09e26b2f087",
+    "source": "/tmp/ym-seam-locality-review-20261017/geometry_results.jsonl"
+  },
+  "results/seam-locality/original_checker_output.txt": {
+    "sha256": "9204543d3521f81a910154b7b4c15af9c09aeb50475dda8412f7ac05811f1e9f",
+    "source": "/tmp/ym-seam-locality-review-20261017/original_checker_output.txt"
+  }
+}

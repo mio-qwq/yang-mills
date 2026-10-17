@@ -1,0 +1,7 @@
+PASS: 612 admissible (L,n,k) geometries for 0<=L<=12, first nine admissible n.
+PASS: exact rational coefficients and beta-star bounds for all tested (L,n).
+PASS: n=8 has 12 four-cycles through origin, all elementary.
+PASS: n=11 has 12 four-cycles through origin, all elementary.
+Endpoint L=0,n=8: k=2,3,4,5; D=1; h=4; c=1/512.
+Endpoint exact r=1/98304; beta_star=1/225614572159760555100365389824.
+PASS: strict Cauchy remainder < (c/2) beta_star^h at the endpoint.

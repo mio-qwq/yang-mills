@@ -60,3 +60,11 @@ AI systems contributed substantially to proof development, programming and check
 ## Finite-torus half-algebra qualification
 
 [Diagonal torus obstruction](results/diagonal-torus-obstruction/README.md) records a negative small-coupling reflected form for the coordinate-swap half x0>x1 in representatives 0,...,n-1. This precise seam-dependent finite-geometry result is not a counterexample to every torus half-algebra or to the bridge’s fixed compact sources, and has no continuum reflection-positivity or mass-gap conclusion.
+
+## Boundary-depth checkpoint
+
+[Finite-volume seam locality](results/seam-locality/README.md) shows why the quartic elementary-plaquette obstruction disappears after one full coordinate layer and gives a necessary connected-support criterion with a finite-volume Cauchy bound.
+
+[Remote-boundary obstruction](results/remote-boundary-obstruction/README.md) proves failure of the original representative-half diagonal form at every prescribed integer 0/1 seam depth L >= 0, for n >= max(8,6L+5) and suitable k. Its leading term is -2^(-(16L+9)) beta^(8L+4), with an explicit rational small-positive-beta negativity interval. Frozen proofs, separate AI-assisted reviews, and portable exact controls accompany both results. The corrected L=1 proof supersedes an earlier negative-beta positivity overstatement.
+
+These are finite-volume microscopic results; neither fixed-physical-source continuum failure nor a mass gap nor a refutation of the original continuum conjecture is claimed. No human peer review, Lean formalization, or established novelty is claimed.
