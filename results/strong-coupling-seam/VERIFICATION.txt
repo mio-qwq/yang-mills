@@ -1,0 +1,6 @@
+PASS: 2500 links, each in 6 plaquettes; summed off-diagonal multiplicity 18; beta=1/36 gives q=1/2.
+PASS n=4: 1024 links, symmetric multiplicities, degree 18, periodic wrap, power propagation
+PASS n=5: 2500 links, symmetric multiplicities, degree 18, periodic wrap, power propagation
+PASS: sharp TV factor 1/4
+COUNTEREXAMPLE to unrestricted RP corollary: beta=0, F=X-Theta X, Q=-1/2 < 0
+Empty seam: V=0 identically, so all seam-response quantities vanish exactly.

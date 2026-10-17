@@ -16,6 +16,8 @@ The proof and executable checks passed a separate AI-assisted mathematical and c
 
 Both extensions have written proofs, separate AI-assisted mathematical reviews and exact computational checks. Historical novelty remains unverified.
 
+[Strong-coupling seam response](results/strong-coupling-seam/README.md): an explicit uniform interpolation bound for 18β<1, with a separately reviewed heat-bath proof. This closes the seam estimate only in that controlled regime, not along the weak-coupling continuum trajectory.
+
 ## Reproduce
 
 From `results/dimension-six`, with Python3:
