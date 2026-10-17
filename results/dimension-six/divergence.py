@@ -86,6 +86,6 @@ for on in (False,True):
     z=coef*(F[c,d]*G[e,f]+G[c,d]*F[e,f]);out[a]+=r[b]*z;out[b]-=r[a]*z
    kvals.append([x%P for x in out])
   krows.extend([[v[a] for v in kvals] for a in range(4)])
- Path(__file__).with_name('certificate_'+('on' if on else 'off')+'.json').write_text(json.dumps({'prime':P,'i':I,'current_candidates':Js,'curl_candidates':Ks,'samples':samples,'current':certificate(jrows),'divergence':certificate(drows),'curl':certificate(krows)},indent=2))
+ Path(__file__).with_name('certificate_'+('on' if on else 'off')+'.json').write_text(json.dumps({'prime':P,'i':I,'current_candidates':Js,'curl_candidates':Ks,'samples':samples,'current':certificate(jrows),'divergence':certificate(drows),'curl':certificate(krows)},indent=2)+"\n")
  print({'on_shell':on,'projected_current_candidates':len(Js),'projected_K_candidates':len(Ks),'rank_currents':rank(jrows),'rank_divergences':rank(drows),'rank_curls':rank(krows),'prime':P,'sqrt_minus_one':I})
 
