@@ -1,0 +1,3 @@
+d5072e5393f294222e7b984ad2b7965ed6fd24a6aeb71711bf72a081b7b83e81  /workspace/scratch/477a3dcb7024/seam-locality-20261017/LOCALITY_CERTIFICATE.md
+7eb3610a6e5788de5fc3cb59a2e5888da2103210af391645d4749a4179864127  /workspace/scratch/477a3dcb7024/seam-locality-20261017/check_quartic.py
+f8167a31b447add79427b35d06460e4be976d7168b257f4e7dd0d9ff9ba07c4e  /tmp/ym-torus-remote-audit-20261017/results/diagonal-torus-obstruction/PROOF.md

@@ -1,0 +1,8 @@
+PASS L= 0 h= 4 negative coefficient denominator exponent= 9
+PASS L= 1 h= 12 negative coefficient denominator exponent= 25
+PASS L= 2 h= 20 negative coefficient denominator exponent= 41
+PASS L= 3 h= 28 negative coefficient denominator exponent= 57
+PASS L= 4 h= 36 negative coefficient denominator exponent= 73
+PASS L= 5 h= 44 negative coefficient denominator exponent= 89
+PASS L= 6 h= 52 negative coefficient denominator exponent= 105
+PASS exact coefficients, geometry, threshold inequalities
