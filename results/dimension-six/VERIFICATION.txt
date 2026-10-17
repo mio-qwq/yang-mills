@@ -1,0 +1,10 @@
+Python 3.12.14
+{('scalar', 'Cubic'): Fraction(1, 1), ('scalar', 'V6'): Fraction(6, 1), ('scalar', 'VxV5'): Fraction(3, 1), ('scalar', 'L2xV4'): Fraction(0, 1), ('scalar', 'V6on'): Fraction(4, 1), ('scalar', 'VxV5on'): Fraction(2, 1), ('antisym', 'Cubic'): Fraction(0, 1), ('antisym', 'V6'): Fraction(11, 1), ('antisym', 'VxV5'): Fraction(16, 1), ('antisym', 'L2xV4'): Fraction(7, 1), ('antisym', 'V6on'): Fraction(6, 1), ('antisym', 'VxV5on'): Fraction(12, 1), ('symtensor', 'Cubic'): Fraction(3, 1), ('symtensor', 'V6'): Fraction(37, 1), ('symtensor', 'VxV5'): Fraction(26, 1), ('symtensor', 'L2xV4'): Fraction(4, 1), ('symtensor', 'V6on'): Fraction(25, 1), ('symtensor', 'VxV5on'): Fraction(20, 1)}
+identity chars (4, 6, 4, 1, 10, 20, 45)
+{'A6': 11, 'current5': 16, 'curl4': 7, 'A6_on': 6, 'current5_on': 12, 'scalar6': 6, 'sym6': 37, 'cubicA': 0}
+certificate_off.json {'current': 586, 'divergence': 990, 'curl': 585}
+  Reconstruction, curl identity, and two corruption tests passed.
+certificate_on.json {'current': 579, 'divergence': 149, 'curl': 336}
+  Reconstruction, curl identity, and two corruption tests passed.
+off all candidate sign/parity and stabilizer equivariance verified
+on all candidate sign/parity and stabilizer equivariance verified
