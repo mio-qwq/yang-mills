@@ -44,3 +44,7 @@ AI systems contributed substantially to proof development, programming and check
 ## Staple probability estimates
 
 [Finite-volume proofs and independent checks](results/staple-probability/README.md) distinguish a vanishing periodic-measure bad-staple probability from a nonvanishing weakly coupled seam layer. The latter is a counterexample to uniform all-link/all-parameter rarity, not to Yang–Mills existence or a mass gap. The needed bulk-to-seam response estimate remains open.
+
+## Response-route boundary checks
+
+[Audited conditioning and endpoint symmetry](research/response-route-boundaries/README.md) show why frequent seam events do not imply a large connected response. The required distance-sensitive weak-coupling stability estimate remains unproved.
