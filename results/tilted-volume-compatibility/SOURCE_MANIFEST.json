@@ -1,0 +1,45 @@
+{
+  "commit": "785a68fdeef78a1da854c4807fe1f17b597d05e7",
+  "files": [
+    {
+      "local": "ym4.pdf",
+      "repository_path": "ym4_manuscript_zeroth_draft.pdf",
+      "bytes": 2064505,
+      "git_blob_sha": "9aab2f336bc078c3bf12b6a8530a28c1ab2999b6",
+      "sha256": "869ed86a1384dbc57277647e2bcd4096f545e533c74e45917c1caccb4868b24b",
+      "url": "https://github.com/ethanwsussman/Yang--Mills-LLM-experiment/blob/785a68fdeef78a1da854c4807fe1f17b597d05e7/ym4_manuscript_zeroth_draft.pdf"
+    },
+    {
+      "local": "raw_I.tex",
+      "repository_path": "theorem_0_complete_account_raw_I.tex",
+      "bytes": 10554720,
+      "git_blob_sha": "31898fb205c2990b59b7574915e82b22e08450b4",
+      "sha256": "4cb5cb5e0af8dbddbee207926621300350e018c6cf1d6567a753167ce10e6e93",
+      "url": "https://github.com/ethanwsussman/Yang--Mills-LLM-experiment/blob/785a68fdeef78a1da854c4807fe1f17b597d05e7/theorem_0_complete_account_raw_I.tex"
+    },
+    {
+      "local": "raw_II.tex",
+      "repository_path": "theorem_0_complete_account_raw_II.tex",
+      "bytes": 9092940,
+      "git_blob_sha": "f1e0aa132d23ed7f6d44f504a78ad57bd4ce38b8",
+      "sha256": "6a1f74b05f74ba44a2186c11fb08e139178d86b15c1494a95c434212944b2b8f",
+      "url": "https://github.com/ethanwsussman/Yang--Mills-LLM-experiment/blob/785a68fdeef78a1da854c4807fe1f17b597d05e7/theorem_0_complete_account_raw_II.tex"
+    },
+    {
+      "local": "raw_III.tex",
+      "repository_path": "theorem_0_complete_account_raw_III.tex",
+      "bytes": 6963158,
+      "git_blob_sha": "6012ff578fb1c67c29651f1f4192ab59a4c862a3",
+      "sha256": "7e36523b85fb4f85aefdd45ab175420459f24e34fe56a4e83e53a6829c7a352d",
+      "url": "https://github.com/ethanwsussman/Yang--Mills-LLM-experiment/blob/785a68fdeef78a1da854c4807fe1f17b597d05e7/theorem_0_complete_account_raw_III.tex"
+    },
+    {
+      "local": "raw_master.tex",
+      "repository_path": "theorem_0_complete_account_raw_master.tex",
+      "bytes": 1347,
+      "git_blob_sha": "617bea011848c4131bc62b421c85bf9d6a21529c",
+      "sha256": "2ac55289748845872591d9b4bda1b3a4996ed36991eeabe722df057f601fccce",
+      "url": "https://github.com/ethanwsussman/Yang--Mills-LLM-experiment/blob/785a68fdeef78a1da854c4807fe1f17b597d05e7/theorem_0_complete_account_raw_master.tex"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+# Reproducible detailed geometry outputs remain local, not tracked.
+/invariant-diagonal-rp/construction/geometry_results.json
+/invariant-diagonal-rp/construction/tilted_torus_results.json
+/invariant-diagonal-rp/independent-audit/tilted-torus-geometry.json
+/invariant-diagonal-rp/additional-check/output.json
+/tilted-volume-compatibility/check-output.json
+__pycache__/

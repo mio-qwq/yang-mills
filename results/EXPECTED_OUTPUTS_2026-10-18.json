@@ -1,0 +1,41 @@
+{
+  "algorithm": "sha256",
+  "scope": "Expected full generated output bytes and finite case counts. Detailed outputs are regenerated only in temporary staging, not tracked or archived.",
+  "checks": [
+    {
+      "script": "invariant-diagonal-rp/construction/check_geometry.py",
+      "output": "invariant-diagonal-rp/construction/geometry_results.json",
+      "channel": "file",
+      "cases": 60,
+      "sha256": "6d0e4f2ab5550b6f19b4f628321d204ef99f33353f1f4d46ce97c2c3d57a6c4b"
+    },
+    {
+      "script": "invariant-diagonal-rp/construction/check_tilted_torus.py",
+      "output": "invariant-diagonal-rp/construction/tilted_torus_results.json",
+      "channel": "file",
+      "cases": 18,
+      "sha256": "9afe35999c48b4256a20840cfb2ae1338ac7d05f5c733b0566f8114869989bde"
+    },
+    {
+      "script": "invariant-diagonal-rp/independent-audit/check_tilted_torus.py",
+      "output": "invariant-diagonal-rp/independent-audit/tilted-torus-geometry.json",
+      "channel": "stdout",
+      "cases": 15,
+      "sha256": "b7ea040371e6e1f8b62fc625f3459312a9dbf9d313ea0d55314197486355b8e3"
+    },
+    {
+      "script": "invariant-diagonal-rp/additional-check/check_geometry.py",
+      "output": "invariant-diagonal-rp/additional-check/output.json",
+      "channel": "stdout",
+      "cases": 9,
+      "sha256": "d009ee72cecb12312f11fc1e93c0dd2059ba047523be812c608e4f50af3a2565"
+    },
+    {
+      "script": "tilted-volume-compatibility/check_indices.py",
+      "output": "tilted-volume-compatibility/check-output.json",
+      "channel": "stdout",
+      "cases": 32,
+      "sha256": "d19f5eefac7eb8e5772b2ecbb6fd9e68e642de9283cb3dd1fb46c29b140bb7af"
+    }
+  ]
+}

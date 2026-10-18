@@ -72,3 +72,13 @@ These are finite-volume microscopic results; neither fixed-physical-source conti
 ## All-positive-coupling sign and limit boundaries
 
 [All-beta finite-torus sign](results/diagonal-allbeta/README.md) extends the prescribed-depth representative-half obstruction to every finite beta>0, without a uniform negative margin. [Limit and boundary qualifications](results/diagonal-limit-boundaries/README.md) show unrescaled weak-coupling disappearance and a fixed-compact-support obstruction, and record the known free-boundary diagonal reflection-positivity mechanism. The periodic/free limit comparison remains open; no continuum or mass-gap resolution follows.
+
+## Fixed-cutoff reflection positivity and volume-transfer scope
+
+- [Invariant diagonal-RP Gibbs state](results/invariant-diagonal-rp/README.md): tilted-torus and cylinder constructions establish a translation-invariant, gauge-invariant Wilson Gibbs state with the specified diagonal reflection positivity at every fixed finite nonnegative coupling.
+- [Tilted-volume compatibility](results/tilted-volume-compatibility/README.md): exact period-lattice and transfer-operator analysis identifies why the new volumes do not automatically inherit the reference manuscript's coordinate-chessboard estimates.
+- [Source-pressure scope](results/source-pressure-scope/README.md): separates fixed-local-source analyticity from the homogeneous-source thermodynamic estimate needed for the remaining boundary-condition comparison.
+
+Ordinary straight-periodic accessibility, the required source-pressure differentiability, continuum construction and the mass gap remain unproved. These checkpoints have AI-assisted review; no historical-priority or human-peer-review claim is made.
+
+Detailed finite-geometry output tables are omitted from the source package. The aggregate verifier regenerates them in temporary directories and checks their frozen hashes and case counts.

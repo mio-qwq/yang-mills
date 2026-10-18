@@ -1,0 +1,68 @@
+{
+  "status": "PASS",
+  "scope": "Hash integrity and exact finite geometry checks only. Analytic and topological proofs remain written arguments.",
+  "hashed_files": 25,
+  "checker_runs": [
+    {
+      "script": "invariant-diagonal-rp/construction/check_geometry.py",
+      "status": "PASS",
+      "cases": 60,
+      "generated_output_sha256_matches": true
+    },
+    {
+      "script": "invariant-diagonal-rp/construction/check_tilted_torus.py",
+      "status": "PASS",
+      "cases": 18,
+      "generated_output_sha256_matches": true
+    },
+    {
+      "script": "invariant-diagonal-rp/independent-audit/check_tilted_torus.py",
+      "status": "PASS",
+      "cases": 15,
+      "generated_output_sha256_matches": true
+    },
+    {
+      "script": "invariant-diagonal-rp/additional-check/check_geometry.py",
+      "status": "PASS",
+      "cases": 9,
+      "generated_output_sha256_matches": true
+    },
+    {
+      "script": "tilted-volume-compatibility/check_indices.py",
+      "status": "PASS",
+      "cases": 32,
+      "generated_output_sha256_matches": true
+    }
+  ],
+  "total_finite_cases": 134,
+  "negative_controls": [
+    {
+      "name": "cylinder_false_single_block_bound",
+      "status": "PASS",
+      "expected_assertion_failure_observed": true
+    },
+    {
+      "name": "tilted_false_vertex_count",
+      "status": "PASS",
+      "expected_assertion_failure_observed": true
+    },
+    {
+      "name": "straight_false_diagonal_index",
+      "status": "PASS",
+      "expected_assertion_failure_observed": true
+    },
+    {
+      "name": "changed_bytes_hash_mismatch",
+      "status": "PASS",
+      "full_verifier_rejected": true
+    },
+    {
+      "name": "disabled_assertions_rejected",
+      "status": "PASS",
+      "full_verifier_rejected": true
+    }
+  ],
+  "clean_temporary_staging": true,
+  "detailed_outputs_tracked_or_archived": false,
+  "network_used": false
+}
