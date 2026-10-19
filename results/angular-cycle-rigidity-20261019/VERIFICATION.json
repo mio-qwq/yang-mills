@@ -1,0 +1,209 @@
+{
+  "archive": "ym-general-angular-rigidity-20261019.zip",
+  "archive_bytes": 125276,
+  "archive_sha256": "16f7a8650200e31b0543e74c0606a138516db04c9a463e4b915984e4828a08da",
+  "branch": "research-angular-cycle-rigidity-20261019",
+  "checkpoint_verification": {
+    "algebra": {
+      "audit_valid_checks_per_mode": 5,
+      "both_checkers_normal_and_optimized": true,
+      "clean_extracted_replay_identical": true,
+      "external_corruption_runs_rejected_per_replay": 16,
+      "external_mutation_variants": 8,
+      "harness_runs": [
+        "ordinary in staging",
+        "optimized in staging",
+        "ordinary after clean archive extraction"
+      ],
+      "normal_and_optimized_harness_outputs_identical": true,
+      "primary_builtin_rejections_per_mode": 3,
+      "primary_valid_checks_per_mode": 28,
+      "python_version": "3.12.14",
+      "replay_sha256": "6b27ed1a31b7fbd2690f0cf250b4455bcc2dee3f154700a87a59c09f7cbd77c8",
+      "sympy_version": "1.14.0"
+    },
+    "archive": {
+      "bytes": 125276,
+      "entries": 24,
+      "method": "ZIP_STORED, sorted paths, fixed UTC-independent metadata",
+      "path": "/workspace/shared/research-checkpoint-20261019-1207/ym-general-angular-rigidity-20261019.zip",
+      "sha256": "16f7a8650200e31b0543e74c0606a138516db04c9a463e4b915984e4828a08da"
+    },
+    "date_utc": "2026-10-19",
+    "determinism": {
+      "byte_identical": true,
+      "clean_extraction_rebuild": {
+        "bytes": 125276,
+        "entries": 24,
+        "method": "ZIP_STORED, sorted paths, fixed UTC-independent metadata",
+        "sha256": "16f7a8650200e31b0543e74c0606a138516db04c9a463e4b915984e4828a08da"
+      },
+      "first_build": {
+        "bytes": 125276,
+        "entries": 24,
+        "method": "ZIP_STORED, sorted paths, fixed UTC-independent metadata",
+        "sha256": "16f7a8650200e31b0543e74c0606a138516db04c9a463e4b915984e4828a08da"
+      }
+    },
+    "external_actions": {
+      "merge": false,
+      "publication": false,
+      "release": false,
+      "third_party_repository_code_execution": false,
+      "upload": false
+    },
+    "integrity": {
+      "archive_crc_passed": true,
+      "clean_extraction_checks": [
+        {
+          "manifest_sha256": "1607cffa620a0c51f936d0c604f34e9e2940b181f99b11b8b354a7296de47620",
+          "optimized": false,
+          "status": "PASS",
+          "verified_files": 23
+        },
+        {
+          "manifest_sha256": "1607cffa620a0c51f936d0c604f34e9e2940b181f99b11b8b354a7296de47620",
+          "optimized": true,
+          "status": "PASS",
+          "verified_files": 23
+        }
+      ],
+      "corruption_controls": [
+        {
+          "case": "proof_bytes",
+          "expected_rejection": true,
+          "optimized": false,
+          "returncode": 1,
+          "stderr": "Hash or size mismatch: proofs/GENERAL_ANGULAR_RIGIDITY.md"
+        },
+        {
+          "case": "proof_bytes",
+          "expected_rejection": true,
+          "optimized": true,
+          "returncode": 1,
+          "stderr": "Hash or size mismatch: proofs/GENERAL_ANGULAR_RIGIDITY.md"
+        },
+        {
+          "case": "checker_bytes",
+          "expected_rejection": true,
+          "optimized": false,
+          "returncode": 1,
+          "stderr": "Hash or size mismatch: checks/check_algebra.py"
+        },
+        {
+          "case": "checker_bytes",
+          "expected_rejection": true,
+          "optimized": true,
+          "returncode": 1,
+          "stderr": "Hash or size mismatch: checks/check_algebra.py"
+        },
+        {
+          "case": "missing_file",
+          "expected_rejection": true,
+          "optimized": false,
+          "returncode": 1,
+          "stderr": "File inventory mismatch"
+        },
+        {
+          "case": "missing_file",
+          "expected_rejection": true,
+          "optimized": true,
+          "returncode": 1,
+          "stderr": "File inventory mismatch"
+        },
+        {
+          "case": "unexpected_file",
+          "expected_rejection": true,
+          "optimized": false,
+          "returncode": 1,
+          "stderr": "File inventory mismatch"
+        },
+        {
+          "case": "unexpected_file",
+          "expected_rejection": true,
+          "optimized": true,
+          "returncode": 1,
+          "stderr": "File inventory mismatch"
+        }
+      ],
+      "staging_checks": [
+        {
+          "manifest_sha256": "1607cffa620a0c51f936d0c604f34e9e2940b181f99b11b8b354a7296de47620",
+          "optimized": false,
+          "status": "PASS",
+          "verified_files": 23
+        },
+        {
+          "manifest_sha256": "1607cffa620a0c51f936d0c604f34e9e2940b181f99b11b8b354a7296de47620",
+          "optimized": true,
+          "status": "PASS",
+          "verified_files": 23
+        }
+      ]
+    },
+    "limitations": [
+      "Exact symbolic algebra checks do not prove the analytic theorem.",
+      "No formal proof-assistant certification, external peer review, or novelty verification is claimed.",
+      "Scalar Gaussian angular covariance only; no interacting Yang-Mills construction or mass gap.",
+      "Reflection positivity uses all tangential momenta and the stated mirror invariances; isolated tests are insufficient.",
+      "The existing class is classified; adding axes or smoother densities does not bypass the conclusion."
+    ],
+    "manifest_files": 23,
+    "manifest_sha256": "1607cffa620a0c51f936d0c604f34e9e2940b181f99b11b8b354a7296de47620",
+    "package_directory": "/workspace/shared/research-checkpoint-20261019-1207/ym-general-angular-rigidity-20261019",
+    "proof_pins": {
+      "proofs/BOUNDED_HANKEL_FULL_SOURCE.md": "34a58bd052c703d84c7939ce08c36f86e0cfc6f8349e5eb85ee62175cb357f2a",
+      "proofs/GENERAL_ANGULAR_RIGIDITY.md": "9fd24e38db0b69c6c60ee09b0708a395d6c304655c2288fd044b11f1b3986d5f",
+      "proofs/INDEPENDENT_AUDIT.md": "e80e3cdca90c3bf82f5e9f1543f7ca2dbe68d97220d474dae64a779b8ecaaa18",
+      "proofs/ROOT_DERIVATION.md": "518f085e781eca4c49591477ba11be9b51e26a3a139aeccd2a7fee87d5a56521"
+    },
+    "scope": "Local deterministic packaging and algebra verification for the independently reviewed scalar angular-covariance proof. No formal certification or novelty claim.",
+    "source_preservation": {
+      "all_sources_rechecked_unchanged": true,
+      "byte_identical_copies": 16,
+      "current_changed_pins": 0,
+      "current_source_manifest_entries_verified": 14,
+      "historical_hankel_append_reconciliation_verified": true
+    },
+    "status": "PASS"
+  },
+  "fresh_archival_verification": {
+    "archive": "ym-general-angular-rigidity-20261019.zip",
+    "bytes": 125276,
+    "clean_rebuild_byte_identical": true,
+    "entries": 24,
+    "fresh_clean_full_replay_normal": "PASS",
+    "fresh_clean_full_replay_optimized": "PASS",
+    "frozen_replay_bytes_identical": true,
+    "sha256": "16f7a8650200e31b0543e74c0606a138516db04c9a463e4b915984e4828a08da",
+    "status": "PASS"
+  },
+  "fresh_replay_receipts": {
+    "ym-fresh-integrity-normal.json": {
+      "bytes": 136,
+      "sha256": "5bee97eca375c921fb135b29d1f20eadba1a819953efa6338965166026c2b1da"
+    },
+    "ym-fresh-integrity-optimized.json": {
+      "bytes": 136,
+      "sha256": "5bee97eca375c921fb135b29d1f20eadba1a819953efa6338965166026c2b1da"
+    },
+    "ym-fresh-rebuild.json": {
+      "bytes": 191,
+      "sha256": "02daf8e7aa2483b13ceacefc1e361cda5562d9465c13471826cea104b38d67c7"
+    },
+    "ym-fresh-replay-normal.json": {
+      "bytes": 10428,
+      "sha256": "6b27ed1a31b7fbd2690f0cf250b4455bcc2dee3f154700a87a59c09f7cbd77c8"
+    },
+    "ym-fresh-replay-optimized.json": {
+      "bytes": 10428,
+      "sha256": "6b27ed1a31b7fbd2690f0cf250b4455bcc2dee3f154700a87a59c09f7cbd77c8"
+    }
+  },
+  "limits": "Research checks and byte integrity, not proof-assistant formalization, external peer review, a cryptographic signature, or a hostile-code sandbox.",
+  "path": "results/angular-cycle-rigidity-20261019",
+  "repository": "mio-qwq/yang-mills",
+  "role": "Exact accepted source ZIP, additive source-only branch archive",
+  "single_parent_commit": "d84996763de5b7689c847f331b842c5c18ad58c8",
+  "status": "PASS"
+}
