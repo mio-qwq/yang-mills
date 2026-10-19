@@ -1,0 +1,165 @@
+{
+  "archive": "ym-free-cube-rp-obstruction-20261019.zip",
+  "archive_bytes": 79413,
+  "archive_sha256": "9e88e2022b2fdcbc7430bceeedf73da3cbd596eb553a2e02b876b33b8dfda699",
+  "branch": "research-mixed-cycle-free-cube-20261019",
+  "checkpoint_verification": {
+    "archive_bytes": 79413,
+    "archive_member_count": 19,
+    "archive_path": "/workspace/shared/research-checkpoint-20261019-1326/ym-free-cube-rp-obstruction-20261019.zip",
+    "archive_root": "ym-free-cube-rp-obstruction-20261019",
+    "archive_sha256": "9e88e2022b2fdcbc7430bceeedf73da3cbd596eb553a2e02b876b33b8dfda699",
+    "checkpoint": "ym-free-cube-rp-obstruction-20261019",
+    "claim": {
+      "certificate": "The exact rational remainder bound controls the unnormalized numerator; F=1+i w_p has a nonreal complex reflected form.",
+      "excluded_claims": [
+        "negative real reflected form",
+        "four-dimensional example",
+        "infinite-volume failure",
+        "continuum conclusion",
+        "mass-gap conclusion"
+      ],
+      "mean_difference": "beta^9/2^18 + O(beta^11)",
+      "model": "Three-dimensional free-Haar SU(2) Wilson measure on all links/plaquettes of [0,5]^3.",
+      "plaquettes": "(1,2)-plaquettes based at (3,2,2) and (1,2,2), both strictly interior.",
+      "positive_interval": "0 < beta <= 10^-14",
+      "reflection": "x0 -> 4-x0, acting on the marginal algebra of the invariant [0,4] x [0,5]^2 slab."
+    },
+    "commands_after_extraction": [
+      "cd ym-free-cube-rp-obstruction-20261019",
+      "python verify.py",
+      "python -O verify.py",
+      "python rebuild.py ../rebuilt.zip"
+    ],
+    "notes": "Minimal source checkpoint; SHA256 integrity is not a cryptographic authenticity signature. Exact combinatorics/algebra are machine checked, while character-label exhaustiveness remains a readable mathematical proof.",
+    "publication_actions_performed": [],
+    "source_freeze": {
+      "background_documents_and_older_archives_included": false,
+      "background_git_blobs_verified": 6,
+      "copied_source_pin_count": 12,
+      "independent_audit": "Frozen after conversion of every assertion to explicit exception checks.",
+      "primary_proof": "RESULT.md is the intended final proof filename; confirmed frozen by source author.",
+      "source_pins_file": "SOURCE_PINS.json"
+    },
+    "status": "COMPLETE",
+    "tested_environment": {
+      "python": "3.12.14",
+      "sympy": "1.14.0"
+    },
+    "verification": {
+      "all_archive_members": [
+        "ym-free-cube-rp-obstruction-20261019/CHECKPOINT_VERIFICATION.json",
+        "ym-free-cube-rp-obstruction-20261019/README.md",
+        "ym-free-cube-rp-obstruction-20261019/SHA256SUMS",
+        "ym-free-cube-rp-obstruction-20261019/SOURCE_PINS.json",
+        "ym-free-cube-rp-obstruction-20261019/audit/AUDIT.md",
+        "ym-free-cube-rp-obstruction-20261019/audit/CHECKS.json",
+        "ym-free-cube-rp-obstruction-20261019/audit/CHECKS.optimized.json",
+        "ym-free-cube-rp-obstruction-20261019/audit/NEGATIVE_CONTROLS.json",
+        "ym-free-cube-rp-obstruction-20261019/audit/audit_exact.py",
+        "ym-free-cube-rp-obstruction-20261019/primary/CHECKS.json",
+        "ym-free-cube-rp-obstruction-20261019/primary/CUBE_CHECKS.json",
+        "ym-free-cube-rp-obstruction-20261019/primary/RESULT.md",
+        "ym-free-cube-rp-obstruction-20261019/primary/SOURCE_MANIFEST.json",
+        "ym-free-cube-rp-obstruction-20261019/primary/VERIFICATION.json",
+        "ym-free-cube-rp-obstruction-20261019/primary/check_cube_incidence.py",
+        "ym-free-cube-rp-obstruction-20261019/primary/check_tube.py",
+        "ym-free-cube-rp-obstruction-20261019/rebuild.py",
+        "ym-free-cube-rp-obstruction-20261019/requirements.txt",
+        "ym-free-cube-rp-obstruction-20261019/verify.py"
+      ],
+      "clean_extraction": true,
+      "independent_audit_live_checks_per_positive_run": 858,
+      "mathematical_negative_control_runs_per_verifier": 10,
+      "normal_and_optimized_reports_byte_identical": true,
+      "normal_verifier_exit_code": 0,
+      "optimized_verifier_exit_code": 0,
+      "package_integrity_negative_controls": {
+        "runs": [
+          {
+            "control": "corrupt_output",
+            "last_error_line": "RuntimeError: CHECKPOINT CHECK FAILED: hash mismatch: primary/CUBE_CHECKS.json",
+            "python_flags": [],
+            "returncode": 1
+          },
+          {
+            "control": "corrupt_output",
+            "last_error_line": "RuntimeError: CHECKPOINT CHECK FAILED: hash mismatch: primary/CUBE_CHECKS.json",
+            "python_flags": [
+              "-O"
+            ],
+            "returncode": 1
+          },
+          {
+            "control": "missing_file",
+            "last_error_line": "RuntimeError: CHECKPOINT CHECK FAILED: missing/nonregular file: audit/AUDIT.md",
+            "python_flags": [],
+            "returncode": 1
+          },
+          {
+            "control": "missing_file",
+            "last_error_line": "RuntimeError: CHECKPOINT CHECK FAILED: missing/nonregular file: audit/AUDIT.md",
+            "python_flags": [
+              "-O"
+            ],
+            "returncode": 1
+          },
+          {
+            "control": "extra_file",
+            "last_error_line": "RuntimeError: CHECKPOINT CHECK FAILED: extra or missing checkpoint files",
+            "python_flags": [],
+            "returncode": 1
+          },
+          {
+            "control": "extra_file",
+            "last_error_line": "RuntimeError: CHECKPOINT CHECK FAILED: extra or missing checkpoint files",
+            "python_flags": [
+              "-O"
+            ],
+            "returncode": 1
+          }
+        ],
+        "status": "PASS"
+      },
+      "positive_checker_runs_per_verifier": 6,
+      "python_assert_nodes_in_packaged_scripts": 0,
+      "rebuild_count": 3,
+      "rebuilds_byte_identical": true,
+      "report_sha256": "b5201af3ecb9347a1b39334031b2a19cb01235eb3e1d066e9216c715982acbdf",
+      "zip_integrity_passed": true
+    }
+  },
+  "fresh_archival_verification": {
+    "archive": "ym-free-cube-rp-obstruction-20261019.zip",
+    "bytes": 79413,
+    "clean_rebuild_byte_identical": true,
+    "crc_and_unique_safe_nonsymlink_paths": true,
+    "entries": 19,
+    "fresh_clean_full_replay_normal": "PASS",
+    "fresh_clean_full_replay_optimized": "PASS",
+    "frozen_replay_bytes_identical": true,
+    "independent_root_replay_matches_packaged_output": true,
+    "sha256": "9e88e2022b2fdcbc7430bceeedf73da3cbd596eb553a2e02b876b33b8dfda699",
+    "status": "PASS"
+  },
+  "fresh_replay_receipts": {
+    "ym-fresh-rebuild.json": {
+      "bytes": 81,
+      "sha256": "f4a2235183e99e029f7eef7b11583f053762dd3710dfc1a58eacfa3238bdcef0"
+    },
+    "ym-fresh-replay-normal.json": {
+      "bytes": 4670,
+      "sha256": "b5201af3ecb9347a1b39334031b2a19cb01235eb3e1d066e9216c715982acbdf"
+    },
+    "ym-fresh-replay-optimized.json": {
+      "bytes": 4670,
+      "sha256": "b5201af3ecb9347a1b39334031b2a19cb01235eb3e1d066e9216c715982acbdf"
+    }
+  },
+  "limits": "Exact finite, algebraic and byte-integrity checks; not proof-assistant certification, external peer review, a cryptographic signature or a hostile-code sandbox.",
+  "path": "results/mixed-cycle-free-cube-20261019",
+  "repository": "mio-qwq/yang-mills",
+  "role": "Exact source ZIP on an additive source-only research branch",
+  "single_parent_commit": "4ff17ed90aa40a453129d1d0b9cea0bf483c949a",
+  "status": "PASS"
+}
