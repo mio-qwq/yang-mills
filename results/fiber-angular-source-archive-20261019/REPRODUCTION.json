@@ -1,0 +1,126 @@
+{
+  "status": "PASS",
+  "repository": "mio-qwq/yang-mills",
+  "parent_commit": "f3cfb6a42b83ba30544a3e43d4061739b6e084ca",
+  "outer_integrity_files": 5,
+  "versions": {
+    "python": "3.12.14",
+    "sympy": "1.14.0"
+  },
+  "archives": [
+    {
+      "archive": "ym-continuation-20261019.zip",
+      "sha256": "79fecb4844ad0531f1182d5ba8134da43c420d2919e40a6707996cdf1430ed84",
+      "bytes": 23487,
+      "payload_files": 11,
+      "clean_extraction": "PASS",
+      "source_tree_unchanged": true,
+      "modes": [
+        {
+          "optimized": false,
+          "exit_code": 0,
+          "stdout_sha256": "32e41ebb05d17d740137dcf8c896244e2d2b0a274992c937bd0260122673610a",
+          "report": {
+            "status": "PASS",
+            "integrity_files_checked": 10,
+            "checks": {
+              "check_exact_identities.py": {
+                "normal_and_optimized_output_identical": true,
+                "stdout_sha256": "6a8e11ae725cddfbcb8db4c9a4ef1e7fc64bc6e351c335c595e68668496635b2"
+              },
+              "verify_regression_modes.py": {
+                "normal_and_optimized_output_identical": true,
+                "stdout_sha256": "486023346f287effb6b97b86303bc9c9a92b26d84af5e5611bf9a4e7afd09a4c"
+              }
+            },
+            "deliberate_tamper_rejected_in_normal_and_optimized_python": true,
+            "runtime_dependencies": "Python standard library only",
+            "scope": "Finite regression checks support the written all-degree one-mirror theorem; no infinite angular or interacting Yang-Mills result."
+          }
+        },
+        {
+          "optimized": true,
+          "exit_code": 0,
+          "stdout_sha256": "32e41ebb05d17d740137dcf8c896244e2d2b0a274992c937bd0260122673610a",
+          "report": {
+            "status": "PASS",
+            "integrity_files_checked": 10,
+            "checks": {
+              "check_exact_identities.py": {
+                "normal_and_optimized_output_identical": true,
+                "stdout_sha256": "6a8e11ae725cddfbcb8db4c9a4ef1e7fc64bc6e351c335c595e68668496635b2"
+              },
+              "verify_regression_modes.py": {
+                "normal_and_optimized_output_identical": true,
+                "stdout_sha256": "486023346f287effb6b97b86303bc9c9a92b26d84af5e5611bf9a4e7afd09a4c"
+              }
+            },
+            "deliberate_tamper_rejected_in_normal_and_optimized_python": true,
+            "runtime_dependencies": "Python standard library only",
+            "scope": "Finite regression checks support the written all-degree one-mirror theorem; no infinite angular or interacting Yang-Mills result."
+          }
+        }
+      ]
+    },
+    {
+      "archive": "ym-positive-infinite-angular-20261019.zip",
+      "sha256": "476a47359f8ff24bef53709d7e0cefa7dfa5e27001c9e4f5326f3d2e1ffe303b",
+      "bytes": 18309,
+      "payload_files": 12,
+      "clean_extraction": "PASS",
+      "source_tree_unchanged": true,
+      "modes": [
+        {
+          "optimized": false,
+          "exit_code": 0,
+          "stdout_sha256": "7005118a6df71790cd9487cd3f242c679ac9551b5bca85ad34b77acc544d0063",
+          "report": {
+            "status": "PASS",
+            "identical_positive_output": true,
+            "modes": [
+              {
+                "optimized": false,
+                "positive_exit": 0,
+                "negative_exit": 1,
+                "negative_control": "intended exact coefficient mismatch"
+              },
+              {
+                "optimized": true,
+                "positive_exit": 0,
+                "negative_exit": 1,
+                "negative_control": "intended exact coefficient mismatch"
+              }
+            ]
+          }
+        },
+        {
+          "optimized": true,
+          "exit_code": 0,
+          "stdout_sha256": "7005118a6df71790cd9487cd3f242c679ac9551b5bca85ad34b77acc544d0063",
+          "report": {
+            "status": "PASS",
+            "identical_positive_output": true,
+            "modes": [
+              {
+                "optimized": false,
+                "positive_exit": 0,
+                "negative_exit": 1,
+                "negative_control": "intended exact coefficient mismatch"
+              },
+              {
+                "optimized": true,
+                "positive_exit": 0,
+                "negative_exit": 1,
+                "negative_control": "intended exact coefficient mismatch"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "new_solver_runs": 0,
+  "source_trees_unchanged": true,
+  "negative_controls": "Replayed by each included harness where applicable.",
+  "claim_boundary": "Exact regression and finite certificates complement written proofs; no Millennium-problem resolution or formal verification claim."
+}

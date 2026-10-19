@@ -1,0 +1,27 @@
+{
+  "repository": "mio-qwq/yang-mills",
+  "parent_commit": "f3cfb6a42b83ba30544a3e43d4061739b6e084ca",
+  "date": "2026-10-19",
+  "archive_format": "Sorted ZIP/deflate-9, fixed timestamp 2026-10-19, Unix regular-file mode 0644.",
+  "archives": [
+    {
+      "archive": "ym-continuation-20261019.zip",
+      "sha256": "79fecb4844ad0531f1182d5ba8134da43c420d2919e40a6707996cdf1430ed84",
+      "bytes": 23487,
+      "entrypoint": "reproduce.py",
+      "source_archive_unchanged": true,
+      "payload_files": 11,
+      "uncompressed_bytes": 50890
+    },
+    {
+      "archive": "ym-positive-infinite-angular-20261019.zip",
+      "sha256": "476a47359f8ff24bef53709d7e0cefa7dfa5e27001c9e4f5326f3d2e1ffe303b",
+      "bytes": 18309,
+      "entrypoint": "verify_regression_modes.py",
+      "source_archive_unchanged": false,
+      "new_archive_from_frozen_inputs": true,
+      "payload_files": 12,
+      "uncompressed_bytes": 34907
+    }
+  ]
+}
