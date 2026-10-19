@@ -1,0 +1,43 @@
+{
+  "archive": "ym-finite-positive-mixed-acg-axis-rigidity-20261019.zip",
+  "archive_bytes": 259169,
+  "archive_role": "Exact accepted source ZIP, additive new research branch archival only",
+  "archive_sha256": "68e2f58415a0d80e0aef2b87eecd7b30eee0806899cf71b7e26342acf2f54397",
+  "branch": "research-mixed-axis-sixseed-20261019",
+  "checkpoint_verification": {
+    "accepted_audit_sha256": "fb91eaf4f007450c384908b90f7ef407e4cc69559401084f1ae9703f0697e099",
+    "accepted_primary_sha256": "ebca4d967e7a70cac865f8afd2d94dbf50d745757e7c8da898775bf60261c918",
+    "archive": "ym-finite-positive-mixed-acg-axis-rigidity-20261019.zip",
+    "archive_bytes": 259169,
+    "archive_members": 24,
+    "archive_sha256": "68e2f58415a0d80e0aef2b87eecd7b30eee0806899cf71b7e26342acf2f54397",
+    "clean_extraction_rebuild_identity": true,
+    "continuous_axis_boundary": "Uniform axis average is an isotropic counterexample to representation-level necessity; arbitrary nonconstant continuous classification unresolved",
+    "full_pinned_dependency_replay": "PASS",
+    "historical_candidate": "PRESERVED_AS_PROVENANCE_ONLY",
+    "network_required": false,
+    "new_checker_suites": 2,
+    "new_exact_checks": 91,
+    "normal_optimized_corruption_receipts_identical": true,
+    "normal_optimized_full_replay_identical": true,
+    "package_negative_controls": 24,
+    "parameter_boundary": "Arbitrary Borel measures on (-1,1); zero atoms isotropic, +/-1 atoms excluded",
+    "receipts": {
+      "clean-full-replay-normal.json": "6a04872800a6298249cbf777b6f46a29949aa3f0e7ef7745590e3bdad9a3edc5",
+      "clean-full-replay-optimized.json": "6a04872800a6298249cbf777b6f46a29949aa3f0e7ef7745590e3bdad9a3edc5",
+      "clean-integrity.json": "3c2c6fba90ce9a49f6c027758fd67f33710bfb060c519a2be085633ce7a970cd",
+      "package-corruption-normal.json": "98918b72ce70c620d06ceea233d576b32fec4736734162dd880f1d20d08cc7f1",
+      "package-corruption-optimized.json": "98918b72ce70c620d06ceea233d576b32fec4736734162dd880f1d20d08cc7f1"
+    },
+    "remote_changes": false,
+    "repeated_build_identity": true,
+    "runtime_prerequisites": "Python 3.12 and preinstalled SymPy 1.14.0; runtimes not vendored",
+    "status": "PASS"
+  },
+  "fresh_archive_integrity": "Archive CRC, unique safe non-symlink paths, nested archive integrity and fresh clean-extraction integrity-only replay passed. Frozen full-replay receipt hashes were freshly verified.",
+  "full_replay_note": "The nested checkpoint receipt records completed full clean replay and negative controls accepted before archival. This archival operation did not redundantly repeat those full suites.",
+  "path": "results/mixed-axis-sixseed-20261019",
+  "repository": "mio-qwq/yang-mills",
+  "single_parent_commit": "b4be526f92a6617ecfb266d4ee547009add63f85",
+  "status": "PASS"
+}
