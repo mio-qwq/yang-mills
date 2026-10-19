@@ -1,0 +1,326 @@
+{
+  "checkpoint": {
+    "all_archive_entries_utf8_source": true,
+    "archive": "ym-conditional-centered-rp-20261019.zip",
+    "archive_bytes": 86313,
+    "archive_file_count": 41,
+    "archive_sha256": "b9d8f5ee730870b22f858b5eba551b226ecad8bd8d67af255b6a6fb6d9a394a8",
+    "clean_normal_and_optimized_replays": {
+      "NORMAL": {
+        "bytes": 9632,
+        "file": "YM_CLEAN_NORMAL.json",
+        "sha256": "5896f3aac8ea7a8f8b073eb2806da15dcd32b1f36a2696818257b9797010c57d"
+      },
+      "OPTIMIZED": {
+        "bytes": 9632,
+        "file": "YM_CLEAN_OPTIMIZED.json",
+        "sha256": "5896f3aac8ea7a8f8b073eb2806da15dcd32b1f36a2696818257b9797010c57d"
+      }
+    },
+    "deterministic_rebuilds_byte_identical": true,
+    "expected_replay_sha256": "5896f3aac8ea7a8f8b073eb2806da15dcd32b1f36a2696818257b9797010c57d",
+    "external_mutations": "none; no upload, repository write, PR, merge, tag or release",
+    "manifest_sha256": "0f1c6e8d213267bd3e80853f7682f659ae383e8f5af5b197487b93a7c7f3d7c9",
+    "normal_optimized_byte_identical": true,
+    "package": "ym-conditional-centered-rp-20261019",
+    "root_certificate_equality": {
+      "byte_identical": true,
+      "packaged_certificate": "primary/CHECKS.json",
+      "root_replay": "research-root-review-20261019-1412/YM_OPTIMIZED.json",
+      "sha256": "cd7e454cbe2f1b27432388c34ab0b897003f14066d9aadea366209968bfae6d8",
+      "status": "PASS"
+    },
+    "safe_unique_archive_paths": true,
+    "scope": "See archive README.md and theorem reports; no general P-vs-NP or Yang\u2013Mills solution.",
+    "source_freeze_rechecked": true,
+    "source_only": true,
+    "status": "COMPLETE",
+    "verification_summary": {
+      "file_integrity": "PASS",
+      "inventory_negative_controls": [
+        {
+          "name": "alter source byte",
+          "reason": "inventory mismatch: primary/check_conditional_witness.py",
+          "rejected": true
+        },
+        {
+          "name": "remove source file",
+          "reason": "missing or symlinked inventory file: primary/check_conditional_witness.py",
+          "rejected": true
+        },
+        {
+          "name": "add unlisted source",
+          "reason": "unexpected or missing package files",
+          "rejected": true
+        }
+      ],
+      "kind": "ym",
+      "limits": "Exact algebra, finite enumeration, rejection and byte-integrity checks. Not a proof-assistant formalization, external peer review, or general P-vs-NP/Yang\u2013Mills solution.",
+      "negative_controls": [
+        {
+          "exit_code": 1,
+          "last_stderr_line": "RuntimeError: CHECK FAILED: plane links individually fixed without inversion",
+          "name": "conditional plane",
+          "optimized": false,
+          "rejected": true
+        },
+        {
+          "exit_code": 1,
+          "last_stderr_line": "RuntimeError: CHECK FAILED: plane links individually fixed without inversion",
+          "name": "conditional plane",
+          "optimized": true,
+          "rejected": true
+        },
+        {
+          "exit_code": 1,
+          "last_stderr_line": "RuntimeError: CHECK FAILED: negative conditional square",
+          "name": "conditional sign",
+          "optimized": false,
+          "rejected": true
+        },
+        {
+          "exit_code": 1,
+          "last_stderr_line": "RuntimeError: CHECK FAILED: negative conditional square",
+          "name": "conditional sign",
+          "optimized": true,
+          "rejected": true
+        },
+        {
+          "exit_code": 1,
+          "last_stderr_line": "RuntimeError: CHECK FAILED: nonzero mean mismatch need not imply strict original connected negativity",
+          "name": "conditional connected",
+          "optimized": false,
+          "rejected": true
+        },
+        {
+          "exit_code": 1,
+          "last_stderr_line": "RuntimeError: CHECK FAILED: nonzero mean mismatch need not imply strict original connected negativity",
+          "name": "conditional connected",
+          "optimized": true,
+          "rejected": true
+        },
+        {
+          "exit_code": 1,
+          "last_stderr_line": "RuntimeError: CHECK FAILED: normalized witness coefficient 2^-42",
+          "name": "conditional constant",
+          "optimized": false,
+          "rejected": true
+        },
+        {
+          "exit_code": 1,
+          "last_stderr_line": "RuntimeError: CHECK FAILED: normalized witness coefficient 2^-42",
+          "name": "conditional constant",
+          "optimized": true,
+          "rejected": true
+        },
+        {
+          "exit_code": 1,
+          "last_stderr_line": "RuntimeError: CHECK FAILED: degree-24 Cauchy tail preserves certified gap",
+          "name": "conditional taylor_order",
+          "optimized": false,
+          "rejected": true
+        },
+        {
+          "exit_code": 1,
+          "last_stderr_line": "RuntimeError: CHECK FAILED: degree-24 Cauchy tail preserves certified gap",
+          "name": "conditional taylor_order",
+          "optimized": true,
+          "rejected": true
+        },
+        {
+          "exit_code": 1,
+          "last_stderr_line": "RuntimeError: CHECK FAILED: each off-plane half plaquette has at most one plane link",
+          "name": "conditional plane_degree",
+          "optimized": false,
+          "rejected": true
+        },
+        {
+          "exit_code": 1,
+          "last_stderr_line": "RuntimeError: CHECK FAILED: each off-plane half plaquette has at most one plane link",
+          "name": "conditional plane_degree",
+          "optimized": true,
+          "rejected": true
+        },
+        {
+          "exit_code": 1,
+          "last_stderr_line": "RuntimeError: CHECK FAILED: p cube/domino counts and strict interior status",
+          "name": "prior incidence",
+          "optimized": false,
+          "rejected": true
+        },
+        {
+          "exit_code": 1,
+          "last_stderr_line": "RuntimeError: CHECK FAILED: p cube/domino counts and strict interior status",
+          "name": "prior incidence",
+          "optimized": true,
+          "rejected": true
+        },
+        {
+          "exit_code": 1,
+          "last_stderr_line": "RuntimeError: CHECK FAILED: degree-nine coefficient must be exactly 2^-18",
+          "name": "prior coefficient",
+          "optimized": false,
+          "rejected": true
+        },
+        {
+          "exit_code": 1,
+          "last_stderr_line": "RuntimeError: CHECK FAILED: degree-nine coefficient must be exactly 2^-18",
+          "name": "prior coefficient",
+          "optimized": true,
+          "rejected": true
+        },
+        {
+          "exit_code": 1,
+          "last_stderr_line": "RuntimeError: geometry check 908 failed: reflected link stays in slab: ((0, 0, 0), 0)",
+          "name": "independent geometry shift_reflection_plane",
+          "optimized": false,
+          "rejected": true
+        },
+        {
+          "exit_code": 1,
+          "last_stderr_line": "RuntimeError: geometry check 908 failed: reflected link stays in slab: ((0, 0, 0), 0)",
+          "name": "independent geometry shift_reflection_plane",
+          "optimized": true,
+          "rejected": true
+        },
+        {
+          "exit_code": 1,
+          "last_stderr_line": "RuntimeError: geometry check 1489 failed: plane link fixed without inversion: ((2, 0, 0), 1)",
+          "name": "independent geometry invert_plane_orientation",
+          "optimized": false,
+          "rejected": true
+        },
+        {
+          "exit_code": 1,
+          "last_stderr_line": "RuntimeError: geometry check 1489 failed: plane link fixed without inversion: ((2, 0, 0), 1)",
+          "name": "independent geometry invert_plane_orientation",
+          "optimized": true,
+          "rejected": true
+        },
+        {
+          "exit_code": 1,
+          "last_stderr_line": "RuntimeError: geometry check 1 failed: full-box link count",
+          "name": "independent geometry remove_plane_link",
+          "optimized": false,
+          "rejected": true
+        },
+        {
+          "exit_code": 1,
+          "last_stderr_line": "RuntimeError: geometry check 1 failed: full-box link count",
+          "name": "independent geometry remove_plane_link",
+          "optimized": true,
+          "rejected": true
+        },
+        {
+          "exit_code": 1,
+          "last_stderr_line": "RuntimeError: geometry check 3343 failed: plus action plaquette has at most one plane link: ((2, 0, 0), 1, 2)",
+          "name": "independent geometry side_contains_plane_face",
+          "optimized": false,
+          "rejected": true
+        },
+        {
+          "exit_code": 1,
+          "last_stderr_line": "RuntimeError: geometry check 3343 failed: plus action plaquette has at most one plane link: ((2, 0, 0), 1, 2)",
+          "name": "independent geometry side_contains_plane_face",
+          "optimized": true,
+          "rejected": true
+        },
+        {
+          "exit_code": 1,
+          "last_stderr_line": "RuntimeError: Taylor check 7 failed: Cauchy tail smaller than kappa/10 at endpoint",
+          "name": "independent Taylor degree23_tail",
+          "optimized": false,
+          "rejected": true
+        },
+        {
+          "exit_code": 1,
+          "last_stderr_line": "RuntimeError: Taylor check 7 failed: Cauchy tail smaller than kappa/10 at endpoint",
+          "name": "independent Taylor degree23_tail",
+          "optimized": true,
+          "rejected": true
+        },
+        {
+          "exit_code": 1,
+          "last_stderr_line": "RuntimeError: Taylor check 1 failed: positive action exponent bounded by 1/4",
+          "name": "independent Taylor wrong_half_count",
+          "optimized": false,
+          "rejected": true
+        },
+        {
+          "exit_code": 1,
+          "last_stderr_line": "RuntimeError: Taylor check 1 failed: positive action exponent bounded by 1/4",
+          "name": "independent Taylor wrong_half_count",
+          "optimized": true,
+          "rejected": true
+        },
+        {
+          "exit_code": 1,
+          "last_stderr_line": "RuntimeError: Taylor check 1 failed: positive action exponent bounded by 1/4",
+          "name": "independent Taylor unsafe_radius",
+          "optimized": false,
+          "rejected": true
+        },
+        {
+          "exit_code": 1,
+          "last_stderr_line": "RuntimeError: Taylor check 1 failed: positive action exponent bounded by 1/4",
+          "name": "independent Taylor unsafe_radius",
+          "optimized": true,
+          "rejected": true
+        }
+      ],
+      "positive_replays": [
+        {
+          "byte_identical": true,
+          "certificate": "primary/CHECKS.json",
+          "certificate_sha256": "cd7e454cbe2f1b27432388c34ab0b897003f14066d9aadea366209968bfae6d8",
+          "name": "conditional witness rational and geometric checks",
+          "normal": "PASS",
+          "optimized": "PASS"
+        },
+        {
+          "byte_identical": true,
+          "certificate": "audit/GEOMETRY_CHECKS.json",
+          "certificate_sha256": "25adb769f0a1ce9fe320efd7f7fa2579cb3362672d9b4a637da19c7e3c15544a",
+          "name": "independent finite-complex geometry",
+          "normal": "PASS",
+          "optimized": "PASS"
+        },
+        {
+          "byte_identical": true,
+          "certificate": "audit/TAYLOR_CHECKS.json",
+          "certificate_sha256": "c7a4dbca11256c36eab41f1bec9f3003ae138930183f402587f672cb7e310e73",
+          "name": "independent degree24 Taylor bound",
+          "normal": "PASS",
+          "optimized": "PASS"
+        },
+        {
+          "byte_identical": true,
+          "certificate": "dependency/PRIOR_CHECKS.json",
+          "certificate_sha256": "dbf269008a9ace22e64e0186a674c53299c2746a4f8120f02ab3b73ab25df6e7",
+          "name": "prior exact SU2 coefficient and remainder",
+          "normal": "PASS",
+          "optimized": "PASS"
+        }
+      ],
+      "scientific_summary": {
+        "Taylor_order": 24,
+        "author_explicit_checks": 6938,
+        "independent_Taylor_checks": 39,
+        "independent_geometry_checks": 3766,
+        "new_audit_scope": "Author RESULT.md Sections 1\u20135 including the degree24 Taylor refinement; later routine comparison corollaries are not independently audited by that report.",
+        "plane_entry_degree": 24,
+        "prior_explicit_checks": 858,
+        "recovered_seam_proof_git_blob_sha1": "1a5d84389251c62c7f02cad04fec0d047f37e9db"
+      },
+      "status": "PASS"
+    }
+  },
+  "commands_after_extraction": [
+    "python -I -B verify_bundle.py",
+    "python -I -B -O verify_bundle.py",
+    "python -I -B rebuild_archive.py ../rebuilt.zip"
+  ],
+  "external_actions_performed_by_packaging": [],
+  "role": "frozen local source-only research archive payload",
+  "status": "PASS"
+}
