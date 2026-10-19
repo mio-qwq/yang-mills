@@ -1,0 +1,53 @@
+{
+  "algebra": {
+    "degree4_coordinate": "2",
+    "degree4_diagonal_difference": "-2",
+    "degree6_coordinate": "-6",
+    "degree6_diagonal_transverse": "3/4"
+  },
+  "contact_family": {
+    "1": {
+      "coefficient_norm": "6",
+      "degree": 6,
+      "quotient_remainder": 1
+    },
+    "2": {
+      "coefficient_norm": "9",
+      "degree": 10,
+      "quotient_remainder": 1
+    },
+    "3": {
+      "coefficient_norm": "14",
+      "degree": 14,
+      "quotient_remainder": 1
+    },
+    "4": {
+      "coefficient_norm": "21",
+      "degree": 18,
+      "quotient_remainder": 1
+    }
+  },
+  "growth_family": {
+    "1": {
+      "coefficient_norm": "1",
+      "degree": 8,
+      "nonzero_null_cone_value": "1/4"
+    },
+    "2": {
+      "coefficient_norm": "1",
+      "degree": 16,
+      "nonzero_null_cone_value": "1/16"
+    },
+    "3": {
+      "coefficient_norm": "1",
+      "degree": 24,
+      "nonzero_null_cone_value": "1/64"
+    },
+    "4": {
+      "coefficient_norm": "1",
+      "degree": 32,
+      "nonzero_null_cone_value": "1/256"
+    }
+  },
+  "status": "all exact algebra checks passed; analytic arguments require mathematical review"
+}

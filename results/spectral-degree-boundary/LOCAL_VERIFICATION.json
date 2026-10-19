@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "python": "3.12.14",
+  "sympy": "1.14.0",
+  "scope": "Local exact symbolic certificates and finite regression checks. These are not formal proof verification or hosted CI; the analytic theorem is supported by its proof and independent mathematical audit.",
+  "frozen_source_bytes_unchanged": true,
+  "checks": [
+    {
+      "repository": "ym",
+      "check": "spectral-degree-boundary-20261019/check_exact.py",
+      "mode": "normal",
+      "exit_code": 0,
+      "stdout_sha256": "5b39f2240d4fe85059965bd2c64efa4d738672f05982ee47b3cd40ed514d3dbf",
+      "stderr": ""
+    },
+    {
+      "repository": "ym",
+      "check": "spectral-degree-boundary-20261019/check_exact.py",
+      "mode": "optimized",
+      "exit_code": 0,
+      "stdout_sha256": "5b39f2240d4fe85059965bd2c64efa4d738672f05982ee47b3cd40ed514d3dbf",
+      "stderr": ""
+    }
+  ]
+}
