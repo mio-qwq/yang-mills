@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-19",
+  "scope": "Local conditional mathematical research only; no source repository modifications or external publications.",
+  "files": [
+    {
+      "path": "/workspace/shared/gaussian-numerator-minimality-audit-20261019/RESULT.md",
+      "sha256": "b61ffd1d6f4e471f338b96bb8cf0c9c0d1543a366769fb4277601e67ac6536f1"
+    },
+    {
+      "path": "/workspace/shared/spectral-rp-residues-20261019/RESULT.md",
+      "sha256": "37ea45c2521cb0c523972e0793a2b7f1d2ea51eef9f3f9687fe1561c24fa6e84"
+    },
+    {
+      "path": "/workspace/shared/spectral-rotation-root-20261019/DERIVATION.md",
+      "sha256": "759476b026bb6489c81fb985438b7c4a9181b6ff06f8fbdacbf89dcc015cf6e2"
+    },
+    {
+      "path": "/workspace/shared/spectral-uv-rotation-20261019/RESULT.md",
+      "sha256": "0231b1590e20f03ea88c42b73cba056c64df1de52bad4f0f0955b88369d7cb62"
+    }
+  ]
+}
