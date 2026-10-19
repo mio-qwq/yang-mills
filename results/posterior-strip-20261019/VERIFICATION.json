@@ -1,0 +1,767 @@
+{
+  "additive_paths": [
+    "results/posterior-strip-20261019/README.md",
+    "results/posterior-strip-20261019/VERIFICATION.json",
+    "results/posterior-strip-20261019/SHA256SUMS",
+    "results/posterior-strip-20261019/ym-posterior-strip-bound.zip",
+    "results/posterior-strip-20261019/gaussian-half-gluing-criterion.zip"
+  ],
+  "branch": "research-posterior-strip-20261019",
+  "environment": {
+    "python": "3.12.14",
+    "zlib": "1.3.2"
+  },
+  "independent_clean_replay": {
+    "archives": [
+      {
+        "all_members_utf8_text": true,
+        "bytes": 80527,
+        "filename": "ym-posterior-strip-bound.zip",
+        "frozen_sources_unchanged": true,
+        "git_blob_sha1": "4f63dc3a8367097198ab27eda1d6e59a601d5cfc",
+        "inventory_entries": 31,
+        "inventory_sha256": "47f55f6c9206e693e9616611bf66ca738853818a09e55de631609e028c9df267",
+        "members": 32,
+        "modes": [
+          {
+            "deterministic_rebuild_byte_identical": true,
+            "integrity_mutations_rejected": 3,
+            "mode": "normal",
+            "receipt_mutations_rejected": 3,
+            "replay_sha256": "bffd4bafbfd158ad4b022357b0d7d39db2b401cf5b72f18d17e6d8fb8aff9f74",
+            "source_mathematical_mutations_rejected": 7,
+            "status": "PASS"
+          },
+          {
+            "deterministic_rebuild_byte_identical": true,
+            "integrity_mutations_rejected": 3,
+            "mode": "optimized",
+            "receipt_mutations_rejected": 3,
+            "replay_sha256": "bffd4bafbfd158ad4b022357b0d7d39db2b401cf5b72f18d17e6d8fb8aff9f74",
+            "source_mathematical_mutations_rejected": 7,
+            "status": "PASS"
+          }
+        ],
+        "sha256": "a1c2e7967360b04dc83d2e0c1f341112146b8d4c1c110e7afd14d50cc5c01890"
+      },
+      {
+        "all_members_utf8_text": true,
+        "bytes": 241200,
+        "filename": "gaussian-half-gluing-criterion.zip",
+        "frozen_sources_unchanged": true,
+        "git_blob_sha1": "0f767a0c6c934c54ca73886a7d7a183e7e11e969",
+        "inventory_entries": 36,
+        "inventory_sha256": "58c6670990df7be91d0823112b180d592deac31308ccff870ce5259028c46ed2",
+        "members": 37,
+        "modes": [
+          {
+            "audit_mutations_sha256": "579e6e41e207e19e8ce01a512ce29d0b651a6348a7fc382d10e650b8a091e343",
+            "deterministic_rebuild_byte_identical": true,
+            "independent_audit_mutations_rejected": 7,
+            "mode": "normal",
+            "replay_sha256": "1a447b119b08c46b9c437446586a2b79df4218549d043f3dc26eef4989a0eb8b",
+            "source_bond_mathematical_mutations_rejected": 4,
+            "status": "PASS"
+          },
+          {
+            "audit_mutations_sha256": "579e6e41e207e19e8ce01a512ce29d0b651a6348a7fc382d10e650b8a091e343",
+            "deterministic_rebuild_byte_identical": true,
+            "independent_audit_mutations_rejected": 7,
+            "mode": "optimized",
+            "replay_sha256": "1a447b119b08c46b9c437446586a2b79df4218549d043f3dc26eef4989a0eb8b",
+            "source_bond_mathematical_mutations_rejected": 4,
+            "status": "PASS"
+          }
+        ],
+        "sha256": "2e86a733374429ab6aa3cd8df86ef9209a8c28589b3e6a2d5f701c4f1d2c4ad5"
+      }
+    ],
+    "status": "PASS"
+  },
+  "input_completion_manifest": {
+    "bytes": 1450,
+    "content": {
+      "all_imported_originals_unchanged": true,
+      "archive_bytes": 80527,
+      "archive_filename": "ym-posterior-strip-bound.zip",
+      "archive_members": 32,
+      "archive_sha256": "a1c2e7967360b04dc83d2e0c1f341112146b8d4c1c110e7afd14d50cc5c01890",
+      "assertion_preserving_runner_verified": true,
+      "bundle": "ym-posterior-strip-bound",
+      "bytecode_caches_or_redundant_binary": false,
+      "checkpoint_utc": "2026-10-19T16:07:00Z",
+      "clean_extracted_normal_replay": "PASS",
+      "clean_extracted_optimized_replay": "PASS",
+      "clean_extraction_normal_and_optimized_rebuild_byte_identical": true,
+      "deterministic_build_twice_identical": true,
+      "does_not_replace_previous_archive_or_approval": true,
+      "external_actions_performed": [],
+      "fresh_replay_receipt_mutations_rejected_each_mode": 3,
+      "integrity_mutations_rejected_each_mode": 3,
+      "normal_and_optimized_receipts_byte_identical": true,
+      "prior_1501_archive_sha256": "db6e7f3e4e96ddcc9b98f0a5639723070e937067da1f0f6545ad83e6ee324b3b",
+      "prior_1501_archive_unchanged": true,
+      "scope": "Fixed finite width, every finite beta>=0, identical reflected common-prefix geometry; no width-uniform, mixed-direction simultaneous-RP, isotropic 4D, continuum, or mass-gap claim.",
+      "source_inventory_entries": 31,
+      "source_inventory_sha256": "47f55f6c9206e693e9616611bf66ca738853818a09e55de631609e028c9df267",
+      "source_level_math_mutations_rejected_each_mode": 7,
+      "status": "PASS",
+      "text_source_only": true
+    },
+    "filename": "YM_COMPLETION_MANIFEST.json",
+    "sha256": "985066f59e863a2d8eb461dcf8eac61a35563793f78a68c1767d26bb2ee2505f"
+  },
+  "no_pr_merge_tag_release_force_or_existing_path_changes": true,
+  "parent_commit": "35225c8d43fe3bc8fec3e478c2a92bbb89be37b8",
+  "parent_tree": "60f31b0ce9687fdf9443dfd52331d2620b9ed99a",
+  "preserved_source_preparation_claims_are_historical": true,
+  "prewrite_repository": {
+    "archive_directory_absent": true,
+    "checks": {
+      "check_runs": {
+        "check_runs": [],
+        "total_count": 0
+      },
+      "combined_status": {
+        "state": "pending",
+        "statuses": [],
+        "total_count": 0
+      },
+      "workflow_runs": {
+        "total_count": 0,
+        "workflow_runs": []
+      }
+    },
+    "prs": [
+      {
+        "base": "75c080e3d9ca7669e2e6eec366c2ff5cd67a776e",
+        "head": "7b5eb0a96a5d3d8043b631c233def7498b0020d1",
+        "merged_at": "2026-10-19T02:05:38Z",
+        "number": 12,
+        "state": "closed",
+        "updated_at": "2026-10-19T02:05:38Z"
+      },
+      {
+        "base": "35de65d9b2fe9d86f2aafea9683f7a18e415346e",
+        "head": "99378465880cd67b178a9b808d0b0dd466c8823e",
+        "merged_at": "2026-10-18T11:33:43Z",
+        "number": 11,
+        "state": "closed",
+        "updated_at": "2026-10-18T11:33:43Z"
+      },
+      {
+        "base": "f5343078e6ff342bd6c23feaee167a7311c6cc9b",
+        "head": "d9fa28a40e2503c15c36900d5190230e5c69aedd",
+        "merged_at": "2026-10-17T17:49:06Z",
+        "number": 10,
+        "state": "closed",
+        "updated_at": "2026-10-17T17:49:06Z"
+      },
+      {
+        "base": "015cfadacf3447d093f29d81acca8898b7bc3099",
+        "head": "46e771a2a0829460d8f794100bed4c69543d0ae0",
+        "merged_at": "2026-10-17T14:51:15Z",
+        "number": 9,
+        "state": "closed",
+        "updated_at": "2026-10-17T14:51:15Z"
+      },
+      {
+        "base": "c699b59ec063646da42bc66120831c3cf9f6baec",
+        "head": "fd08faf9c5b5242255eb5e2b07f98fac2de39bb9",
+        "merged_at": "2026-10-17T10:39:32Z",
+        "number": 8,
+        "state": "closed",
+        "updated_at": "2026-10-17T10:39:32Z"
+      },
+      {
+        "base": "a05f7f56d8acd3b21c08c7e0ab5160d3eeafe4aa",
+        "head": "4e0db5f7fa05fb408d18a210b51b1b24e6241fc6",
+        "merged_at": "2026-10-17T08:59:51Z",
+        "number": 7,
+        "state": "closed",
+        "updated_at": "2026-10-17T08:59:51Z"
+      },
+      {
+        "base": "678fa0a8cc1cd3471605528a7e698090e23bb48f",
+        "head": "4027f9754f9a41df67e0320c48a211d57e8e8fe6",
+        "merged_at": "2026-10-17T06:35:40Z",
+        "number": 6,
+        "state": "closed",
+        "updated_at": "2026-10-17T06:35:40Z"
+      },
+      {
+        "base": "0863eb08e8f0047ab9539df46207ea48131e5124",
+        "head": "a5d825cd20682a3f3807ccd937c62612d4497bf4",
+        "merged_at": "2026-10-17T06:29:04Z",
+        "number": 5,
+        "state": "closed",
+        "updated_at": "2026-10-17T06:29:04Z"
+      },
+      {
+        "base": "faa923e25c7a0cdab670a99fe70adcba7bb36ca1",
+        "head": "e23c06b18efc782b94fbd73ff9f2fd0725d7e89c",
+        "merged_at": "2026-10-17T06:16:18Z",
+        "number": 4,
+        "state": "closed",
+        "updated_at": "2026-10-17T06:16:19Z"
+      },
+      {
+        "base": "8a585de4f15650881d14099d12931e515edc2fee",
+        "head": "a8893fb057026e2749506d96333a937186253131",
+        "merged_at": "2026-10-17T05:22:58Z",
+        "number": 3,
+        "state": "closed",
+        "updated_at": "2026-10-17T05:22:58Z"
+      },
+      {
+        "base": "bb066be7d525236849c8ed9cd10153657d2eb822",
+        "head": "6f549599be7f4a5e50454c95f0875c6db2d53fe5",
+        "merged_at": "2026-10-17T04:59:05Z",
+        "number": 2,
+        "state": "closed",
+        "updated_at": "2026-10-17T04:59:05Z"
+      },
+      {
+        "base": "a9cfed0aef5b76dfb9fb12466fe3ba124ad1a8b5",
+        "head": "f770733851855a8c64be66f6a8696d3f5e030ea0",
+        "merged_at": "2026-10-17T03:28:35Z",
+        "number": 1,
+        "state": "closed",
+        "updated_at": "2026-10-17T03:28:35Z"
+      }
+    ],
+    "refs": [
+      {
+        "ref": "refs/heads/docs/response-route-boundaries-20261017",
+        "sha": "a5d825cd20682a3f3807ccd937c62612d4497bf4",
+        "type": "commit"
+      },
+      {
+        "ref": "refs/heads/main",
+        "sha": "512734760722dc9ad74916abc695409f7fa86e26",
+        "type": "commit"
+      },
+      {
+        "ref": "refs/heads/research-angular-cycle-rigidity-20261019",
+        "sha": "4ff17ed90aa40a453129d1d0b9cea0bf483c949a",
+        "type": "commit"
+      },
+      {
+        "ref": "refs/heads/research-endpoint-mixtures-20261019",
+        "sha": "53e60d12ca747db79df037c4698f856edcc83e71",
+        "type": "commit"
+      },
+      {
+        "ref": "refs/heads/research-fiber-angular-counterexamples-20261019",
+        "sha": "5a633bd50baef2f0feb39607c3bea70ca4cea42e",
+        "type": "commit"
+      },
+      {
+        "ref": "refs/heads/research-finite-exclusion-rp-repair-20261019",
+        "sha": "5fbc8bfe6cb1ec101862ff84462aea2e62a3792b",
+        "type": "commit"
+      },
+      {
+        "ref": "refs/heads/research-gaussian-numerator-threshold-20261019",
+        "sha": "f3cfb6a42b83ba30544a3e43d4061739b6e084ca",
+        "type": "commit"
+      },
+      {
+        "ref": "refs/heads/research-mixed-axis-sixseed-20261019",
+        "sha": "d84996763de5b7689c847f331b842c5c18ad58c8",
+        "type": "commit"
+      },
+      {
+        "ref": "refs/heads/research-mixed-cycle-free-cube-20261019",
+        "sha": "7adc08dec7b2fdf3b3d5dbfda9edbcdf8cdfb816",
+        "type": "commit"
+      },
+      {
+        "ref": "refs/heads/research-paired-six-finite-axis-20261019",
+        "sha": "b4be526f92a6617ecfb266d4ee547009add63f85",
+        "type": "commit"
+      },
+      {
+        "ref": "refs/heads/research-rational-centering-20261019",
+        "sha": "35225c8d43fe3bc8fec3e478c2a92bbb89be37b8",
+        "type": "commit"
+      },
+      {
+        "ref": "refs/heads/research-real-cost-diagonal-20261019",
+        "sha": "7fc7e0aefc9e68d4cd27ded0f2e2eac3fbfce5b3",
+        "type": "commit"
+      },
+      {
+        "ref": "refs/heads/research-rp-rotation-audits-20261019",
+        "sha": "7b5eb0a96a5d3d8043b631c233def7498b0020d1",
+        "type": "commit"
+      },
+      {
+        "ref": "refs/heads/research/allbeta-limit-boundaries",
+        "sha": "d9fa28a40e2503c15c36900d5190230e5c69aedd",
+        "type": "commit"
+      },
+      {
+        "ref": "refs/heads/research/averaged-worst-replacement-20261017",
+        "sha": "4027f9754f9a41df67e0320c48a211d57e8e8fe6",
+        "type": "commit"
+      },
+      {
+        "ref": "refs/heads/research/diagonal-torus-obstruction",
+        "sha": "fd08faf9c5b5242255eb5e2b07f98fac2de39bb9",
+        "type": "commit"
+      },
+      {
+        "ref": "refs/heads/research/remote-boundary-obstruction",
+        "sha": "46e771a2a0829460d8f794100bed4c69543d0ae0",
+        "type": "commit"
+      },
+      {
+        "ref": "refs/heads/research/seam-forest-cancellation-20261017",
+        "sha": "4e0db5f7fa05fb408d18a210b51b1b24e6241fc6",
+        "type": "commit"
+      },
+      {
+        "ref": "refs/heads/research/single-link-obstruction-20261017",
+        "sha": "a8893fb057026e2749506d96333a937186253131",
+        "type": "commit"
+      },
+      {
+        "ref": "refs/heads/research/staple-probability-20261017",
+        "sha": "e23c06b18efc782b94fbd73ff9f2fd0725d7e89c",
+        "type": "commit"
+      },
+      {
+        "ref": "refs/heads/research/strong-coupling-seam-20261017",
+        "sha": "6f549599be7f4a5e50454c95f0875c6db2d53fe5",
+        "type": "commit"
+      },
+      {
+        "ref": "refs/heads/research/v0.2-reviewed-local-results",
+        "sha": "f770733851855a8c64be66f6a8696d3f5e030ea0",
+        "type": "commit"
+      },
+      {
+        "ref": "refs/heads/research/verified-20261018-checkpoint",
+        "sha": "99378465880cd67b178a9b808d0b0dd466c8823e",
+        "type": "commit"
+      },
+      {
+        "ref": "refs/pull/1/head",
+        "sha": "f770733851855a8c64be66f6a8696d3f5e030ea0",
+        "type": "commit"
+      },
+      {
+        "ref": "refs/pull/10/head",
+        "sha": "d9fa28a40e2503c15c36900d5190230e5c69aedd",
+        "type": "commit"
+      },
+      {
+        "ref": "refs/pull/11/head",
+        "sha": "99378465880cd67b178a9b808d0b0dd466c8823e",
+        "type": "commit"
+      },
+      {
+        "ref": "refs/pull/12/head",
+        "sha": "7b5eb0a96a5d3d8043b631c233def7498b0020d1",
+        "type": "commit"
+      },
+      {
+        "ref": "refs/pull/2/head",
+        "sha": "6f549599be7f4a5e50454c95f0875c6db2d53fe5",
+        "type": "commit"
+      },
+      {
+        "ref": "refs/pull/3/head",
+        "sha": "a8893fb057026e2749506d96333a937186253131",
+        "type": "commit"
+      },
+      {
+        "ref": "refs/pull/4/head",
+        "sha": "e23c06b18efc782b94fbd73ff9f2fd0725d7e89c",
+        "type": "commit"
+      },
+      {
+        "ref": "refs/pull/5/head",
+        "sha": "a5d825cd20682a3f3807ccd937c62612d4497bf4",
+        "type": "commit"
+      },
+      {
+        "ref": "refs/pull/6/head",
+        "sha": "4027f9754f9a41df67e0320c48a211d57e8e8fe6",
+        "type": "commit"
+      },
+      {
+        "ref": "refs/pull/7/head",
+        "sha": "4e0db5f7fa05fb408d18a210b51b1b24e6241fc6",
+        "type": "commit"
+      },
+      {
+        "ref": "refs/pull/8/head",
+        "sha": "fd08faf9c5b5242255eb5e2b07f98fac2de39bb9",
+        "type": "commit"
+      },
+      {
+        "ref": "refs/pull/9/head",
+        "sha": "46e771a2a0829460d8f794100bed4c69543d0ae0",
+        "type": "commit"
+      },
+      {
+        "ref": "refs/tags/v0.1.0",
+        "sha": "a9cfed0aef5b76dfb9fb12466fe3ba124ad1a8b5",
+        "type": "commit"
+      },
+      {
+        "ref": "refs/tags/v0.10.0",
+        "sha": "75c080e3d9ca7669e2e6eec366c2ff5cd67a776e",
+        "type": "commit"
+      },
+      {
+        "ref": "refs/tags/v0.11.0",
+        "sha": "512734760722dc9ad74916abc695409f7fa86e26",
+        "type": "commit"
+      },
+      {
+        "ref": "refs/tags/v0.2.0",
+        "sha": "bb066be7d525236849c8ed9cd10153657d2eb822",
+        "type": "commit"
+      },
+      {
+        "ref": "refs/tags/v0.3.0",
+        "sha": "8a585de4f15650881d14099d12931e515edc2fee",
+        "type": "commit"
+      },
+      {
+        "ref": "refs/tags/v0.4.0",
+        "sha": "faa923e25c7a0cdab670a99fe70adcba7bb36ca1",
+        "type": "commit"
+      },
+      {
+        "ref": "refs/tags/v0.5.0",
+        "sha": "0863eb08e8f0047ab9539df46207ea48131e5124",
+        "type": "commit"
+      },
+      {
+        "ref": "refs/tags/v0.5.1",
+        "sha": "678fa0a8cc1cd3471605528a7e698090e23bb48f",
+        "type": "commit"
+      },
+      {
+        "ref": "refs/tags/v0.6.0",
+        "sha": "a05f7f56d8acd3b21c08c7e0ab5160d3eeafe4aa",
+        "type": "commit"
+      },
+      {
+        "ref": "refs/tags/v0.6.1",
+        "sha": "c699b59ec063646da42bc66120831c3cf9f6baec",
+        "type": "commit"
+      },
+      {
+        "ref": "refs/tags/v0.7.0",
+        "sha": "015cfadacf3447d093f29d81acca8898b7bc3099",
+        "type": "commit"
+      },
+      {
+        "ref": "refs/tags/v0.8.0",
+        "sha": "f5343078e6ff342bd6c23feaee167a7311c6cc9b",
+        "type": "commit"
+      },
+      {
+        "ref": "refs/tags/v0.9.0",
+        "sha": "35de65d9b2fe9d86f2aafea9683f7a18e415346e",
+        "type": "commit"
+      }
+    ],
+    "releases": [
+      {
+        "assets": [
+          {
+            "digest": "sha256:fc2f8ef937de51043481115fc2dd8b450a6afaffbb57d5deeb82b6ea60627a63",
+            "id": 654989975,
+            "name": "yang-mills-rp-rotation-audits-2026-10-19.zip",
+            "size": 135330,
+            "updated_at": "2026-10-19T02:05:58Z"
+          }
+        ],
+        "draft": false,
+        "id": 416835944,
+        "prerelease": true,
+        "tag": "v0.11.0",
+        "target": "512734760722dc9ad74916abc695409f7fa86e26",
+        "updated_at": "2026-10-19T02:08:30Z"
+      },
+      {
+        "assets": [
+          {
+            "digest": "sha256:47121035541f99ed7da0c7fcd3bafd1fd6dc8ab9d41055692fa3adc595e55e3f",
+            "id": 653500210,
+            "name": "yang-mills-fixed-cutoff-research-2026-10-18-compact.zip",
+            "size": 73290,
+            "updated_at": "2026-10-18T12:59:40Z"
+          }
+        ],
+        "draft": false,
+        "id": 416452520,
+        "prerelease": true,
+        "tag": "v0.10.0",
+        "target": "75c080e3d9ca7669e2e6eec366c2ff5cd67a776e",
+        "updated_at": "2026-10-18T13:00:05Z"
+      },
+      {
+        "assets": [
+          {
+            "digest": "sha256:0faae04eff0f999a763f3e95c1401c3dadda00c2c7a87f0f74cb13bc62b7b79c",
+            "id": 651159729,
+            "name": "yang-mills-v0.9.0.zip",
+            "size": 273599,
+            "updated_at": "2026-10-17T17:52:37Z"
+          }
+        ],
+        "draft": false,
+        "id": 415970859,
+        "prerelease": true,
+        "tag": "v0.9.0",
+        "target": "35de65d9b2fe9d86f2aafea9683f7a18e415346e",
+        "updated_at": "2026-10-17T17:52:53Z"
+      },
+      {
+        "assets": [
+          {
+            "digest": "sha256:db085f2489ba44a15971b09a18146d222fd42b54c6ae7a1f916405e85fd8e04e",
+            "id": 650746328,
+            "name": "yang-mills-v0.8.0.zip",
+            "size": 240024,
+            "updated_at": "2026-10-17T14:57:56Z"
+          }
+        ],
+        "draft": false,
+        "id": 415863475,
+        "prerelease": true,
+        "tag": "v0.8.0",
+        "target": "f5343078e6ff342bd6c23feaee167a7311c6cc9b",
+        "updated_at": "2026-10-17T14:58:09Z"
+      },
+      {
+        "assets": [
+          {
+            "digest": "sha256:8099b20c8f519894f58c08d24cea5ee2f2930500202c152e989063987f8d0856",
+            "id": 650209373,
+            "name": "yang-mills-v0.7.0.zip",
+            "size": 195730,
+            "updated_at": "2026-10-17T10:42:13Z"
+          }
+        ],
+        "draft": false,
+        "id": 415746153,
+        "prerelease": true,
+        "tag": "v0.7.0",
+        "target": "015cfadacf3447d093f29d81acca8898b7bc3099",
+        "updated_at": "2026-10-17T10:42:36Z"
+      },
+      {
+        "assets": [
+          {
+            "digest": "sha256:1bd479705e5aea84ea818b91c3278c17060c881ee428abad834f7b93be9c7695",
+            "id": 650033047,
+            "name": "yang-mills-v0.6.1.zip",
+            "size": 180578,
+            "updated_at": "2026-10-17T09:04:11Z"
+          }
+        ],
+        "draft": false,
+        "id": 415691428,
+        "prerelease": true,
+        "tag": "v0.6.1",
+        "target": "c699b59ec063646da42bc66120831c3cf9f6baec",
+        "updated_at": "2026-10-17T09:04:29Z"
+      },
+      {
+        "assets": [
+          {
+            "digest": "sha256:57f458cd3f1d6f45a81be3a4131813cb4a429d0c39b9f4565c8133bf34ad5bff",
+            "id": 649776393,
+            "name": "yang-mills-v0.6.0.zip",
+            "size": 168995,
+            "updated_at": "2026-10-17T06:38:15Z"
+          }
+        ],
+        "draft": false,
+        "id": 415630498,
+        "prerelease": true,
+        "tag": "v0.6.0",
+        "target": "a05f7f56d8acd3b21c08c7e0ab5160d3eeafe4aa",
+        "updated_at": "2026-10-17T06:38:28Z"
+      },
+      {
+        "assets": [
+          {
+            "digest": "sha256:32e811d0bb5f32274e5848dd9026bfe822fbdea1c890641368ad2cfb675ba300",
+            "id": 649766038,
+            "name": "yang-mills-v0.5.1.zip",
+            "size": 155483,
+            "updated_at": "2026-10-17T06:32:15Z"
+          }
+        ],
+        "draft": false,
+        "id": 415628501,
+        "prerelease": true,
+        "tag": "v0.5.1",
+        "target": "678fa0a8cc1cd3471605528a7e698090e23bb48f",
+        "updated_at": "2026-10-17T06:32:24Z"
+      },
+      {
+        "assets": [
+          {
+            "digest": "sha256:2b00d9c7062464ba40b4fa750d915d980ef8b027ad3ff815ddcd189ae88b308c",
+            "id": 649733714,
+            "name": "yang-mills-v0.5.0.zip",
+            "size": 145855,
+            "updated_at": "2026-10-17T06:18:00Z"
+          }
+        ],
+        "draft": false,
+        "id": 415623240,
+        "prerelease": true,
+        "tag": "v0.5.0",
+        "target": "0863eb08e8f0047ab9539df46207ea48131e5124",
+        "updated_at": "2026-10-17T06:18:11Z"
+      },
+      {
+        "assets": [
+          {
+            "digest": "sha256:3d53e3200fb45b1c8143185dbe33fff5a382896b57d2e46d10ff9bb89192d5ae",
+            "id": 649640661,
+            "name": "yang-mills-v0.4.0.zip",
+            "size": 130302,
+            "updated_at": "2026-10-17T05:26:52Z"
+          }
+        ],
+        "draft": false,
+        "id": 415601488,
+        "prerelease": true,
+        "tag": "v0.4.0",
+        "target": "faa923e25c7a0cdab670a99fe70adcba7bb36ca1",
+        "updated_at": "2026-10-17T05:27:17Z"
+      },
+      {
+        "assets": [
+          {
+            "digest": "sha256:cde5f27e1610d7eea54219708fc003c1a9ae1ea7fa3d48965d5074175275cc1f",
+            "id": 649611989,
+            "name": "yang-mills-v0.3.0.zip",
+            "size": 117908,
+            "updated_at": "2026-10-17T05:11:21Z"
+          }
+        ],
+        "draft": false,
+        "id": 415596240,
+        "prerelease": true,
+        "tag": "v0.3.0",
+        "target": "8a585de4f15650881d14099d12931e515edc2fee",
+        "updated_at": "2026-10-17T05:12:17Z"
+      },
+      {
+        "assets": [
+          {
+            "digest": "sha256:3ef67286e4b04fb6933070fcf82239cd80cd4b3ceb80eb9c769c6963d526bdf4",
+            "id": 649418172,
+            "name": "yang-mills-reviewed-local-results-v0.2.0.zip",
+            "size": 104778,
+            "updated_at": "2026-10-17T03:29:34Z"
+          }
+        ],
+        "draft": false,
+        "id": 415559634,
+        "prerelease": true,
+        "tag": "v0.2.0",
+        "target": "bb066be7d525236849c8ed9cd10153657d2eb822",
+        "updated_at": "2026-10-17T03:30:14Z"
+      },
+      {
+        "assets": [
+          {
+            "digest": "sha256:0606f014cca1f85166c347917b704f6cff2e82734226f083cc87afbacba3cf29",
+            "id": 649411343,
+            "name": "yang-mills-dimension-six-v0.1.0-final.zip",
+            "size": 41747,
+            "updated_at": "2026-10-17T03:25:54Z"
+          }
+        ],
+        "draft": false,
+        "id": 415555990,
+        "prerelease": true,
+        "tag": "v0.1.0",
+        "target": "a9cfed0aef5b76dfb9fb12466fe3ba124ad1a8b5",
+        "updated_at": "2026-10-17T03:26:13Z"
+      }
+    ],
+    "snapshot_verified_by_utc": "2026-10-19T16:18:38.047937+00:00",
+    "target_branch_absent": true,
+    "tree_entries": 338,
+    "tree_truncated": false
+  },
+  "prior_archive_receipt": {
+    "bytes": 1963,
+    "content": {
+      "archive": "gaussian-half-gluing-criterion.zip",
+      "archive_format": "ZIP_STORED; sorted paths; fixed 2026-10-19 00:00:00 timestamps; regular-file mode 0644",
+      "bytes": 241200,
+      "clean_extraction_rebuilds": [
+        {
+          "byte_identical": true,
+          "mode": "normal",
+          "sha256": "2e86a733374429ab6aa3cd8df86ef9209a8c28589b3e6a2d5f701c4f1d2c4ad5"
+        },
+        {
+          "byte_identical": true,
+          "mode": "optimized",
+          "sha256": "2e86a733374429ab6aa3cd8df86ef9209a8c28589b3e6a2d5f701c4f1d2c4ad5"
+        }
+      ],
+      "clean_extraction_replays": [
+        {
+          "certificate_sha256": "1a447b119b08c46b9c437446586a2b79df4218549d043f3dc26eef4989a0eb8b",
+          "check": "replay",
+          "mode": "normal",
+          "status": "PASS"
+        },
+        {
+          "certificate_sha256": "579e6e41e207e19e8ce01a512ce29d0b651a6348a7fc382d10e650b8a091e343",
+          "check": "audit_mutations",
+          "mode": "normal",
+          "status": "PASS"
+        },
+        {
+          "certificate_sha256": "1a447b119b08c46b9c437446586a2b79df4218549d043f3dc26eef4989a0eb8b",
+          "check": "replay",
+          "mode": "optimized",
+          "status": "PASS"
+        },
+        {
+          "certificate_sha256": "579e6e41e207e19e8ce01a512ce29d0b651a6348a7fc382d10e650b8a091e343",
+          "check": "audit_mutations",
+          "mode": "optimized",
+          "status": "PASS"
+        }
+      ],
+      "integrity_negative_controls": {
+        "cache_file_rejected_under_O": true,
+        "changed_proof_rejected_under_O": true
+      },
+      "inventory_sha256": "58c6670990df7be91d0823112b180d592deac31308ccff870ce5259028c46ed2",
+      "members": 37,
+      "no_external_writes": true,
+      "principal_audit_sha256": "f4b9101dc712ec5b6c75d9d972952395560a6b042a8f2a7f184b6dc7cb5a2b33",
+      "principal_source_sha256": "951297ea6dc798f5abd8aaed2d99fd17f257baa9f47fb68396274c2fead8cde9",
+      "scope": "Audited conditional criterion only. No weak-coupling/all-beta mismatch decay is proved.",
+      "sha256": "2e86a733374429ab6aa3cd8df86ef9209a8c28589b3e6a2d5f701c4f1d2c4ad5",
+      "status": "PASS"
+    },
+    "filename": "ARCHIVE_RECEIPT.json",
+    "sha256": "63270c0c7636f97a46e630eee5e56371e4cccb2727e978e5d582a168acef7675"
+  },
+  "repository": "mio-qwq/yang-mills",
+  "scope": "Fixed finite width, finite beta >= 0, exactly shared reflected prefix; no width-uniform, balanced four-dimensional common-exhaustion, simultaneous mixed-direction RP, continuum, rotation-invariance, or mass-gap theorem. General Gaussian gluing remains conditional.",
+  "stage": "independent pre-write verification; remote commit verification is a separate receipt",
+  "status": "PASS"
+}
