@@ -1,0 +1,160 @@
+{
+  "actions_excluded": [
+    "modify existing refs",
+    "force push",
+    "open pull request",
+    "merge",
+    "tag",
+    "release"
+  ],
+  "actions_in_scope": [
+    "create blobs",
+    "create additive tree preserving all old blobs",
+    "create one child commit",
+    "create one new branch"
+  ],
+  "archive": {
+    "bytes": 78474,
+    "filename": "ym-strong-coupling-collar-block.zip",
+    "inner_manifest_entries": 28,
+    "sha256": "f7e638427c7861d6dc20b86e43e8b1b8e56bd7b877761e013298f64fbd01d236",
+    "zip_entries": 29
+  },
+  "clean_extraction_replay": {
+    "cases": [
+      {
+        "expected_json_matches": true,
+        "fault_controls": [
+          {
+            "intended_error": "RuntimeError: four-point matrix bound",
+            "mode": "normal",
+            "returncode": 1
+          },
+          {
+            "intended_error": "RuntimeError: four-point matrix bound",
+            "mode": "optimized",
+            "returncode": 1
+          }
+        ],
+        "normal_optimized_stdout_identical": true,
+        "script": "comparison/check_collar.py",
+        "source_sha256": "76ee8f7512eaf5f0f29d7c14125657dfe381b09d666ebe1f41d1d77a80a000de",
+        "status": "PASS",
+        "stdout_sha256": "d1cc487a7c83779a47e0afdd04b470e5ee0810aa26648cebc909d5b53dd2ee2e"
+      },
+      {
+        "expected_json_matches": true,
+        "fault_controls": [
+          {
+            "intended_error": "RuntimeError: uniform block row",
+            "mode": "normal",
+            "returncode": 1
+          },
+          {
+            "intended_error": "RuntimeError: uniform block row",
+            "mode": "optimized",
+            "returncode": 1
+          }
+        ],
+        "normal_optimized_stdout_identical": true,
+        "script": "comparison/check_diagonal_application.py",
+        "source_sha256": "14bb2182a63bb365f4caf77582442d81975f95a61295885a66e9d8c56534d1b2",
+        "status": "PASS",
+        "stdout_sha256": "2064d0e1690570f44ddd00e9a34b542ed3ef3bfd951c528e1b550bf6e0319899"
+      },
+      {
+        "expected_json_matches": true,
+        "fault_controls": [
+          {
+            "intended_error": "AssertionError: Certificate check failed at original source line 100",
+            "mode": "normal",
+            "returncode": 1
+          },
+          {
+            "intended_error": "AssertionError: Certificate check failed at original source line 100",
+            "mode": "optimized",
+            "returncode": 1
+          }
+        ],
+        "normal_optimized_stdout_identical": true,
+        "script": "obstruction/check_obstruction.py",
+        "source_sha256": "57b3e442ca50c8b67ebcf571f84ca1c0302eeebed894a29283b5c7c11ae49e68",
+        "status": "PASS",
+        "stdout_sha256": "5bddb804065a39c9d786ab0fbcb50589a4e599cfe84067bc6b6f24628463bed7"
+      },
+      {
+        "expected_json_matches": true,
+        "fault_controls": [
+          {
+            "intended_error": "AssertionError: Certificate check failed at original source line 79",
+            "mode": "normal",
+            "returncode": 1
+          },
+          {
+            "intended_error": "AssertionError: Certificate check failed at original source line 79",
+            "mode": "optimized",
+            "returncode": 1
+          }
+        ],
+        "normal_optimized_stdout_identical": true,
+        "script": "obstruction/check_diagonal_blocks.py",
+        "source_sha256": "949937b38a7af0366745641386944317f0904738885db9ce20d143cc407279b0",
+        "status": "PASS",
+        "stdout_sha256": "2835a4024f6b985c1030b11e4494a27cb595267b3ac72cae75507fb6e95b58ab"
+      },
+      {
+        "expected_json_matches": true,
+        "fault_controls": [
+          {
+            "intended_error": "RuntimeError: cross-ratio matrix bound",
+            "mode": "normal",
+            "returncode": 1
+          },
+          {
+            "intended_error": "RuntimeError: cross-ratio matrix bound",
+            "mode": "optimized",
+            "returncode": 1
+          }
+        ],
+        "normal_optimized_stdout_identical": true,
+        "script": "independent/check_independent.py",
+        "source_sha256": "f21193aad733384cd6804e7ab66589b0ab6d403d2df40afb645fbf0fe738af71",
+        "status": "PASS",
+        "stdout_sha256": "9faf513da7ddddcf338107048e19fa061bb41745fd3764005c843ceab3783391"
+      }
+    ],
+    "intended_fault_rejections": 10,
+    "network_or_repository_actions": "None",
+    "normal_and_optimized_checker_runs": 10,
+    "payload_files_verified": 28,
+    "scope": "Strong-coupling comparison only; no weak-coupling/continuum/mass gap.",
+    "status": "PASS",
+    "versions": {
+      "numpy": "2.3.5",
+      "python": "3.12.14",
+      "python_implementation": "CPython"
+    }
+  },
+  "deterministic_rebuild": {
+    "byte_identical": true,
+    "command": "python -O rebuild.py ../rebuilt.zip",
+    "sha256": "f7e638427c7861d6dc20b86e43e8b1b8e56bd7b877761e013298f64fbd01d236"
+  },
+  "kind": "additive-source-archive-precommit-verification",
+  "parent_branch": "research-posterior-strip-20261019",
+  "parent_commit": "266c1ee15da7e0e497431f19fab603162eb3c8aa",
+  "parent_tree": "2c15362ef1b235c306dff2188bc6d7291e7af1e8",
+  "preflight": {
+    "heads": 24,
+    "open_pull_requests": 0,
+    "recursive_tree_entries": 344,
+    "releases": 13,
+    "tags": 13,
+    "tree_truncated": false,
+    "workflow_paths": []
+  },
+  "remote_CI": "Not run or established by this precommit receipt. Parent has no workflow files. Exact-head checks will be inspected separately after creation.",
+  "repository": "mio-qwq/yang-mills",
+  "scope": "Strong-coupling conditional-Gaussian comparison only: separated arbitrary collar requires 18 beta<1, actual disjoint Gaussian blocks require 22 beta<1; no weak-coupling, continuum, mass-gap or Millennium solution claim.",
+  "verified_at_utc": "2026-10-19T17:10:20.226470+00:00"
+}
