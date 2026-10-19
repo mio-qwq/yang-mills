@@ -1,0 +1,19 @@
+{
+  "algebra_corruption_controls": "EXPECTED_REJECTION in both Python modes for primary and independent checkers",
+  "archive": "ym-diagonal-rp-obstruction-20261019.zip",
+  "archive_bytes": 186043,
+  "archive_sha256": "6265bc42d9dc442cefe8b187e5759453c518be90d87383d7143ffbebe360128f",
+  "checkpoint_utc": "2026-10-19T09:08:00Z",
+  "claim_boundary": "This four-axis scalar Gaussian covariance family fails diagonal RP for every 0 < epsilon <= 1 and b,tau > 0, at all sufficiently large tangential frequencies. A real compact smooth witness exists but is not explicitly computed. The coordinate-RP repair remains valid. No general W4 rigidity or Yang-Mills conclusion.",
+  "code_review": "PASS; explicit failure guards, pinned output counts/hashes, portable audit bridge, recursive source-only inventory; no asserts in current Python files",
+  "current_exact_identities": 44,
+  "deterministic_archive_rebuild": "PASS; byte-identical",
+  "full_replay_output_sha256": "a2b1230beb7306c4e55a0a0e1a26c9a0b668a55406c09b7006bd73f8653a1d19",
+  "historical_audit_hash_resolution": "Independent additive PASS; audited 17353-byte proof is exact prefix of final 18291-byte proof; 938 appended bytes reviewed",
+  "nested_dependency_replay": "PASS; coordinate, W4-mixture, and axial chain",
+  "ordinary_optimized_clean_full_replay": "PASS; identical reports",
+  "package_corruption_controls": "11 EXPECTED_REJECTION cases in both Python modes",
+  "scope": "Local source checkpoint. No remote mutation, merge, publication, or release.",
+  "status": "PASS",
+  "unchanged_original_input_files_verified": 27
+}
