@@ -1,0 +1,39 @@
+{
+  "date_utc": "2026-10-19",
+  "python": "3.12.14",
+  "method": "Fresh extraction of a source-only ZIP into a new temporary directory; original staged source unchanged.",
+  "checks": [
+    {
+      "script": "gaussian-numerator-minimality-audit-20261019/check_exact.py",
+      "mode": "normal",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_seconds": 0.029,
+      "status": "PASS",
+      "generated_result_matches_frozen_bytes": true,
+      "generated_result_sha256": "990194e90e2e419f187fdc3deb4a33dfec80b7e2de488117d4b82f47ee63dfe5"
+    },
+    {
+      "script": "gaussian-numerator-minimality-audit-20261019/check_exact.py",
+      "mode": "-O",
+      "exit_code": 2,
+      "expected_exit_code": 2,
+      "elapsed_seconds": 0.017,
+      "status": "EXPECTED_STARTUP_REJECTION",
+      "certificate_created": false,
+      "stderr": "ERROR: optimized Python (-O/-OO) is unsupported; exact checks require assertions."
+    },
+    {
+      "script": "gaussian-numerator-minimality-audit-20261019/check_exact.py",
+      "mode": "-OO",
+      "exit_code": 2,
+      "expected_exit_code": 2,
+      "elapsed_seconds": 0.018,
+      "status": "EXPECTED_STARTUP_REJECTION",
+      "certificate_created": false,
+      "stderr": "ERROR: optimized Python (-O/-OO) is unsupported; exact checks require assertions."
+    }
+  ],
+  "all_original_input_bytes_preserved": true,
+  "source_file_count": 5
+}

@@ -1,0 +1,33 @@
+{
+  "date_utc": "2026-10-19",
+  "checker_sha256": "1767ea3929897905edec97a69b6d7e1e3eaa6ca196674cfbf902751f5c40d476",
+  "status": "PASS",
+  "tests": [
+    {
+      "mode": "normal",
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"output\": \"/workspace/shared/gaussian-numerator-minimality-audit-20261019/CHECKS.json\",\n  \"checks\": \"all listed exact identities and witnesses\"\n}\n",
+      "stderr": "",
+      "result": "PASS"
+    },
+    {
+      "mode": "-O",
+      "exit_code": 2,
+      "stdout": "",
+      "stderr": "ERROR: optimized Python (-O/-OO) is unsupported; exact checks require assertions.\n",
+      "checks_json_created": false,
+      "result": "EXPECTED STARTUP REJECTION",
+      "same_hash_temporary_copy": true
+    },
+    {
+      "mode": "-OO",
+      "exit_code": 2,
+      "stdout": "",
+      "stderr": "ERROR: optimized Python (-O/-OO) is unsupported; exact checks require assertions.\n",
+      "checks_json_created": false,
+      "result": "EXPECTED STARTUP REJECTION",
+      "same_hash_temporary_copy": true
+    }
+  ],
+  "scope": "Execution-mode safety only. No theorem statement or proof was changed."
+}

@@ -1,0 +1,41 @@
+{
+  "algorithm": "SHA-256",
+  "scope": "Every bundle file except this manifest itself.",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2515,
+      "sha256": "9eab7b728fc341ea9f53298b4b9aad543476ba409b2aef05213cad8e1f03c60c"
+    },
+    {
+      "path": "REPRODUCTION.json",
+      "bytes": 1400,
+      "sha256": "9a25f2f760197067bdd96ed5b5f7f396348ad0a4cd16d7d30b734ad1827103d5"
+    },
+    {
+      "path": "gaussian-numerator-minimality-audit-20261019/CHECKS.json",
+      "bytes": 3479,
+      "sha256": "990194e90e2e419f187fdc3deb4a33dfec80b7e2de488117d4b82f47ee63dfe5"
+    },
+    {
+      "path": "gaussian-numerator-minimality-audit-20261019/RESULT.md",
+      "bytes": 26519,
+      "sha256": "b61ffd1d6f4e471f338b96bb8cf0c9c0d1543a366769fb4277601e67ac6536f1"
+    },
+    {
+      "path": "gaussian-numerator-minimality-audit-20261019/SOURCE_MANIFEST.json",
+      "bytes": 1261,
+      "sha256": "5b1d181e3c5de2c2963a4ee654abe0af465d160a47aa2c7ffc53a5a475cd59c2"
+    },
+    {
+      "path": "gaussian-numerator-minimality-audit-20261019/VERIFICATION.json",
+      "bytes": 1149,
+      "sha256": "4ee69d899f1b7534941aa646669a5ad46829d31c356587338a82e527db1043e6"
+    },
+    {
+      "path": "gaussian-numerator-minimality-audit-20261019/check_exact.py",
+      "bytes": 7171,
+      "sha256": "1767ea3929897905edec97a69b6d7e1e3eaa6ca196674cfbf902751f5c40d476"
+    }
+  ]
+}

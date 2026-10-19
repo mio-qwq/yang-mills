@@ -1,0 +1,33 @@
+{
+  "audit_date_utc": "2026-10-19",
+  "inputs": [
+    {
+      "path": "/workspace/shared/gaussian-filter-minimality-20261019/ROOT_DERIVATION.md",
+      "sha256": "fcb109d0904bd953fabdbfef08adf250266be7ba318adbf8353435a27c0de0ea"
+    },
+    {
+      "path": "/workspace/shared/unbounded-gaussian-rp-countermodel-20261019/RESULT.md",
+      "sha256": "f116ee80397d525e4d716b533ec768a761c57847de31c8f577cf9033052a6b15"
+    }
+  ],
+  "checks": "Normal Python: exact checks PASS. Python -O and -OO: explicit startup rejection with exit 2; no output certificate created. See VERIFICATION.json.",
+  "scope": "Independent analytic audit of a restricted scalar Gaussian polynomial-numerator model; no originality claim; no remote modification.",
+  "outputs": [
+    {
+      "name": "RESULT.md",
+      "sha256": "b61ffd1d6f4e471f338b96bb8cf0c9c0d1543a366769fb4277601e67ac6536f1"
+    },
+    {
+      "name": "check_exact.py",
+      "sha256": "1767ea3929897905edec97a69b6d7e1e3eaa6ca196674cfbf902751f5c40d476"
+    },
+    {
+      "name": "CHECKS.json",
+      "sha256": "990194e90e2e419f187fdc3deb4a33dfec80b7e2de488117d4b82f47ee63dfe5"
+    },
+    {
+      "name": "VERIFICATION.json",
+      "sha256": "4ee69d899f1b7534941aa646669a5ad46829d31c356587338a82e527db1043e6"
+    }
+  ]
+}
