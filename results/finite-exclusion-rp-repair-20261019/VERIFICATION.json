@@ -1,0 +1,107 @@
+{
+  "archive": {
+    "archive": "ym-coordinate-rp-repair-20261019.zip",
+    "bytes": 107485,
+    "payload_manifest_sha256": "c755b8ba7875008cc1655bc7c2e0aaa117e9bb0546b4c99c9d25a803ec34a211",
+    "sha256": "22c52749cb61123aedadc1313d316b8c5eebb36232c1bf71c7e8130036c61b0d",
+    "source_directory": "sources/ym-coordinate-rp-repair-20261019"
+  },
+  "checkpoint_complete_receipt_sha256": "958b06a089506339236a0ccf9811705bc7e752e0e3a6c9ea5c6b850ed0959fb5",
+  "details": {
+    "current_exact_checks": 71,
+    "negative_controls": "Main and independent deliberate algebra corruptions, prior controls and payload hash tampering rejected in both modes",
+    "normal_optimized_clean_extracted_full_replays": "PASS",
+    "prior_axial_dependency_full_replay": "PASS",
+    "prior_exact_checks": 164,
+    "prior_source_archive_included": true,
+    "scope": "Scalar Gaussian coordinate-mirror RP repair for every b,tau>0; epsilon=1/1200, common-cut margin37/600; diagonal mirrors unproved."
+  },
+  "determinism": "Both included builders reproduce exact archive bytes normally and with -O; fixed timestamps, mode0644, sorted entries, DEFLATE9. Same zlib implementation required.",
+  "fresh_archive_integrity": [
+    {
+      "mode": "normal",
+      "result": {
+        "dependency_integrity": {
+          "accepted_axial_proof_files": [
+            {
+              "bytes": 13285,
+              "path": "ym-positive-infinite-angular-20261019/RESULT.md",
+              "sha256": "85ac1c7b189afa26faf4fc0ddba6b090a5ec279ea24a12556aa7e62ae5126d07"
+            },
+            {
+              "bytes": 9107,
+              "path": "ym-positive-infinite-angular-20261019/AUDIT_POSITIVE.md",
+              "sha256": "deb82078f6c314a9118396bad429f5f089cf7c9cd14e3c92d6b38f40b4c62c86"
+            }
+          ],
+          "axial_archive_sha256": "476a47359f8ff24bef53709d7e0cefa7dfa5e27001c9e4f5326f3d2e1ffe303b",
+          "axial_manifest_files": 11,
+          "prior_archive_sha256": "f255905f22eb287a30d8309f01af932b7798a17e14b52df0c40c16a8652d84bd",
+          "prior_manifest_files": 33,
+          "source_proof_integrity": "PASS; hashes verified, not an automated proof check"
+        },
+        "integrity_files": 13,
+        "status": "PASS"
+      },
+      "stdout_sha256": "92c648a70b239f348641c96886f954384dcff94739acc3eb94459c09eb6127be"
+    },
+    {
+      "mode": "optimized",
+      "result": {
+        "dependency_integrity": {
+          "accepted_axial_proof_files": [
+            {
+              "bytes": 13285,
+              "path": "ym-positive-infinite-angular-20261019/RESULT.md",
+              "sha256": "85ac1c7b189afa26faf4fc0ddba6b090a5ec279ea24a12556aa7e62ae5126d07"
+            },
+            {
+              "bytes": 9107,
+              "path": "ym-positive-infinite-angular-20261019/AUDIT_POSITIVE.md",
+              "sha256": "deb82078f6c314a9118396bad429f5f089cf7c9cd14e3c92d6b38f40b4c62c86"
+            }
+          ],
+          "axial_archive_sha256": "476a47359f8ff24bef53709d7e0cefa7dfa5e27001c9e4f5326f3d2e1ffe303b",
+          "axial_manifest_files": 11,
+          "prior_archive_sha256": "f255905f22eb287a30d8309f01af932b7798a17e14b52df0c40c16a8652d84bd",
+          "prior_manifest_files": 33,
+          "source_proof_integrity": "PASS; hashes verified, not an automated proof check"
+        },
+        "integrity_files": 13,
+        "status": "PASS"
+      },
+      "stdout_sha256": "92c648a70b239f348641c96886f954384dcff94739acc3eb94459c09eb6127be"
+    }
+  ],
+  "new_source_branch": "research-finite-exclusion-rp-repair-20261019",
+  "parent_source_commit": "53e60d12ca747db79df037c4698f856edcc83e71",
+  "parent_tree": "95c00e830d189c215e0dd45805753787089996c3",
+  "payload_policy": "Executable binaries, caches, giant regenerable ledgers and optional auxiliary ten-term/28-term result.",
+  "proof_dependencies": "Both exact previously published endpoint-mixtures source ZIPs are included and pinned by commit, path and SHA256; their nested original endpoint/axial theorem archives are included. No new remote fetch was needed or claimed.",
+  "publication_scope": "Additive source branch commit only. No PR, merge, tag, release or release attachment.",
+  "repository": "mio-qwq/yang-mills",
+  "schema_version": 1,
+  "scope": "Restricted finite determinant-isolation and scalar Gaussian covariance results only. No P versus NP solution, interacting Yang-Mills construction, mass gap, human peer review or proof-assistant verification.",
+  "source_preservation": "All retained research sources unchanged. Historical paths adapted only in disposable replay copies; selected original and copied files verified by SHA256.",
+  "status": "ACCEPTED_LOCAL_SOURCE_CHECKPOINT_VERIFIED",
+  "supporting_local_receipt_hashes": {
+    "receipts/final-included-builders.json": {
+      "bytes": 899,
+      "sha256": "5af6bbea373a99fec9b488a4527653a40f649a42a824739954f8e7b414a8cc2e"
+    },
+    "receipts/ym-clean-full-normal.json": {
+      "bytes": 5014,
+      "sha256": "e378f2bbc882e450c752f7683314e379fc54bb13ba0f15fc2809f4f31cc59d69"
+    },
+    "receipts/ym-clean-full-optimized.json": {
+      "bytes": 5027,
+      "sha256": "e502905ce32c6a2ab32103d5a3c758c08e83d34fd9095b1cb55e56fec1f2f614"
+    },
+    "receipts/ym-validation.json": {
+      "bytes": 1964,
+      "sha256": "28ef683e67074055e069112da8272999bbe735cbe14aa90ea479a89d45204fd9"
+    }
+  },
+  "verification_scope": "This in-repository receipt records the frozen local checkpoint and fresh source/archive preflight. Remote commit, tree, byte read-back, and unchanged-ref checks are performed separately after commit creation.",
+  "verified_checkpoint_at_utc": "2026-10-19T08:17:27.507028+00:00"
+}
