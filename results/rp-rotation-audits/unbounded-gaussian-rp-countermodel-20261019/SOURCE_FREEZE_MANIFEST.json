@@ -1,0 +1,38 @@
+{
+  "status": "frozen",
+  "date": "2026-10-19",
+  "purpose": "Linear Gaussian finite-mirror reflection-positive anisotropy boundary countermodel",
+  "validation": {
+    "exact_checker": "passed under normal Python 3",
+    "optimized_python": "explicitly refuses -O/-OO",
+    "analytic_proof": "in RESULT.md; not machine-formalized",
+    "remote_changes": false
+  },
+  "files": [
+    {
+      "file": "RESULT.md",
+      "bytes": 18909,
+      "sha256": "f116ee80397d525e4d716b533ec768a761c57847de31c8f577cf9033052a6b15"
+    },
+    {
+      "file": "check_exact.py",
+      "bytes": 6862,
+      "sha256": "b58450e1850fed59d25f0915eecb02dce7fb607a1cb6f46226c9fa90fc81c66b"
+    },
+    {
+      "file": "CHECKS.json",
+      "bytes": 4672,
+      "sha256": "22f0c7048995879b1a6bac91b9bf7f87b5b0891df1a2b0882d67b582ed9fa9f7"
+    },
+    {
+      "file": "SOURCE_MANIFEST.json",
+      "bytes": 2450,
+      "sha256": "2d1553db980339f5a18da73def1f208024e749556a67804f93f3b5488fa89f27"
+    },
+    {
+      "file": "HANDOFF.md",
+      "bytes": 1904,
+      "sha256": "03b1837e0ad4c8e81fce92a758c056e5943eb5de7e4ca2e26290e751700c0889"
+    }
+  ]
+}

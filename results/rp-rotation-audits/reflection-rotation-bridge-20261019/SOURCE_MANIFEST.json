@@ -1,0 +1,66 @@
+{
+  "created_utc": "2026-10-19T00:54:04.775709+00:00",
+  "status": "complete; conditional elementary theorem; no Wilson continuum or mass-gap claim",
+  "outputs": [
+    {
+      "path": "/workspace/shared/reflection-rotation-bridge-20261019/HANDOFF.md",
+      "bytes": 2048,
+      "sha256": "a8ba4715ebd9c107c4a560abe4a5364f8cdb877a81faa20d4480478121f9ca4b"
+    },
+    {
+      "path": "/workspace/shared/reflection-rotation-bridge-20261019/RESULT.md",
+      "bytes": 22140,
+      "sha256": "4ef048319e0c1d979e44b2f80705c8fd8824db0db2e07cf45a9af51b40cf3ecd"
+    },
+    {
+      "path": "/workspace/shared/reflection-rotation-bridge-20261019/check_bridge.py",
+      "bytes": 3587,
+      "sha256": "4b550e0cafdd98908a74364e8d195a8a5f7d5c18ad33456b3aa7145e62c8033c"
+    },
+    {
+      "path": "/workspace/shared/reflection-rotation-bridge-20261019/checks.json",
+      "bytes": 1090,
+      "sha256": "d12fb8ffd874d453850c5c9e661d8c2e9916b2b5952cf5f6f25a2da7768a138e"
+    },
+    {
+      "path": "/workspace/shared/reflection-rotation-bridge-20261019/independent-audit.md",
+      "bytes": 11170,
+      "sha256": "3cff90966f731e1c738ce5ae8d513f8dc684dcac5b647291fedeabde657e29f6"
+    }
+  ],
+  "sources": [
+    {
+      "path": "/workspace/shared/wilson-invariant-diagonal-rp-20261018/construction/RESULT.md",
+      "bytes": 21650,
+      "sha256": "91e82136a657eb509c5f509826467fdd71ba264b6e260c345ffb994d184411b8"
+    },
+    {
+      "path": "/workspace/shared/wilson-simultaneous-rp-20261018/RESULT.md",
+      "bytes": 14901,
+      "sha256": "db92219746e6b71fef8fc2272d549748914632673e5e29b76bd72395b792b748"
+    },
+    {
+      "path": "/workspace/shared/continuum-concentration-scaling-20261018/RESULT.md",
+      "bytes": 29563,
+      "sha256": "4687ecb39a3c33ff680e2d02ad884c3c9931f4119bd674cbf0414cda59960693"
+    },
+    {
+      "path": "/workspace/shared/lattice-normal-obstruction-20261019/RESULT.md",
+      "bytes": 21489,
+      "sha256": "9498aed8d3d744cd3384482dc109f3bd7d5ca0fc1c1893bf7b822b9a57d8266b"
+    },
+    {
+      "path": "/workspace/shared/ym4-tilted-compatibility-20261018/raw_III.tex",
+      "bytes": 6963158,
+      "sha256": "7e36523b85fb4f85aefdd45ab175420459f24e34fe56a4e83e53a6829c7a352d"
+    },
+    {
+      "path": "/workspace/shared/wilson-simultaneous-rp-20261018/biskup_2009.txt",
+      "bytes": 208838,
+      "sha256": "61781162d8e3e9e07c11e13d14b1860c2ddc0ca1e7e569965fb512f9e6af4c81"
+    }
+  ],
+  "checks": "python check_bridge.py passed; exact rational arithmetic",
+  "audit": "independent-audit.md; plus parent algebra/group review",
+  "remote_actions": "none"
+}

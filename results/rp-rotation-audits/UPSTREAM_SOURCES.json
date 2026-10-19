@@ -1,0 +1,55 @@
+{
+  "pin": "785a68fdeef78a1da854c4807fe1f17b597d05e7",
+  "sources": [
+    {
+      "bytes": 10554720,
+      "git_blob_sha": "31898fb205c2990b59b7574915e82b22e08450b4",
+      "sha256": "4cb5cb5e0af8dbddbee207926621300350e018c6cf1d6567a753167ce10e6e93",
+      "upstream_path": "theorem_0_complete_account_raw_I.tex",
+      "url": "https://github.com/ethanwsussman/Yang--Mills-LLM-experiment/blob/785a68fdeef78a1da854c4807fe1f17b597d05e7/theorem_0_complete_account_raw_I.tex"
+    },
+    {
+      "bytes": 9092940,
+      "git_blob_sha": "f1e0aa132d23ed7f6d44f504a78ad57bd4ce38b8",
+      "sha256": "6a1f74b05f74ba44a2186c11fb08e139178d86b15c1494a95c434212944b2b8f",
+      "upstream_path": "theorem_0_complete_account_raw_II.tex",
+      "url": "https://github.com/ethanwsussman/Yang--Mills-LLM-experiment/blob/785a68fdeef78a1da854c4807fe1f17b597d05e7/theorem_0_complete_account_raw_II.tex"
+    },
+    {
+      "bytes": 6963158,
+      "git_blob_sha": "6012ff578fb1c67c29651f1f4192ab59a4c862a3",
+      "sha256": "7e36523b85fb4f85aefdd45ab175420459f24e34fe56a4e83e53a6829c7a352d",
+      "upstream_path": "theorem_0_complete_account_raw_III.tex",
+      "url": "https://github.com/ethanwsussman/Yang--Mills-LLM-experiment/blob/785a68fdeef78a1da854c4807fe1f17b597d05e7/theorem_0_complete_account_raw_III.tex"
+    },
+    {
+      "bytes": 459329,
+      "git_blob_sha": "7b45ddc03c86c76aafca7421701a6e7f9c24b673",
+      "sha256": "b6d613d17102867e5147934263f7449216714c52f7a9881f2dcce1fa9bf5dd60",
+      "upstream_path": "QED3_slop/YM_Rotation_Invariance_simplified.pdf",
+      "url": "https://github.com/ethanwsussman/Yang--Mills-LLM-experiment/blob/785a68fdeef78a1da854c4807fe1f17b597d05e7/QED3_slop/YM_Rotation_Invariance_simplified.pdf"
+    },
+    {
+      "bytes": 1480349,
+      "git_blob_sha": "dbaa9a9e7ad63ca822b5d36f5346422cbdc1060d",
+      "sha256": "876162619f1ada5258120402ebe313a5b4a058b3aee8e186ef29131115e2947b",
+      "upstream_path": "QED3_slop/qed3_manuscript.pdf",
+      "url": "https://github.com/ethanwsussman/Yang--Mills-LLM-experiment/blob/785a68fdeef78a1da854c4807fe1f17b597d05e7/QED3_slop/qed3_manuscript.pdf"
+    },
+    {
+      "bytes": 2366350,
+      "git_blob_sha": "6a0f4c9f3349973493a6f0633d0fa376f0ee0fa1",
+      "sha256": "405a60914b7c368a8a4da9a30d0fa985c6df13dc3bd6ce7a0ddb16b5bde1c52a",
+      "upstream_path": "QED3_slop/qed3.pdf",
+      "url": "https://github.com/ethanwsussman/Yang--Mills-LLM-experiment/blob/785a68fdeef78a1da854c4807fe1f17b597d05e7/QED3_slop/qed3.pdf"
+    },
+    {
+      "bytes": 1228599,
+      "git_blob_sha": "ed52e00872c57d4d029cf2fb114930e04d89130f",
+      "sha256": "f12bfd231fb42474fe15bced2c4bc002efa5c07020eeac9a4f40e74f6ea51054",
+      "upstream_path": "QED3_slop/qed3-consequences.pdf",
+      "url": "https://github.com/ethanwsussman/Yang--Mills-LLM-experiment/blob/785a68fdeef78a1da854c4807fe1f17b597d05e7/QED3_slop/qed3-consequences.pdf"
+    }
+  ],
+  "status": "All seven source byte and Git-blob receipts rechecked locally during packaging; sources omitted."
+}

@@ -1,0 +1,12 @@
+{
+  "phi": "(1-|x|^2)_+^2",
+  "regularity": "C^1_c(R^4)",
+  "theta": 0.5,
+  "sup_norm": 1,
+  "L1_over_d4": "pi^2/12",
+  "L2_squared_over_d4": "pi^2/30",
+  "Lip_times_d": "8/(3 sqrt(3))",
+  "separation_over_d": 2,
+  "Gaussian_covariance_upper": "(C pi^2/15) d^4",
+  "exact_radial_checks_passed": true
+}

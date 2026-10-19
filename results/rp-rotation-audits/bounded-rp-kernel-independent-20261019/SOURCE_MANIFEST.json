@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-19",
+  "scope": "Independent analytic audit and exact finite certificates",
+  "verdict": "PASS for stated scalar theorem; no substantive analytic gap found",
+  "reviewed_author_sha256": "9b9e2eaef325d1b527407be1174f91da1fa240251b051b4a356e47cf8746c8a7",
+  "files": [
+    {
+      "name": "AUDIT.md",
+      "sha256": "c65ecbfabcd598318e9b41659e714cd3aefe4c74e2a0f2305fdba66d6488315b",
+      "bytes": 16647
+    },
+    {
+      "name": "check_author_certificates.py",
+      "sha256": "00b5a26a764e46959fa3713fe0e54272b202914bc2d9fbe4fa41c45c1006942a",
+      "bytes": 1919
+    },
+    {
+      "name": "checks.json",
+      "sha256": "930f0c25a919f42d7fcbe0d5bb734153a47aa7be01805aa09d6077a74baaea33",
+      "bytes": 482
+    },
+    {
+      "name": "independent_certificates.py",
+      "sha256": "be2784fa0f1fba2d62d481403f7553031cdf5361f5d003e81bf97f4c9c67c81d",
+      "bytes": 3177
+    },
+    {
+      "name": "independent_checks.json",
+      "sha256": "6bf2581a6da327967b7d95b557c904b09c7d995c1dbda3a46a98c2db7f1fc632",
+      "bytes": 591
+    }
+  ]
+}

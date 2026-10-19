@@ -1,0 +1,62 @@
+{
+  "status": "passed",
+  "arithmetic": "exact fractions, Python standard library",
+  "extra_reflection": [
+    [
+      "3/5",
+      "-4/5"
+    ],
+    [
+      "-4/5",
+      "-3/5"
+    ]
+  ],
+  "product_rotation": [
+    [
+      "3/5",
+      "4/5"
+    ],
+    [
+      "-4/5",
+      "3/5"
+    ]
+  ],
+  "twice_rotation_cosine": "6/5",
+  "hyperoctahedral_counts": [
+    {
+      "dimension": 2,
+      "group_size": 8,
+      "mirror_count": 4
+    },
+    {
+      "dimension": 3,
+      "group_size": 48,
+      "mirror_count": 9
+    },
+    {
+      "dimension": 4,
+      "group_size": 384,
+      "mirror_count": 16
+    }
+  ],
+  "real_only_counterexample": {
+    "joint_weights": [
+      [
+        "2/5",
+        "1/5"
+      ],
+      [
+        "1/10",
+        "3/10"
+      ]
+    ],
+    "symmetric_quadratic_determinant": "39/400",
+    "left_mean": "2/5",
+    "right_mean": "1/2",
+    "complex_form": {
+      "real": "7/10",
+      "imaginary": "1/10"
+    }
+  },
+  "limitations": "Finite arithmetic only. Infinite-order, closure, RP and continuum statements are proved in RESULT.md, not by this check."
+}

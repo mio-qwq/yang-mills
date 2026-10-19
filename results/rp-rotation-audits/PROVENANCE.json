@@ -1,0 +1,400 @@
+{
+  "date": "2026-10-19",
+  "files": [
+    {
+      "byte_preserved": true,
+      "bytes": 22140,
+      "destination": "reflection-rotation-bridge-20261019/RESULT.md",
+      "kind": "research_source",
+      "packaged_sha256": "4ef048319e0c1d979e44b2f80705c8fd8824db0db2e07cf45a9af51b40cf3ecd",
+      "source": "reflection-rotation-bridge-20261019/RESULT.md",
+      "source_sha256": "4ef048319e0c1d979e44b2f80705c8fd8824db0db2e07cf45a9af51b40cf3ecd"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 11170,
+      "destination": "reflection-rotation-bridge-20261019/independent-audit.md",
+      "kind": "research_source",
+      "packaged_sha256": "3cff90966f731e1c738ce5ae8d513f8dc684dcac5b647291fedeabde657e29f6",
+      "source": "reflection-rotation-bridge-20261019/independent-audit.md",
+      "source_sha256": "3cff90966f731e1c738ce5ae8d513f8dc684dcac5b647291fedeabde657e29f6"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 3587,
+      "destination": "reflection-rotation-bridge-20261019/check_bridge.py",
+      "kind": "research_source",
+      "packaged_sha256": "4b550e0cafdd98908a74364e8d195a8a5f7d5c18ad33456b3aa7145e62c8033c",
+      "source": "reflection-rotation-bridge-20261019/check_bridge.py",
+      "source_sha256": "4b550e0cafdd98908a74364e8d195a8a5f7d5c18ad33456b3aa7145e62c8033c"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 1090,
+      "destination": "reflection-rotation-bridge-20261019/checks.json",
+      "kind": "research_source",
+      "packaged_sha256": "d12fb8ffd874d453850c5c9e661d8c2e9916b2b5952cf5f6f25a2da7768a138e",
+      "source": "reflection-rotation-bridge-20261019/checks.json",
+      "source_sha256": "d12fb8ffd874d453850c5c9e661d8c2e9916b2b5952cf5f6f25a2da7768a138e"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 2585,
+      "destination": "reflection-rotation-bridge-20261019/SOURCE_MANIFEST.json",
+      "kind": "historical_inventory",
+      "packaged_sha256": "d79e1cf90ff26f817d58ba3942fb5ea2b2236158e793a0d511498afd60e36c6a",
+      "source": "reflection-rotation-bridge-20261019/MANIFEST.json",
+      "source_sha256": "d79e1cf90ff26f817d58ba3942fb5ea2b2236158e793a0d511498afd60e36c6a"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 21489,
+      "destination": "lattice-normal-obstruction-20261019/RESULT.md",
+      "kind": "research_source",
+      "packaged_sha256": "9498aed8d3d744cd3384482dc109f3bd7d5ca0fc1c1893bf7b822b9a57d8266b",
+      "source": "lattice-normal-obstruction-20261019/RESULT.md",
+      "source_sha256": "9498aed8d3d744cd3384482dc109f3bd7d5ca0fc1c1893bf7b822b9a57d8266b"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 5324,
+      "destination": "lattice-normal-obstruction-20261019/check_exact.py",
+      "kind": "research_source",
+      "packaged_sha256": "ac595a39885ceb4d0d015277d1f31929cb2d150ca62591254b21f5b82928c4e6",
+      "source": "lattice-normal-obstruction-20261019/check_exact.py",
+      "source_sha256": "ac595a39885ceb4d0d015277d1f31929cb2d150ca62591254b21f5b82928c4e6"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 3411,
+      "destination": "lattice-normal-obstruction-20261019/exact_results.json",
+      "kind": "research_source",
+      "packaged_sha256": "0f9dc2c4ec21456c0bb1745fe5d3fc2256b25cf18463a615c5bfbca41a014e49",
+      "source": "lattice-normal-obstruction-20261019/exact_results.json",
+      "source_sha256": "0f9dc2c4ec21456c0bb1745fe5d3fc2256b25cf18463a615c5bfbca41a014e49"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 1560,
+      "destination": "lattice-normal-obstruction-20261019/SOURCE_MANIFEST.json",
+      "kind": "historical_inventory",
+      "packaged_sha256": "001077a51802321eae107a9ff3cf32596c1f72fea6cb12d9b8ea7685fc0aa054",
+      "source": "lattice-normal-obstruction-20261019/MANIFEST.json",
+      "source_sha256": "001077a51802321eae107a9ff3cf32596c1f72fea6cb12d9b8ea7685fc0aa054"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 17909,
+      "destination": "analytic-rotation-audit-20261019/RESULT.md",
+      "kind": "research_source",
+      "packaged_sha256": "73c8d2ce7df16b5e11368fa8c3c17b0f0b1db256f7dd697292eaf32bf588a4df",
+      "source": "analytic-rotation-audit-20261019/RESULT.md",
+      "source_sha256": "73c8d2ce7df16b5e11368fa8c3c17b0f0b1db256f7dd697292eaf32bf588a4df"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 2845,
+      "destination": "analytic-rotation-audit-20261019/audit_sources.py",
+      "kind": "research_source",
+      "packaged_sha256": "e79aefd9b13d52958545a6cc970553f6d534102232170acf3c66a68bb9449bc5",
+      "source": "analytic-rotation-audit-20261019/audit_sources.py",
+      "source_sha256": "e79aefd9b13d52958545a6cc970553f6d534102232170acf3c66a68bb9449bc5"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 302,
+      "destination": "analytic-rotation-audit-20261019/CHECKS.json",
+      "kind": "research_source",
+      "packaged_sha256": "ba6c131f64d1fa8af4e3a44acb0cc824c60f41483238b10bb97f8502c3650149",
+      "source": "analytic-rotation-audit-20261019/CHECKS.json",
+      "source_sha256": "ba6c131f64d1fa8af4e3a44acb0cc824c60f41483238b10bb97f8502c3650149"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 3519,
+      "destination": "analytic-rotation-audit-20261019/SOURCE_MANIFEST.json",
+      "kind": "research_source",
+      "packaged_sha256": "5e512bc955f7c61b298f132caa3ad7ae5663cda2e54060514d766351bc694ffe",
+      "source": "analytic-rotation-audit-20261019/SOURCE_MANIFEST.json",
+      "source_sha256": "5e512bc955f7c61b298f132caa3ad7ae5663cda2e54060514d766351bc694ffe"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 1135,
+      "destination": "analytic-rotation-audit-20261019/RAW_SEARCH_HITS.json",
+      "kind": "research_source",
+      "packaged_sha256": "79f5b59184e14cb611e48a26067c1098f96ea94c25e7314a720c8432630852b1",
+      "source": "analytic-rotation-audit-20261019/RAW_SEARCH_HITS.json",
+      "source_sha256": "79f5b59184e14cb611e48a26067c1098f96ea94c25e7314a720c8432630852b1"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 21737,
+      "destination": "bounded-rp-kernel-test-20261019/RESULT.md",
+      "kind": "research_source",
+      "packaged_sha256": "9b9e2eaef325d1b527407be1174f91da1fa240251b051b4a356e47cf8746c8a7",
+      "source": "bounded-rp-kernel-test-20261019/RESULT.md",
+      "source_sha256": "9b9e2eaef325d1b527407be1174f91da1fa240251b051b4a356e47cf8746c8a7"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 1919,
+      "destination": "bounded-rp-kernel-test-20261019/check_exact.py",
+      "kind": "research_source",
+      "packaged_sha256": "00b5a26a764e46959fa3713fe0e54272b202914bc2d9fbe4fa41c45c1006942a",
+      "source": "bounded-rp-kernel-test-20261019/check_exact.py",
+      "source_sha256": "00b5a26a764e46959fa3713fe0e54272b202914bc2d9fbe4fa41c45c1006942a"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 482,
+      "destination": "bounded-rp-kernel-test-20261019/checks.json",
+      "kind": "research_source",
+      "packaged_sha256": "930f0c25a919f42d7fcbe0d5bb734153a47aa7be01805aa09d6077a74baaea33",
+      "source": "bounded-rp-kernel-test-20261019/checks.json",
+      "source_sha256": "930f0c25a919f42d7fcbe0d5bb734153a47aa7be01805aa09d6077a74baaea33"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 800,
+      "destination": "bounded-rp-kernel-test-20261019/SOURCE_MANIFEST.json",
+      "kind": "historical_inventory",
+      "packaged_sha256": "c1fa7e37aad17768973a1bd8550b2881e37a2d7ae55ded3a01da1f89b1ac7935",
+      "source": "bounded-rp-kernel-test-20261019/MANIFEST.json",
+      "source_sha256": "c1fa7e37aad17768973a1bd8550b2881e37a2d7ae55ded3a01da1f89b1ac7935"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 16647,
+      "destination": "bounded-rp-kernel-independent-20261019/AUDIT.md",
+      "kind": "research_source",
+      "packaged_sha256": "c65ecbfabcd598318e9b41659e714cd3aefe4c74e2a0f2305fdba66d6488315b",
+      "source": "bounded-rp-kernel-independent-20261019/AUDIT.md",
+      "source_sha256": "c65ecbfabcd598318e9b41659e714cd3aefe4c74e2a0f2305fdba66d6488315b"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 3177,
+      "destination": "bounded-rp-kernel-independent-20261019/independent_certificates.py",
+      "kind": "research_source",
+      "packaged_sha256": "be2784fa0f1fba2d62d481403f7553031cdf5361f5d003e81bf97f4c9c67c81d",
+      "source": "bounded-rp-kernel-independent-20261019/independent_certificates.py",
+      "source_sha256": "be2784fa0f1fba2d62d481403f7553031cdf5361f5d003e81bf97f4c9c67c81d"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 591,
+      "destination": "bounded-rp-kernel-independent-20261019/independent_checks.json",
+      "kind": "research_source",
+      "packaged_sha256": "6bf2581a6da327967b7d95b557c904b09c7d995c1dbda3a46a98c2db7f1fc632",
+      "source": "bounded-rp-kernel-independent-20261019/independent_checks.json",
+      "source_sha256": "6bf2581a6da327967b7d95b557c904b09c7d995c1dbda3a46a98c2db7f1fc632"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 1064,
+      "destination": "bounded-rp-kernel-independent-20261019/SOURCE_MANIFEST.json",
+      "kind": "historical_inventory",
+      "packaged_sha256": "993c64bee8ae1c42c2a9f1ba03d571ba883fd2b8352ff82b3b0ba93aacf62725",
+      "source": "bounded-rp-kernel-independent-20261019/MANIFEST.json",
+      "source_sha256": "993c64bee8ae1c42c2a9f1ba03d571ba883fd2b8352ff82b3b0ba93aacf62725"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 21650,
+      "destination": "dependencies/wilson-invariant-diagonal-rp-20261018/construction/RESULT.md",
+      "kind": "historical_proof_dependency",
+      "packaged_sha256": "91e82136a657eb509c5f509826467fdd71ba264b6e260c345ffb994d184411b8",
+      "source": "wilson-invariant-diagonal-rp-20261018/construction/RESULT.md",
+      "source_sha256": "91e82136a657eb509c5f509826467fdd71ba264b6e260c345ffb994d184411b8"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 8735,
+      "destination": "dependencies/wilson-invariant-diagonal-rp-20261018/independent-audit/TILTED_TORUS_ADDENDUM.md",
+      "kind": "historical_proof_dependency",
+      "packaged_sha256": "8453d1e40a0f64a84be718223aaf136f2a28115a744e4fcbb79669dc6ec24e18",
+      "source": "wilson-invariant-diagonal-rp-20261018/independent-audit/TILTED_TORUS_ADDENDUM.md",
+      "source_sha256": "8453d1e40a0f64a84be718223aaf136f2a28115a744e4fcbb79669dc6ec24e18"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 14901,
+      "destination": "dependencies/wilson-simultaneous-rp-20261018/RESULT.md",
+      "kind": "historical_proof_dependency",
+      "packaged_sha256": "db92219746e6b71fef8fc2272d549748914632673e5e29b76bd72395b792b748",
+      "source": "wilson-simultaneous-rp-20261018/RESULT.md",
+      "source_sha256": "db92219746e6b71fef8fc2272d549748914632673e5e29b76bd72395b792b748"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 29563,
+      "destination": "dependencies/continuum-concentration-scaling-20261018/RESULT.md",
+      "kind": "historical_proof_dependency",
+      "packaged_sha256": "4687ecb39a3c33ff680e2d02ad884c3c9931f4119bd674cbf0414cda59960693",
+      "source": "continuum-concentration-scaling-20261018/RESULT.md",
+      "source_sha256": "4687ecb39a3c33ff680e2d02ad884c3c9931f4119bd674cbf0414cda59960693"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 19986,
+      "destination": "dependencies/ym4-tilted-compatibility-20261018/RESULT.md",
+      "kind": "historical_proof_dependency",
+      "packaged_sha256": "934e3759a90dea2264b05c8972aa149a3767671aae8bbe05e5164d7efcb4e408",
+      "source": "ym4-tilted-compatibility-20261018/RESULT.md",
+      "source_sha256": "934e3759a90dea2264b05c8972aa149a3767671aae8bbe05e5164d7efcb4e408"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 2450,
+      "destination": "unbounded-gaussian-rp-countermodel-20261019/SOURCE_MANIFEST.json",
+      "kind": "research_source",
+      "packaged_sha256": "2d1553db980339f5a18da73def1f208024e749556a67804f93f3b5488fa89f27",
+      "source": "unbounded-gaussian-rp-countermodel-20261019/SOURCE_MANIFEST.json",
+      "source_sha256": "2d1553db980339f5a18da73def1f208024e749556a67804f93f3b5488fa89f27"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 18909,
+      "destination": "unbounded-gaussian-rp-countermodel-20261019/RESULT.md",
+      "kind": "research_source",
+      "packaged_sha256": "f116ee80397d525e4d716b533ec768a761c57847de31c8f577cf9033052a6b15",
+      "source": "unbounded-gaussian-rp-countermodel-20261019/RESULT.md",
+      "source_sha256": "f116ee80397d525e4d716b533ec768a761c57847de31c8f577cf9033052a6b15"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 6862,
+      "destination": "unbounded-gaussian-rp-countermodel-20261019/check_exact.py",
+      "kind": "research_source",
+      "packaged_sha256": "b58450e1850fed59d25f0915eecb02dce7fb607a1cb6f46226c9fa90fc81c66b",
+      "source": "unbounded-gaussian-rp-countermodel-20261019/check_exact.py",
+      "source_sha256": "b58450e1850fed59d25f0915eecb02dce7fb607a1cb6f46226c9fa90fc81c66b"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 4672,
+      "destination": "unbounded-gaussian-rp-countermodel-20261019/CHECKS.json",
+      "kind": "research_source",
+      "packaged_sha256": "22f0c7048995879b1a6bac91b9bf7f87b5b0891df1a2b0882d67b582ed9fa9f7",
+      "source": "unbounded-gaussian-rp-countermodel-20261019/CHECKS.json",
+      "source_sha256": "22f0c7048995879b1a6bac91b9bf7f87b5b0891df1a2b0882d67b582ed9fa9f7"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 1124,
+      "destination": "unbounded-gaussian-rp-countermodel-20261019/SOURCE_FREEZE_MANIFEST.json",
+      "kind": "historical_inventory",
+      "packaged_sha256": "48e38f2466f4e315c99c5a5a4fa8497083e61b25f0e9dd8c3a8c909e02218d7c",
+      "source": "unbounded-gaussian-rp-countermodel-20261019/MANIFEST.json",
+      "source_sha256": "48e38f2466f4e315c99c5a5a4fa8497083e61b25f0e9dd8c3a8c909e02218d7c"
+    }
+  ],
+  "omitted": [
+    {
+      "bytes": 2048,
+      "reason": "Operational/log duplicate, scratch probe, or nonportable upstream material; not needed for the selected proof/certificate.",
+      "sha256": "a8ba4715ebd9c107c4a560abe4a5364f8cdb877a81faa20d4480478121f9ca4b",
+      "source": "reflection-rotation-bridge-20261019/HANDOFF.md"
+    },
+    {
+      "bytes": 490733,
+      "reason": "Raw external PDF/text/extract/image or operational tree listing; immutable source receipts suffice.",
+      "sha256": "339ee6b917eadd671017b42bae661bb28a22b8c7862950df53a1f63fc31d28ff",
+      "source": "analytic-rotation-audit-20261019/qed3-consequences.txt"
+    },
+    {
+      "bytes": 1228599,
+      "reason": "Raw external PDF/text/extract/image or operational tree listing; immutable source receipts suffice.",
+      "sha256": "f12bfd231fb42474fe15bced2c4bc002efa5c07020eeac9a4f40e74f6ea51054",
+      "source": "analytic-rotation-audit-20261019/qed3-consequences.pdf"
+    },
+    {
+      "bytes": 1480349,
+      "reason": "Raw external PDF/text/extract/image or operational tree listing; immutable source receipts suffice.",
+      "sha256": "876162619f1ada5258120402ebe313a5b4a058b3aee8e186ef29131115e2947b",
+      "source": "analytic-rotation-audit-20261019/qed3_manuscript.pdf"
+    },
+    {
+      "bytes": 34779,
+      "reason": "Raw external PDF/text/extract/image or operational tree listing; immutable source receipts suffice.",
+      "sha256": "ab8614f1978ca3101045c39c6169ca87edca56253d8c99ab7f2ebf45d15696d3",
+      "source": "analytic-rotation-audit-20261019/PINNED_EXTRACTS.txt"
+    },
+    {
+      "bytes": 596547,
+      "reason": "Raw external PDF/text/extract/image or operational tree listing; immutable source receipts suffice.",
+      "sha256": "4ce8f1b3d3c6f9953bb54c0138a5c502716ef00493d7cc768e3d178420bd0f32",
+      "source": "analytic-rotation-audit-20261019/qed3_manuscript.txt"
+    },
+    {
+      "bytes": 4049,
+      "reason": "Raw external PDF/text/extract/image or operational tree listing; immutable source receipts suffice.",
+      "sha256": "f811d465ba631d9d0af14b9b8fbf090e6f3732f9a55b85c1d8e12322b9e74d22",
+      "source": "analytic-rotation-audit-20261019/UPSTREAM_TREE.json"
+    },
+    {
+      "bytes": 340378,
+      "reason": "Raw external PDF/text/extract/image or operational tree listing; immutable source receipts suffice.",
+      "sha256": "83c7f0632c6548784314beeb46df307af7240562109d1a1632995bec5ba40b77",
+      "source": "analytic-rotation-audit-20261019/theoremA-page2.png"
+    },
+    {
+      "bytes": 2366350,
+      "reason": "Raw external PDF/text/extract/image or operational tree listing; immutable source receipts suffice.",
+      "sha256": "405a60914b7c368a8a4da9a30d0fa985c6df13dc3bd6ce7a0ddb16b5bde1c52a",
+      "source": "analytic-rotation-audit-20261019/qed3.pdf"
+    },
+    {
+      "bytes": 1095527,
+      "reason": "Raw external PDF/text/extract/image or operational tree listing; immutable source receipts suffice.",
+      "sha256": "7d9fbbe035b3277ec79e0ffe4542e5d538eb3f052be2d20d6cf88e9225372fbe",
+      "source": "analytic-rotation-audit-20261019/qed3.txt"
+    },
+    {
+      "bytes": 71571,
+      "reason": "Raw external PDF/text/extract/image or operational tree listing; immutable source receipts suffice.",
+      "sha256": "3dabe6df4616dc2bb48960969d31f5a1f7a5a02273910449ca6abb961e3d0d72",
+      "source": "analytic-rotation-audit-20261019/rotation.txt"
+    },
+    {
+      "bytes": 338182,
+      "reason": "Raw external PDF/text/extract/image or operational tree listing; immutable source receipts suffice.",
+      "sha256": "30ef2f060a0099ecafad8b8743d728be7e9024c8c3765361fbe9e0390078b082",
+      "source": "analytic-rotation-audit-20261019/spectral-page6.png"
+    },
+    {
+      "bytes": 459329,
+      "reason": "Raw external PDF/text/extract/image or operational tree listing; immutable source receipts suffice.",
+      "sha256": "b6d613d17102867e5147934263f7449216714c52f7a9881f2dcce1fa9bf5dd60",
+      "source": "analytic-rotation-audit-20261019/YM_Rotation_Invariance_simplified.pdf"
+    },
+    {
+      "bytes": 1771,
+      "reason": "Operational/log duplicate, scratch probe, or nonportable upstream material; not needed for the selected proof/certificate.",
+      "sha256": "4bd7927ffbcab3f8ab7dcd69422b35c55e763e5fe374c1cd262f5e82b308e865",
+      "source": "bounded-rp-kernel-test-20261019/HANDOFF.md"
+    },
+    {
+      "bytes": 482,
+      "reason": "Operational/log duplicate, scratch probe, or nonportable upstream material; not needed for the selected proof/certificate.",
+      "sha256": "930f0c25a919f42d7fcbe0d5bb734153a47aa7be01805aa09d6077a74baaea33",
+      "source": "bounded-rp-kernel-independent-20261019/checks.json"
+    },
+    {
+      "bytes": 1919,
+      "reason": "Operational/log duplicate, scratch probe, or nonportable upstream material; not needed for the selected proof/certificate.",
+      "sha256": "00b5a26a764e46959fa3713fe0e54272b202914bc2d9fbe4fa41c45c1006942a",
+      "source": "bounded-rp-kernel-independent-20261019/check_author_certificates.py"
+    },
+    {
+      "bytes": 1904,
+      "reason": "Operational/log duplicate, scratch probe, or nonportable upstream material; not needed for the selected proof/certificate.",
+      "sha256": "03b1837e0ad4c8e81fce92a758c056e5943eb5de7e4ca2e26290e751700c0889",
+      "source": "unbounded-gaussian-rp-countermodel-20261019/HANDOFF.md"
+    }
+  ],
+  "policy": "All selected original proofs and checker scripts are byte-preserved. Original directories and frozen earlier releases are untouched. Inventory names are distinguished from the aggregate manifest. Omitted upstream material is represented by immutable source links and hash receipts.",
+  "schema": "compact-research-provenance-v1",
+  "status": "LOCAL_ONLY_NOT_PUBLISHED"
+}

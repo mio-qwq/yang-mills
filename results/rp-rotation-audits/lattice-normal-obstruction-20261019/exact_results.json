@@ -1,0 +1,187 @@
+{
+  "dimension": 4,
+  "allowed_unoriented_nearest_neighbor_mirrors": 16,
+  "signed_permutation_group_order": 384,
+  "tilted_period_stabilizer_within_local_action_group_order": 64,
+  "tilted_period_reflection_automorphisms": 8,
+  "tilted_separating_cut_mirrors": 4,
+  "tilted_separating_mirror_generated_group_order": 16,
+  "mirrors": [
+    {
+      "normal": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "preserves_tilted_periods": true,
+      "two_separating_fixed_cuts": false
+    },
+    {
+      "normal": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "preserves_tilted_periods": true,
+      "two_separating_fixed_cuts": false
+    },
+    {
+      "normal": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "preserves_tilted_periods": true,
+      "two_separating_fixed_cuts": true
+    },
+    {
+      "normal": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "preserves_tilted_periods": true,
+      "two_separating_fixed_cuts": true
+    },
+    {
+      "normal": [
+        1,
+        -1,
+        0,
+        0
+      ],
+      "preserves_tilted_periods": true,
+      "two_separating_fixed_cuts": true
+    },
+    {
+      "normal": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "preserves_tilted_periods": true,
+      "two_separating_fixed_cuts": true
+    },
+    {
+      "normal": [
+        1,
+        0,
+        -1,
+        0
+      ],
+      "preserves_tilted_periods": false,
+      "two_separating_fixed_cuts": false
+    },
+    {
+      "normal": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "preserves_tilted_periods": false,
+      "two_separating_fixed_cuts": false
+    },
+    {
+      "normal": [
+        1,
+        0,
+        0,
+        -1
+      ],
+      "preserves_tilted_periods": false,
+      "two_separating_fixed_cuts": false
+    },
+    {
+      "normal": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "preserves_tilted_periods": false,
+      "two_separating_fixed_cuts": false
+    },
+    {
+      "normal": [
+        0,
+        1,
+        -1,
+        0
+      ],
+      "preserves_tilted_periods": false,
+      "two_separating_fixed_cuts": false
+    },
+    {
+      "normal": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "preserves_tilted_periods": false,
+      "two_separating_fixed_cuts": false
+    },
+    {
+      "normal": [
+        0,
+        1,
+        0,
+        -1
+      ],
+      "preserves_tilted_periods": false,
+      "two_separating_fixed_cuts": false
+    },
+    {
+      "normal": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "preserves_tilted_periods": false,
+      "two_separating_fixed_cuts": false
+    },
+    {
+      "normal": [
+        0,
+        0,
+        1,
+        -1
+      ],
+      "preserves_tilted_periods": true,
+      "two_separating_fixed_cuts": false
+    },
+    {
+      "normal": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "preserves_tilted_periods": true,
+      "two_separating_fixed_cuts": false
+    }
+  ],
+  "rational_obstruction_normal": [
+    1,
+    2,
+    0,
+    0
+  ],
+  "reflected_unit_edge": [
+    "3/5",
+    "-4/5",
+    "0",
+    "0"
+  ],
+  "added_reflection_rotation_cosine": "3/5",
+  "added_reflection_rotation_infinite_order_certificate": "2 cos(theta) = 6/5 is rational and not an integer; a finite-order rotation would make it an algebraic integer.",
+  "body_diagonal_extension_group_order": 1152,
+  "all_assertions_passed": true
+}

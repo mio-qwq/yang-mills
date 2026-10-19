@@ -1,0 +1,42 @@
+{
+  "all_selected_source_bytes_verified": true,
+  "checks": "SHA-256 and byte count at copy time; historical inventories checked before inclusion. Rechecked again after final archive verification.",
+  "source_manifest_checks": [
+    {
+      "group": "reflection-rotation-bridge-20261019",
+      "historical_entries_verified": 5,
+      "historical_inventory": "MANIFEST.json",
+      "status": "PASS"
+    },
+    {
+      "group": "lattice-normal-obstruction-20261019",
+      "historical_entries_verified": 3,
+      "historical_inventory": "MANIFEST.json",
+      "status": "PASS"
+    },
+    {
+      "group": "analytic-rotation-audit-20261019",
+      "meaning": "Local bytes match historical immutable source receipts; source text is not included and upstream claims are not thereby validated.",
+      "source_entries_verified": 7,
+      "status": "PASS"
+    },
+    {
+      "group": "bounded-rp-kernel-test-20261019",
+      "historical_entries_verified": 4,
+      "historical_inventory": "MANIFEST.json",
+      "status": "PASS"
+    },
+    {
+      "group": "bounded-rp-kernel-independent-20261019",
+      "historical_entries_verified": 5,
+      "historical_inventory": "MANIFEST.json",
+      "status": "PASS"
+    },
+    {
+      "group": "unbounded-gaussian-rp-countermodel-20261019",
+      "historical_entries_verified": 5,
+      "historical_inventory": "MANIFEST.json",
+      "status": "PASS"
+    }
+  ]
+}
