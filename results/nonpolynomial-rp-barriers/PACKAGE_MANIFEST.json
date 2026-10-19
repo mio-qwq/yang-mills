@@ -1,0 +1,92 @@
+{
+  "package": "ym-nonpolynomial-rp-barriers-20261019",
+  "date": "2026-10-19",
+  "checkers": [
+    {
+      "path": "nonpolynomial-rp-escape-20261019/VERIFY_EXACT.py",
+      "stdout_sha256": "31a4094e027095bc9140e3f05380b7b49deaf7e0f746fcc0f80f43ed891392b0"
+    },
+    {
+      "path": "nonpolynomial-rp-audit-20261019/VERIFY_WITNESS.py",
+      "stdout_sha256": "921d0d1bd98e9d84e8fcf87750c02b3f29f39240b9ad49daabeb6210e59543e4"
+    },
+    {
+      "path": "nonpolynomial-rp-audit-20261019/VERIFY_INTERPOLATION.py",
+      "stdout_sha256": "e2ee71b6265f1a3414e89cb3425783c1e23c5f810a2858bb8b6f8b27a905c1ee"
+    }
+  ],
+  "files": [
+    {
+      "path": "LOCAL_VERIFICATION.json",
+      "bytes": 1923,
+      "sha256": "90d99985520a309c37349ee067f3c3edb089de7a9bced95296d57165b84fb5c6",
+      "kind": "package metadata"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3798,
+      "sha256": "97013698c1a552ede49962f40f2c87720cdbc5b9e4f934de3c092a87108e7f4a",
+      "kind": "package metadata"
+    },
+    {
+      "path": "nonpolynomial-rp-audit-20261019/AUDIT.md",
+      "bytes": 23070,
+      "sha256": "51605c9d75c8222a77120c7c51c946a25ea5b96a69a6a2586d7163bf56a7dad1",
+      "kind": "research source"
+    },
+    {
+      "path": "nonpolynomial-rp-audit-20261019/VERIFY_INTERPOLATION.py",
+      "bytes": 1054,
+      "sha256": "1d14997c3ec21777acd70a8e5988c3276915b1d6b445e35d41ee095b925f7b5a",
+      "kind": "research source"
+    },
+    {
+      "path": "nonpolynomial-rp-audit-20261019/VERIFY_INTERPOLATION.txt",
+      "bytes": 264,
+      "sha256": "e2ee71b6265f1a3414e89cb3425783c1e23c5f810a2858bb8b6f8b27a905c1ee",
+      "kind": "research source"
+    },
+    {
+      "path": "nonpolynomial-rp-audit-20261019/VERIFY_WITNESS.py",
+      "bytes": 1109,
+      "sha256": "e8b2260a1263fd19bbeb67cf1f3211b91e5d809602ea269b22f08462e38e4a49",
+      "kind": "research source"
+    },
+    {
+      "path": "nonpolynomial-rp-audit-20261019/VERIFY_WITNESS.txt",
+      "bytes": 386,
+      "sha256": "921d0d1bd98e9d84e8fcf87750c02b3f29f39240b9ad49daabeb6210e59543e4",
+      "kind": "research source"
+    },
+    {
+      "path": "nonpolynomial-rp-escape-20261019/RESULT.md",
+      "bytes": 21341,
+      "sha256": "90adedb134457befe8816d82058278c7d95767ae1b34046a41d6c2e4d780afb5",
+      "kind": "research source"
+    },
+    {
+      "path": "nonpolynomial-rp-escape-20261019/VERIFY_EXACT.py",
+      "bytes": 2643,
+      "sha256": "b0f1433c0aa07bca275849721fd3e2b0970ae2adbd39c88db04064ac04d6608f",
+      "kind": "research source"
+    },
+    {
+      "path": "nonpolynomial-rp-escape-20261019/VERIFY_EXACT.txt",
+      "bytes": 326,
+      "sha256": "31a4094e027095bc9140e3f05380b7b49deaf7e0f746fcc0f80f43ed891392b0",
+      "kind": "research source"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 86,
+      "sha256": "bd0505cc066fa546a79f887b9da8e7f2f6d687db3c4bff622c97fd7ef432c47c",
+      "kind": "package metadata"
+    },
+    {
+      "path": "verify_sources.py",
+      "bytes": 2976,
+      "sha256": "d172f15ec557a686a8d534c4cb7ca9d9968f920f977a7dad992b6633acc6f5d0",
+      "kind": "package metadata"
+    }
+  ]
+}

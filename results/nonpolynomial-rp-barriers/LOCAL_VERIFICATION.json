@@ -1,0 +1,57 @@
+{
+  "status": "PASS",
+  "python": "3.12.14",
+  "sympy": "1.14.0",
+  "mpmath": "1.3.0",
+  "scope": "Finite exact identities and certificate replay; not formal proof verification or hosted CI.",
+  "checks": [
+    {
+      "check": "nonpolynomial-rp-escape-20261019/VERIFY_EXACT.py",
+      "mode": "normal",
+      "exit_code": 0,
+      "stdout_sha256": "31a4094e027095bc9140e3f05380b7b49deaf7e0f746fcc0f80f43ed891392b0",
+      "stderr": "",
+      "frozen_source_bytes_unchanged": true
+    },
+    {
+      "check": "nonpolynomial-rp-escape-20261019/VERIFY_EXACT.py",
+      "mode": "optimized",
+      "exit_code": 0,
+      "stdout_sha256": "31a4094e027095bc9140e3f05380b7b49deaf7e0f746fcc0f80f43ed891392b0",
+      "stderr": "",
+      "frozen_source_bytes_unchanged": true
+    },
+    {
+      "check": "nonpolynomial-rp-audit-20261019/VERIFY_WITNESS.py",
+      "mode": "normal",
+      "exit_code": 0,
+      "stdout_sha256": "921d0d1bd98e9d84e8fcf87750c02b3f29f39240b9ad49daabeb6210e59543e4",
+      "stderr": "",
+      "frozen_source_bytes_unchanged": true
+    },
+    {
+      "check": "nonpolynomial-rp-audit-20261019/VERIFY_WITNESS.py",
+      "mode": "optimized",
+      "exit_code": 0,
+      "stdout_sha256": "921d0d1bd98e9d84e8fcf87750c02b3f29f39240b9ad49daabeb6210e59543e4",
+      "stderr": "",
+      "frozen_source_bytes_unchanged": true
+    },
+    {
+      "check": "nonpolynomial-rp-audit-20261019/VERIFY_INTERPOLATION.py",
+      "mode": "normal",
+      "exit_code": 0,
+      "stdout_sha256": "e2ee71b6265f1a3414e89cb3425783c1e23c5f810a2858bb8b6f8b27a905c1ee",
+      "stderr": "",
+      "frozen_source_bytes_unchanged": true
+    },
+    {
+      "check": "nonpolynomial-rp-audit-20261019/VERIFY_INTERPOLATION.py",
+      "mode": "optimized",
+      "exit_code": 0,
+      "stdout_sha256": "e2ee71b6265f1a3414e89cb3425783c1e23c5f810a2858bb8b6f8b27a905c1ee",
+      "stderr": "",
+      "frozen_source_bytes_unchanged": true
+    }
+  ]
+}

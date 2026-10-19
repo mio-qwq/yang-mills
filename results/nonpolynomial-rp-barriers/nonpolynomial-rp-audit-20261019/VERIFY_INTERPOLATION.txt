@@ -1,0 +1,6 @@
+P= 72*z**2/13 - 8/13
+Laplace values= [I, -I, 0]
+Hankel matrix= Matrix([[1/18, 5/27, 121/648], [5/27, 121/648, 5/243], [121/648, 5/243, -569/23328]])
+coefficients= [-8/13, 0, 72/13]
+Q= -2
+PASS: exact real interpolation polynomial isolates conjugate rates with Q=-2

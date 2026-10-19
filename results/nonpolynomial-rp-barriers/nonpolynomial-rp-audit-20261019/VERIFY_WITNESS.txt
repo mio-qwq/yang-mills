@@ -1,0 +1,5 @@
+reflection= Matrix([[0, -1, 0, 0], [-1, 0, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]])
+matrix= Matrix([[h0**2*h1**2, h0**3*h2, h0**2*h1*h3], [h0**3*h2, h0**2*h1**2, h0**3*h2], [h0**2*h1*h3, h0**3*h2, h0**2*h1**2]])
+Q= -2*h0**2*(4*h0*h2 - 3*h1**2 - h1*h3)
+single_atom_Q= 2*r**2*z**4*(r - 1)*(r + 1)
+PASS: all positions, reflected differences, Gram entries, quadratic and atomic identities exact
