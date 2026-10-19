@@ -1,0 +1,27 @@
+{
+  "date_utc": "2026-10-19",
+  "scope": "Exact fixed-stencil reflection classification and tilted-quotient route obstruction. No continuum or mass-gap claim.",
+  "artifacts": {
+    "RESULT.md": {
+      "bytes": 21489,
+      "sha256": "9498aed8d3d744cd3384482dc109f3bd7d5ca0fc1c1893bf7b822b9a57d8266b"
+    },
+    "check_exact.py": {
+      "bytes": 5324,
+      "sha256": "ac595a39885ceb4d0d015277d1f31929cb2d150ca62591254b21f5b82928c4e6"
+    },
+    "exact_results.json": {
+      "bytes": 3411,
+      "sha256": "0f9dc2c4ec21456c0bb1745fe5d3fc2256b25cf18463a615c5bfbca41a014e49"
+    }
+  },
+  "inspected_sources": {
+    "/workspace/shared/wilson-invariant-diagonal-rp-20261018/construction/RESULT.md": "91e82136a657eb509c5f509826467fdd71ba264b6e260c345ffb994d184411b8",
+    "/workspace/shared/wilson-invariant-diagonal-rp-20261018/independent-audit/TILTED_TORUS_ADDENDUM.md": "8453d1e40a0f64a84be718223aaf136f2a28115a744e4fcbb79669dc6ec24e18",
+    "/workspace/shared/wilson-simultaneous-rp-20261018/RESULT.md": "db92219746e6b71fef8fc2272d549748914632673e5e29b76bd72395b792b748",
+    "/workspace/shared/ym4-tilted-compatibility-20261018/RESULT.md": "934e3759a90dea2264b05c8972aa149a3767671aae8bbe05e5164d7efcb4e408",
+    "/workspace/shared/ym4-tilted-compatibility-20261018/raw_III.tex": "7e36523b85fb4f85aefdd45ab175420459f24e34fe56a4e83e53a6829c7a352d"
+  },
+  "verification": "python check_exact.py; all assertions passed",
+  "execution_provenance": "Only the newly authored standard-library checker was run; no inherited repository code and no remote writes."
+}

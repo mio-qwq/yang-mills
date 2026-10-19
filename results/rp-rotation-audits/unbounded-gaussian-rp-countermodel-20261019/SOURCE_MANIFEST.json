@@ -1,0 +1,55 @@
+{
+  "audit_date": "2026-10-19",
+  "upstream_commit": "785a68fdeef78a1da854c4807fe1f17b597d05e7",
+  "input_sources": [
+    {
+      "filename": "raw_III.tex",
+      "source_role": "Pinned upstream raw III",
+      "input_path": "/workspace/shared/ym4-tilted-compatibility-20261018/raw_III.tex",
+      "bytes": 6963158,
+      "sha256": "7e36523b85fb4f85aefdd45ab175420459f24e34fe56a4e83e53a6829c7a352d",
+      "immutable_url": "https://github.com/ethanwsussman/Yang--Mills-LLM-experiment/blob/785a68fdeef78a1da854c4807fe1f17b597d05e7/theorem_0_complete_account_raw_III.tex",
+      "git_blob_sha1": "6012ff578fb1c67c29651f1f4192ab59a4c862a3"
+    },
+    {
+      "filename": "RESULT.md",
+      "source_role": "Supplied bounded-kernel audit",
+      "input_path": "/workspace/shared/bounded-rp-kernel-test-20261019/RESULT.md",
+      "bytes": 21737,
+      "sha256": "9b9e2eaef325d1b527407be1174f91da1fa240251b051b4a356e47cf8746c8a7"
+    },
+    {
+      "filename": "RESULT.md",
+      "source_role": "Supplied analytic rotation applicability audit",
+      "input_path": "/workspace/shared/analytic-rotation-audit-20261019/RESULT.md",
+      "bytes": 17909,
+      "sha256": "73c8d2ce7df16b5e11368fa8c3c17b0f0b1db256f7dd697292eaf32bf588a4df"
+    }
+  ],
+  "upstream_passages": [
+    {
+      "lines": [
+        79931,
+        79988
+      ],
+      "role": "Scalar RP-to-rotation remark and bounded-kernel claim",
+      "url": "https://github.com/ethanwsussman/Yang--Mills-LLM-experiment/blob/785a68fdeef78a1da854c4807fe1f17b597d05e7/theorem_0_complete_account_raw_III.tex#L79931-L79988"
+    },
+    {
+      "lines": [
+        109238,
+        109346
+      ],
+      "role": "Related shifted Wick-composite/stress-tensor proposition, expressly proof outstanding",
+      "url": "https://github.com/ethanwsussman/Yang--Mills-LLM-experiment/blob/785a68fdeef78a1da854c4807fe1f17b597d05e7/theorem_0_complete_account_raw_III.tex#L109238-L109346"
+    }
+  ],
+  "external_background": [
+    {
+      "title": "Arthur Jaffe and Gordon Ritter, Quantum Field Theory on Curved Backgrounds, I. The Euclidean Functional Integral",
+      "url": "https://arxiv.org/abs/hep-th/0609003",
+      "use": "Standard Gaussian covariance-to-law reflection positivity, section 1.6 and Theorem 1.2; the needed massless flat-space proof is supplied directly in RESULT.md."
+    }
+  ],
+  "source_policy": "No raw external source copies included; source-only proof, checker, and compact exact outputs."
+}

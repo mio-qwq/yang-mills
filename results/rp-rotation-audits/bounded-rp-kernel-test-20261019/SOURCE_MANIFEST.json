@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-19",
+  "scope": "Independent bounded scalar RP-kernel theorem and convention audit",
+  "independent_audit": "/workspace/shared/bounded-rp-kernel-independent-20261019/AUDIT.md",
+  "files": [
+    {
+      "name": "HANDOFF.md",
+      "bytes": 1771,
+      "sha256": "4bd7927ffbcab3f8ab7dcd69422b35c55e763e5fe374c1cd262f5e82b308e865"
+    },
+    {
+      "name": "RESULT.md",
+      "bytes": 21737,
+      "sha256": "9b9e2eaef325d1b527407be1174f91da1fa240251b051b4a356e47cf8746c8a7"
+    },
+    {
+      "name": "check_exact.py",
+      "bytes": 1919,
+      "sha256": "00b5a26a764e46959fa3713fe0e54272b202914bc2d9fbe4fa41c45c1006942a"
+    },
+    {
+      "name": "checks.json",
+      "bytes": 482,
+      "sha256": "930f0c25a919f42d7fcbe0d5bb734153a47aa7be01805aa09d6077a74baaea33"
+    }
+  ]
+}

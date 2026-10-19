@@ -1,0 +1,31 @@
+{
+  "polynomial_degree": 16,
+  "expanded_monomials": 24,
+  "signed_permutation_symbolic_identities": 384,
+  "reflection_polynomial_identities": 16,
+  "P_at_1_2_3_4": 3628800,
+  "non_positive_type_witness": "C(1,2,3,4)=1+P(1,2,3,4)*exp(-30)>C(0)=1",
+  "OU_distance_matrix": [
+    [
+      1,
+      1,
+      2
+    ],
+    [
+      1,
+      1,
+      1
+    ],
+    [
+      2,
+      1,
+      1
+    ]
+  ],
+  "OU_quadratic_coefficients": {
+    "1": -2,
+    "2": 2
+  },
+  "status": "all exact checks passed",
+  "scope": "The analytic measure argument is independently reviewed, not machine verified."
+}

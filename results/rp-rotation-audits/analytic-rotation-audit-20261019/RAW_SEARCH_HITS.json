@@ -1,0 +1,40 @@
+{
+  "literal_searches": [
+    "hyperoctahedrally",
+    "sixteen mirrors",
+    "diagonal reflection positivity",
+    "theorem deducing two-point"
+  ],
+  "hits": [
+    {
+      "source": "raw_III.tex",
+      "line": 79931,
+      "text": "\\begin{remark}[Two-point rotation invariance under diagonal reflection positivity]"
+    },
+    {
+      "source": "raw_III.tex",
+      "line": 79965,
+      "text": "theorem deducing two-point $O(4)$ invariance on $\\mathbb{R}^4$ from (a)--(d); it is not"
+    },
+    {
+      "source": "raw_III.tex",
+      "line": 79973,
+      "text": "Diagonal reflection positivity holds for the Wilson weight on $\\mathbb{Z}^4$ and fails on"
+    },
+    {
+      "source": "raw_III.tex",
+      "line": 79974,
+      "text": "every straight torus (the lemma on diagonal reflection positivity of the Wilson weight)."
+    },
+    {
+      "source": "raw_III.tex",
+      "line": 79987,
+      "text": "$\\star$ is convolution, at all sixteen mirrors of the"
+    },
+    {
+      "source": "raw_III.tex",
+      "line": 79988,
+      "text": "hyperoctahedral group; this is proved in the theorem on hyperoctahedrally"
+    }
+  ]
+}

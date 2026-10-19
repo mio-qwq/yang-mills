@@ -1,0 +1,40 @@
+{
+  "canonical_proof_locations": [
+    {
+      "canonical_path": "bounded-rp-kernel-test-20261019/check_exact.py",
+      "historical_path": "bounded-rp-kernel-independent-20261019/check_author_certificates.py",
+      "reason": "Byte-identical copy safely omitted; independent checker remains separate."
+    },
+    {
+      "canonical_path": "bounded-rp-kernel-test-20261019/checks.json",
+      "historical_path": "bounded-rp-kernel-independent-20261019/checks.json",
+      "reason": "Byte-identical copy safely omitted; independent checker remains separate."
+    },
+    {
+      "canonical_path": "dependencies/wilson-invariant-diagonal-rp-20261018/construction/RESULT.md",
+      "historical_path": "wilson-invariant-diagonal-rp-20261018/construction/RESULT.md",
+      "reason": "Historical fixed-cutoff parallel-family construction discussed in the scope audit."
+    },
+    {
+      "canonical_path": "dependencies/wilson-invariant-diagonal-rp-20261018/independent-audit/TILTED_TORUS_ADDENDUM.md",
+      "historical_path": "wilson-invariant-diagonal-rp-20261018/independent-audit/TILTED_TORUS_ADDENDUM.md",
+      "reason": "Detailed tilted-quotient separation argument."
+    },
+    {
+      "canonical_path": "dependencies/wilson-simultaneous-rp-20261018/RESULT.md",
+      "historical_path": "wilson-simultaneous-rp-20261018/RESULT.md",
+      "reason": "Distinguishes common-center symmetry from all-affine RP in a common translation-invariant state."
+    },
+    {
+      "canonical_path": "dependencies/continuum-concentration-scaling-20261018/RESULT.md",
+      "historical_path": "continuum-concentration-scaling-20261018/RESULT.md",
+      "reason": "Conditional cutoff/volume comparison obligations."
+    },
+    {
+      "canonical_path": "dependencies/ym4-tilted-compatibility-20261018/RESULT.md",
+      "historical_path": "ym4-tilted-compatibility-20261018/RESULT.md",
+      "reason": "Period compatibility and reference-family scope distinctions."
+    }
+  ],
+  "reference_policy": "Historical paths in byte-preserved source documents resolve using this map or the matching sibling package. No duplicate mathematical code was refactored. No external theorem is claimed machine-verified."
+}

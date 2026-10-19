@@ -1,0 +1,82 @@
+{
+  "checkers": [
+    {
+      "certificates": [
+        "reflection-rotation-bridge-20261019/checks.json"
+      ],
+      "path": "reflection-rotation-bridge-20261019/check_bridge.py",
+      "requires_normal_python": false,
+      "sympy": false
+    },
+    {
+      "certificates": [
+        "lattice-normal-obstruction-20261019/exact_results.json"
+      ],
+      "path": "lattice-normal-obstruction-20261019/check_exact.py",
+      "requires_normal_python": true,
+      "sympy": false
+    },
+    {
+      "certificates": [
+        "analytic-rotation-audit-20261019/CHECKS.json"
+      ],
+      "path": "analytic-rotation-audit-20261019/check_bumps.py",
+      "requires_normal_python": false,
+      "sympy": false
+    },
+    {
+      "certificates": [
+        "bounded-rp-kernel-test-20261019/checks.json"
+      ],
+      "path": "bounded-rp-kernel-test-20261019/check_exact.py",
+      "requires_normal_python": true,
+      "sympy": false
+    },
+    {
+      "certificates": [
+        "bounded-rp-kernel-independent-20261019/independent_checks.json"
+      ],
+      "path": "bounded-rp-kernel-independent-20261019/independent_certificates.py",
+      "requires_normal_python": true,
+      "sympy": false
+    },
+    {
+      "certificates": [
+        "unbounded-gaussian-rp-countermodel-20261019/CHECKS.json"
+      ],
+      "path": "unbounded-gaussian-rp-countermodel-20261019/check_exact.py",
+      "requires_normal_python": true,
+      "sympy": false
+    }
+  ],
+  "historical_only": [
+    {
+      "path": "analytic-rotation-audit-20261019/audit_sources.py",
+      "reason": "Original source-search script needs intentionally omitted upstream PDF/TeX; source hashes verified separately at packaging and via optional --upstream-dir.",
+      "status": "NOT_RUN"
+    }
+  ],
+  "scope": "Conditional full-state symmetry, fixed-stencil obstruction, bounded scalar RP theorem and source applicability audit; no Yang-Mills solution.",
+  "source_negative_controls": [
+    {
+      "error_marker": "rational noninteger trace",
+      "new": "F(2)*u[0][0] == F(7,5)",
+      "old": "F(2)*u[0][0] == F(6,5)",
+      "path": "reflection-rotation-bridge-20261019/check_bridge.py"
+    },
+    {
+      "error_marker": "AssertionError",
+      "new": "assert coeff=={1:-3,2:2}",
+      "old": "assert coeff=={1:-2,2:2}",
+      "path": "bounded-rp-kernel-test-20261019/check_exact.py",
+      "requires_normal_python": true
+    },
+    {
+      "error_marker": "AssertionError",
+      "new": "assert axis == 940033",
+      "old": "assert axis == 940032",
+      "path": "unbounded-gaussian-rp-countermodel-20261019/check_exact.py",
+      "requires_normal_python": true
+    }
+  ]
+}

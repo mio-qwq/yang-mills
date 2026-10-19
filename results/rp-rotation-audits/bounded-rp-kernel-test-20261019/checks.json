@@ -1,0 +1,33 @@
+{
+  "normals_checked": 16,
+  "exact_samples_per_normal": 3,
+  "alternating_discriminant_checks_passed": true,
+  "OU_reflected_L1_distances": [
+    [
+      1,
+      1,
+      2
+    ],
+    [
+      1,
+      1,
+      1
+    ],
+    [
+      2,
+      1,
+      1
+    ]
+  ],
+  "OU_test_vector": [
+    1,
+    -2,
+    1
+  ],
+  "OU_quadratic_polynomial": {
+    "a": -2,
+    "a^2": 2
+  },
+  "OU_sign": "2a(a-1)<0 for a=exp(-1) in (0,1)",
+  "analytic_proof": "Not machine checked; see RESULT.md"
+}
