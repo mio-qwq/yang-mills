@@ -1,0 +1,63 @@
+{
+  "archive": {
+    "archive": "ym-w4-parameter-mixtures-20261019.zip",
+    "bytes": 83527,
+    "entrypoint": "reproduce.py",
+    "files": 34,
+    "sha256": "f255905f22eb287a30d8309f01af932b7798a17e14b52df0c40c16a8652d84bd",
+    "uncompressed_bytes": 159124
+  },
+  "archive_preflight": "External SHA-256 and size, ZIP CRC, forbidden path/cache/binary scan, freshly extracted normal/optimized integrity-only wrappers: PASS",
+  "checkpoint_complete_receipt_sha256": "c4ce0e7ce2d1878b0019ec4b83183be5830ab0526d48935579a4c809fdd67d86",
+  "clean_normal_and_optimized_replay": "PASS for both packages; reports byte-identical across outer modes",
+  "details": {
+    "fixed_beta_audit": "accepted",
+    "new_symbolic_checks": 164,
+    "prior_axial_family_replayed": true,
+    "rp_necessity_and_legal_test_argument": "Included full fixed-beta and mixture independent audits.",
+    "tapered_interior_resonance_audit": "accepted",
+    "uniform_edge_positive_audit": "accepted"
+  },
+  "deterministic_rebuild": "PASS; fixed ZIP timestamps/permissions, sorted entries, DEFLATE level 9; source ZIP hashes reproduced exactly",
+  "independent_reviews": "AI-assisted; no human peer review or proof-assistant verification claimed",
+  "negative_controls": [
+    "Manifest tamper rejected under normal and optimized wrappers for both packages",
+    "All five YM symbolic checkers reject their intended corruption under normal and optimized Python",
+    "PNP corrupted coefficient witness rejected under normal and optimized Python",
+    "PNP corrupted prior slice-count input rejected by independent C++ checker"
+  ],
+  "new_source_branch": "research-endpoint-mixtures-20261019",
+  "parent_source_commit": "5a633bd50baef2f0feb39607c3bea70ca4cea42e",
+  "payload_policy": "Binaries, caches, exploratory output, redundant normal/O/root certificate copies, regenerable rejection ledgers and expanded survivor lists. Exact expected hashes and regeneration sources retained.",
+  "publication_scope": "Additive source branch commit only. This operation creates no PR, merge, tag, release, or release attachment.",
+  "repository": "mio-qwq/yang-mills",
+  "schema_version": 1,
+  "scope": "Restricted exact necessary conditions and scalar covariance obstructions only. No P-versus-NP or Yang-Mills solution, historical originality, formal verification, or human peer review claimed.",
+  "source_preservation": {
+    "all_selected_accepted_source_files_and_pinned_prior_checkpoint_files_unchanged": true,
+    "changed": [],
+    "original_files_checked": 205,
+    "status": "PASS"
+  },
+  "status": "ACCEPTED_LOCAL_SOURCE_CHECKPOINT_VERIFIED",
+  "supporting_local_receipt_hashes": {
+    "determinism-and-tamper.json": {
+      "bytes": 813,
+      "sha256": "404b70c8a0eaefcc3ec17ba6469c1b11ccfe9c1b72c699d7fdd79cabcf7192e4"
+    },
+    "originals-preserved.json": {
+      "bytes": 163,
+      "sha256": "7f19fdb2172f085f5a479dd42ddcfc1693cec84e3963b74969d975421575f23a"
+    },
+    "ym-clean-replay-normal.json": {
+      "bytes": 2019,
+      "sha256": "b2fad3db4397e5854109134501ad0ed1ff3f4e2fbba86f3ec42c1a88ef2d6669"
+    },
+    "ym-clean-replay-optimized.json": {
+      "bytes": 2019,
+      "sha256": "b2fad3db4397e5854109134501ad0ed1ff3f4e2fbba86f3ec42c1a88ef2d6669"
+    }
+  },
+  "verification_scope": "This in-repository receipt records the frozen local checkpoint and source/archive preflight. Remote commit, tree, byte read-back, and unchanged-ref checks are performed separately after the commit is created.",
+  "verified_checkpoint_at_utc": "2026-10-19T06:17:07Z"
+}
