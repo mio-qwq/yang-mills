@@ -1,0 +1,28 @@
+{
+  "accepted_audit_sha256": "8364e86f1fc33d2e7dce0e6de7635aacdf2d591068eb0c92e4cb2f098fa25b2c",
+  "accepted_primary_sha256": "b4a5e716063a2c532b14cb87b2c273332e17d014f496221276abbe98011c7b5d",
+  "archive": "ym-finite-positive-acg-axis-rigidity-20261019.zip",
+  "archive_bytes": 218028,
+  "archive_members": 22,
+  "archive_sha256": "273ea8168a922477bb33208b7d7ef7b4b256f3ba962421d563a35153b5f92c08",
+  "clean_extraction_rebuild_identity": true,
+  "full_pinned_dependency_replay": "PASS",
+  "network_required": false,
+  "new_checker_suites": 2,
+  "new_exact_checks": 40,
+  "normal_optimized_corruption_receipts_identical": true,
+  "normal_optimized_full_replay_identical": true,
+  "package_negative_controls": 16,
+  "receipts": {
+    "clean-full-replay-normal.json": "24601c24e0e6979eb99b59f4398bdfed8f22708401774e2d3b7cf6e397d02200",
+    "clean-full-replay-optimized.json": "24601c24e0e6979eb99b59f4398bdfed8f22708401774e2d3b7cf6e397d02200",
+    "clean-integrity.json": "c4bbdb4bd9a59360557faf1f52e5a75a0953c9600a702537cc4752381aec5718",
+    "package-corruption-normal.json": "025a9ce4633abc1b5ff6854dda1cda5fece9e02008dce42ccdb0a5e8c859dbc8",
+    "package-corruption-optimized.json": "025a9ce4633abc1b5ff6854dda1cda5fece9e02008dce42ccdb0a5e8c859dbc8"
+  },
+  "remote_changes": false,
+  "repeated_build_identity": true,
+  "runtime_prerequisites": "Python 3.12 and preinstalled SymPy 1.14.0; runtimes not vendored",
+  "status": "PASS",
+  "unaccepted_oblate_candidate": "EXCLUDED"
+}
